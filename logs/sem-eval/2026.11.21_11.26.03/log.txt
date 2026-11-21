@@ -1,0 +1,119 @@
+2026-11-21 11:26:03,583 - INFO - machamp.model.trainer - cmd: machamp-nlp/train.py --dataset_configs sem-eval.json --parameters_config params.json --device -1
+2026-11-21 11:26:03,644 - INFO - machamp.model.trainer - GPU: none, on CPU currently
+2026-11-21 11:26:03,645 - INFO - machamp.model.trainer - Torch version: 2.15.0+cu132
+2026-11-21 11:26:03,646 - INFO - machamp.model.trainer - Transformers version: 4.57.6
+2026-11-21 11:26:03,730 - INFO - machamp.model.trainer - MaChAmp git version 33f9b970388199f02438acb583082f477201e7ea
+2026-11-21 11:26:05,762 - INFO - machamp.data.machamp_dataset - Reading final-data/train/dico_nli_train_track1_participant_labeled.tsv...
+2026-11-21 11:26:07,257 - INFO - machamp.readers.read_classification - Stats SEMEVAL-ENGLISH (final-data/train/dico_nli_train_track1_participant_labeled.tsv):
+2026-11-21 11:26:07,257 - INFO - machamp.readers.read_classification - Lines:    3,042
+2026-11-21 11:26:07,259 - INFO - machamp.readers.read_classification - Subwords: 22,142
+2026-11-21 11:26:07,259 - INFO - machamp.readers.read_classification - Unks:     30
+2026-11-21 11:26:07,260 - INFO - machamp.data.machamp_dataset - Done reading final-data/train/dico_nli_train_track1_participant_labeled.tsv (1.0s)
+
+2026-11-21 11:26:08,369 - INFO - machamp.data.machamp_dataset - Reading final-data/dev/dico_nli_dev_track1_participant_labeled.tsv...
+2026-11-21 11:26:08,385 - WARNING - machamp.data.machamp_vocabulary - Venezuelan opposition leader can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,387 - WARNING - machamp.data.machamp_vocabulary -  Opposition Head"" can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,441 - WARNING - machamp.data.machamp_vocabulary - inside and black and white furry enclosure can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,442 - WARNING - machamp.data.machamp_vocabulary -  fur-covered dome"" can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,457 - WARNING - machamp.data.machamp_vocabulary -  and white cat"" can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,458 - WARNING - machamp.data.machamp_vocabulary -  black  can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,564 - WARNING - machamp.data.machamp_vocabulary -  Venezuela"" can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,565 - WARNING - machamp.data.machamp_vocabulary - Venezuela can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,718 - WARNING - machamp.data.machamp_vocabulary -  spectrum deal"" can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,745 - WARNING - machamp.data.machamp_vocabulary -  and a teapot"" can not be found in namespace nli. This usually means you have unseen labels in your data during prediction. This will lead to incorrect macro-f1 scores.
+2026-11-21 11:26:08,756 - INFO - machamp.readers.read_classification - Stats SEMEVAL-ENGLISH (final-data/dev/dico_nli_dev_track1_participant_labeled.tsv):
+2026-11-21 11:26:08,757 - INFO - machamp.readers.read_classification - Lines:    660
+2026-11-21 11:26:08,757 - INFO - machamp.readers.read_classification - Subwords: 4,637
+2026-11-21 11:26:08,757 - INFO - machamp.readers.read_classification - Unks:     3
+2026-11-21 11:26:08,758 - INFO - machamp.data.machamp_dataset - Done reading final-data/dev/dico_nli_dev_track1_participant_labeled.tsv (0.0s)
+
+2026-11-21 11:26:10,846 - INFO - machamp.model.machamp - Overview of the torch model: 
+2026-11-21 11:26:10,847 - INFO - machamp.model.machamp - MachampModel(
+  (mlm): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(119547, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (token_type_embeddings): Embedding(2, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True, bias=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSdpaSelfAttention(
+              (query): Linear(in_features=768, out_features=768, bias=True)
+              (key): Linear(in_features=768, out_features=768, bias=True)
+              (value): Linear(in_features=768, out_features=768, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=768, out_features=768, bias=True)
+              (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=768, out_features=3072, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=3072, out_features=768, bias=True)
+            (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=768, out_features=768, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (decoders): ModuleDict(
+    (nli): MachampClassificationDecoder(
+      (hidden_to_label): Linear(in_features=768, out_features=6, bias=True)
+      (loss_function): CrossEntropyLoss()
+      (decoder_dropout): Dropout(p=0.0, inplace=False)
+    )
+  )
+  (scalars): ModuleDict(
+    (nli): None
+  )
+)
+2026-11-21 11:26:10,929 - INFO - machamp.utils.myutils - Done constructing parameter groups.
+2026-11-21 11:26:10,929 - INFO - machamp.utils.myutils - Group 0: ['mlm.encoder.layer.0.output.dense.bias', 'mlm.encoder.layer.10.attention.self.key.bias', 'mlm.encoder.layer.8.attention.output.dense.bias', 'mlm.encoder.layer.3.output.dense.weight', 'mlm.encoder.layer.0.output.LayerNorm.bias', 'mlm.encoder.layer.9.attention.output.dense.weight', 'mlm.encoder.layer.3.attention.self.value.weight', 'mlm.encoder.layer.5.attention.self.value.bias', 'mlm.encoder.layer.1.attention.self.key.bias', 'mlm.encoder.layer.11.attention.self.key.weight', 'mlm.encoder.layer.8.attention.output.LayerNorm.weight', 'mlm.encoder.layer.10.output.dense.weight', 'mlm.encoder.layer.5.attention.self.query.bias', 'mlm.encoder.layer.1.intermediate.dense.weight', 'mlm.encoder.layer.3.attention.output.dense.weight', 'mlm.encoder.layer.7.attention.self.query.bias', 'mlm.encoder.layer.5.output.LayerNorm.bias', 'mlm.encoder.layer.4.intermediate.dense.weight', 'mlm.encoder.layer.9.intermediate.dense.bias', 'mlm.encoder.layer.6.attention.self.query.bias', 'mlm.encoder.layer.7.attention.self.key.bias', 'mlm.encoder.layer.7.attention.self.query.weight', 'mlm.encoder.layer.5.output.dense.bias', 'mlm.encoder.layer.11.attention.output.LayerNorm.bias', 'mlm.encoder.layer.6.attention.self.value.weight', 'mlm.encoder.layer.9.attention.self.query.bias', 'mlm.encoder.layer.3.output.LayerNorm.weight', 'mlm.encoder.layer.11.output.LayerNorm.bias', 'mlm.encoder.layer.10.intermediate.dense.weight', 'mlm.encoder.layer.0.attention.self.key.weight', 'mlm.encoder.layer.4.attention.self.query.bias', 'mlm.encoder.layer.3.attention.self.query.bias', 'mlm.encoder.layer.6.attention.output.LayerNorm.weight', 'mlm.encoder.layer.6.output.dense.weight', 'mlm.encoder.layer.0.attention.output.LayerNorm.weight', 'mlm.encoder.layer.5.attention.self.key.bias', 'mlm.encoder.layer.0.attention.self.value.bias', 'mlm.encoder.layer.4.attention.output.dense.bias', 'mlm.encoder.layer.2.output.LayerNorm.bias', 'mlm.encoder.layer.3.attention.self.key.bias', 'mlm.encoder.layer.1.attention.self.query.bias', 'mlm.encoder.layer.5.attention.self.query.weight', 'mlm.encoder.layer.9.output.LayerNorm.weight', 'mlm.encoder.layer.4.output.LayerNorm.bias', 'mlm.encoder.layer.9.attention.self.key.weight', 'mlm.encoder.layer.4.attention.self.key.weight', 'mlm.encoder.layer.8.attention.output.dense.weight', 'mlm.encoder.layer.9.attention.self.value.weight', 'mlm.encoder.layer.10.output.LayerNorm.weight', 'mlm.encoder.layer.10.attention.output.LayerNorm.weight', 'mlm.encoder.layer.11.attention.output.LayerNorm.weight', 'mlm.encoder.layer.4.output.dense.bias', 'mlm.encoder.layer.6.output.LayerNorm.bias', 'mlm.encoder.layer.8.output.dense.bias', 'mlm.encoder.layer.0.attention.self.key.bias', 'mlm.encoder.layer.4.attention.self.key.bias', 'mlm.encoder.layer.3.attention.self.value.bias', 'mlm.encoder.layer.2.attention.output.LayerNorm.weight', 'mlm.encoder.layer.11.output.dense.bias', 'mlm.encoder.layer.3.attention.output.LayerNorm.bias', 'mlm.encoder.layer.4.attention.self.value.bias', 'mlm.encoder.layer.7.attention.output.LayerNorm.bias', 'mlm.encoder.layer.2.attention.output.LayerNorm.bias', 'mlm.encoder.layer.6.attention.self.key.bias', 'mlm.encoder.layer.4.output.dense.weight', 'mlm.encoder.layer.6.attention.self.query.weight', 'mlm.encoder.layer.2.attention.output.dense.weight', 'mlm.embeddings.LayerNorm.weight', 'mlm.encoder.layer.9.attention.output.dense.bias', 'mlm.encoder.layer.5.attention.output.dense.bias', 'mlm.encoder.layer.6.output.dense.bias', 'mlm.encoder.layer.10.attention.output.LayerNorm.bias', 'mlm.encoder.layer.8.output.LayerNorm.bias', 'mlm.encoder.layer.3.attention.output.LayerNorm.weight', 'mlm.embeddings.token_type_embeddings.weight', 'mlm.encoder.layer.2.attention.self.query.weight', 'mlm.encoder.layer.10.attention.self.value.weight', 'mlm.encoder.layer.0.attention.output.dense.bias', 'mlm.encoder.layer.7.output.dense.weight', 'mlm.encoder.layer.1.attention.self.value.bias', 'mlm.encoder.layer.8.attention.output.LayerNorm.bias', 'mlm.encoder.layer.11.attention.self.query.weight', 'mlm.encoder.layer.2.output.LayerNorm.weight', 'mlm.encoder.layer.6.attention.output.LayerNorm.bias', 'mlm.encoder.layer.4.attention.self.value.weight', 'mlm.encoder.layer.0.attention.output.LayerNorm.bias', 'mlm.encoder.layer.11.attention.output.dense.weight', 'mlm.encoder.layer.8.intermediate.dense.bias', 'mlm.encoder.layer.9.attention.output.LayerNorm.weight', 'mlm.embeddings.position_embeddings.weight', 'mlm.encoder.layer.6.intermediate.dense.bias', 'mlm.encoder.layer.2.output.dense.weight', 'mlm.embeddings.word_embeddings.weight', 'mlm.encoder.layer.8.attention.self.value.weight', 'mlm.encoder.layer.10.output.dense.bias', 'mlm.encoder.layer.8.attention.self.key.weight', 'mlm.encoder.layer.7.output.dense.bias', 'mlm.encoder.layer.8.attention.self.key.bias', 'mlm.encoder.layer.8.attention.self.query.weight', 'mlm.encoder.layer.3.attention.output.dense.bias', 'mlm.encoder.layer.10.attention.self.query.weight', 'mlm.encoder.layer.2.intermediate.dense.weight', 'mlm.encoder.layer.9.attention.self.query.weight', 'mlm.encoder.layer.7.intermediate.dense.bias', 'mlm.encoder.layer.10.intermediate.dense.bias', 'mlm.encoder.layer.1.attention.output.dense.bias', 'mlm.encoder.layer.1.output.dense.bias', 'mlm.encoder.layer.11.intermediate.dense.bias', 'mlm.encoder.layer.1.output.LayerNorm.bias', 'mlm.encoder.layer.10.attention.self.query.bias', 'mlm.encoder.layer.1.attention.output.LayerNorm.bias', 'mlm.encoder.layer.5.attention.output.LayerNorm.bias', 'mlm.encoder.layer.2.attention.self.value.weight', 'mlm.encoder.layer.10.attention.output.dense.bias', 'mlm.encoder.layer.11.attention.output.dense.bias', 'mlm.pooler.dense.weight', 'mlm.encoder.layer.11.intermediate.dense.weight', 'mlm.encoder.layer.0.output.LayerNorm.weight', 'mlm.encoder.layer.0.attention.self.query.bias', 'mlm.encoder.layer.5.attention.output.LayerNorm.weight', 'mlm.encoder.layer.6.attention.output.dense.weight', 'mlm.encoder.layer.10.output.LayerNorm.bias', 'mlm.encoder.layer.1.output.dense.weight', 'mlm.encoder.layer.1.intermediate.dense.bias', 'mlm.encoder.layer.6.attention.self.key.weight', 'mlm.encoder.layer.11.attention.self.query.bias', 'mlm.encoder.layer.0.intermediate.dense.bias', 'mlm.encoder.layer.4.attention.self.query.weight', 'mlm.encoder.layer.7.attention.output.dense.weight', 'mlm.encoder.layer.3.output.LayerNorm.bias', 'mlm.encoder.layer.3.output.dense.bias', 'mlm.encoder.layer.1.attention.self.key.weight', 'mlm.encoder.layer.0.attention.self.value.weight', 'mlm.encoder.layer.7.output.LayerNorm.bias', 'mlm.encoder.layer.8.output.LayerNorm.weight', 'mlm.encoder.layer.4.output.LayerNorm.weight', 'mlm.encoder.layer.10.attention.output.dense.weight', 'mlm.encoder.layer.8.output.dense.weight', 'mlm.encoder.layer.10.attention.self.key.weight', 'mlm.encoder.layer.11.attention.self.value.weight', 'mlm.encoder.layer.8.attention.self.query.bias', 'mlm.encoder.layer.2.attention.self.key.bias', 'mlm.encoder.layer.0.intermediate.dense.weight', 'mlm.encoder.layer.5.output.LayerNorm.weight', 'mlm.encoder.layer.5.attention.output.dense.weight', 'mlm.encoder.layer.3.intermediate.dense.weight', 'mlm.encoder.layer.2.attention.self.value.bias', 'mlm.encoder.layer.7.output.LayerNorm.weight', 'mlm.encoder.layer.5.intermediate.dense.weight', 'mlm.encoder.layer.0.attention.self.query.weight', 'mlm.encoder.layer.0.attention.output.dense.weight', 'mlm.encoder.layer.5.attention.self.value.weight', 'mlm.encoder.layer.1.output.LayerNorm.weight', 'mlm.encoder.layer.9.output.dense.weight', 'mlm.encoder.layer.9.intermediate.dense.weight', 'mlm.encoder.layer.9.attention.self.key.bias', 'mlm.encoder.layer.3.intermediate.dense.bias', 'mlm.encoder.layer.2.output.dense.bias', 'mlm.encoder.layer.2.attention.self.key.weight', 'mlm.encoder.layer.4.attention.output.LayerNorm.bias', 'mlm.encoder.layer.9.output.dense.bias', 'mlm.encoder.layer.9.output.LayerNorm.bias', 'mlm.encoder.layer.11.attention.self.key.bias', 'mlm.encoder.layer.6.output.LayerNorm.weight', 'mlm.encoder.layer.7.attention.output.dense.bias', 'mlm.encoder.layer.8.attention.self.value.bias', 'mlm.encoder.layer.4.attention.output.LayerNorm.weight', 'mlm.encoder.layer.1.attention.self.value.weight', 'mlm.encoder.layer.11.output.dense.weight', 'mlm.pooler.dense.bias', 'mlm.encoder.layer.9.attention.self.value.bias', 'mlm.encoder.layer.4.attention.output.dense.weight', 'mlm.encoder.layer.5.intermediate.dense.bias', 'mlm.encoder.layer.9.attention.output.LayerNorm.bias', 'mlm.encoder.layer.11.attention.self.value.bias', 'mlm.encoder.layer.5.output.dense.weight', 'mlm.encoder.layer.2.attention.output.dense.bias', 'mlm.encoder.layer.6.intermediate.dense.weight', 'mlm.encoder.layer.4.intermediate.dense.bias', 'mlm.encoder.layer.6.attention.self.value.bias', 'mlm.encoder.layer.7.attention.self.key.weight', 'mlm.encoder.layer.7.attention.output.LayerNorm.weight', 'mlm.encoder.layer.10.attention.self.value.bias', 'mlm.encoder.layer.6.attention.output.dense.bias', 'mlm.encoder.layer.1.attention.output.dense.weight', 'mlm.encoder.layer.3.attention.self.key.weight', 'mlm.encoder.layer.5.attention.self.key.weight', 'mlm.encoder.layer.11.output.LayerNorm.weight', 'mlm.encoder.layer.3.attention.self.query.weight', 'mlm.encoder.layer.2.attention.self.query.bias', 'mlm.encoder.layer.1.attention.output.LayerNorm.weight', 'mlm.embeddings.LayerNorm.bias', 'mlm.encoder.layer.2.intermediate.dense.bias', 'mlm.encoder.layer.0.output.dense.weight', 'mlm.encoder.layer.8.intermediate.dense.weight', 'mlm.encoder.layer.7.attention.self.value.bias', 'mlm.encoder.layer.7.attention.self.value.weight', 'mlm.encoder.layer.1.attention.self.query.weight', 'mlm.encoder.layer.7.intermediate.dense.weight'], {}
+2026-11-21 11:26:10,930 - INFO - machamp.utils.myutils - Group 1: ['decoders.nli.hidden_to_label.weight', 'decoders.nli.hidden_to_label.bias'], {}
+2026-11-21 11:26:10,930 - INFO - machamp.utils.myutils - Group 2: [], {}
+2026-11-21 11:26:10,931 - INFO - machamp.utils.myutils - Number of trainable parameters: 177858054
+2026-11-21 11:26:10,933 - INFO - machamp.modules.allennlp.slanted_triangular - Gradual unfreezing. Training only the decoder heads, not the MLM.
+2026-11-21 11:26:10,936 - INFO - machamp.model.trainer - MaChAmp succesfully initialized in 7.0s
+2026-11-21 11:26:10,937 - INFO - machamp.model.trainer - 
+
+          CHAMP!                   %%#/   
+ ###/%(        CHAMP!            ,#//(%%#( 
+#%%/((/(            . , ,       .%%#####%(
+#(/(((###(        ////////%     *//((((((/
+  ,((((//        #%(%#/#%%/          &####
+     ###### *#%%@&((//&@#%&(%%#%%%%#%%####
+     ,####(%%###%#&&&#((&&(((%%%%########(
+       ///((%%%##/%%######((%%%%%%%%((((//
+          %%%%%##((/%(///%%##%%%%%%%##    
+        /%%####%%%%%%#%%#/(%#(((%%%%%&.   
+       &#%/#%%###%%%##%%%((###(//(####(   
+     @&%%#////(########%######((/(////(   
+       #////     ((((##(((((////,         
+                   */(//(((/**,.          
+                  #,**%#%,*,,,*(          
+               /%%%%%/,,,,,(%%%%((        
+              &%%%#(((/*  /(#%%%#(/       
+              %%#(((//     ,((###(/       
+             .%(/(/,         /(###/(      
+              %(((//          (/((///     
+               ((/,             /(//      
+             %%%#((,            &%%%#     
+         /#(#%(/,             /###*##*    
+
+2026-11-21 11:26:10,937 - INFO - machamp.model.trainer - starting training...
+2026-11-21 11:26:10,937 - INFO - machamp.model.trainer - Epoch 1/20: training
