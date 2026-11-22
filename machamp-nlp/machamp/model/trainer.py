@@ -35,6 +35,7 @@ def evaluate(dev_dataloader, model, train_dataset):
             batch["task_masks"],
             batch["word_mask"],
             batch["dataset_ids"],
+            batch["full_data"],
         )
         for task in loss_dict:
             if task not in total_dev_losses:

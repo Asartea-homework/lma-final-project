@@ -50,9 +50,9 @@ class MachampClassificationDecoder(MachampDecoder, torch.nn.Module):
                     additional_metric.score(
                         maxes,
                         gold,
-                        None,
                         self.vocabulary.inverse_namespaces[self.task],
                         None,
+                        full_data,
                     )
             out_dict["loss"] = self.loss_weight * self.loss_function(logits, gold)
         return out_dict
