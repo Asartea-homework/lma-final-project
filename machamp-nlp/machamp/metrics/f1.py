@@ -11,11 +11,11 @@ class F1:
         self.fps = []
         self.fns = []
         self.type_f1 = type_f1
-        self.str = 'f1_' + type_f1
+        self.str = "f1_" + type_f1
         self.vocabulary = []
         self.metric_scores = {}
 
-    def score(self, preds, golds, vocabulary, mask):
+    def score(self, preds, golds, vocabulary, mask, full_data=None):
         self.vocabulary = vocabulary
         # Make sure we have space for counts for all class-labels
         max_label = torch.max(torch.cat((preds, golds)))
@@ -52,10 +52,14 @@ class F1:
         return 0.0 if tp + fn == 0 else tp / (tp + fn)
 
     def get_f1(self, precision, recall):
-        return 0.0 if precision + recall == 0 else 2 * (precision * recall) / (precision + recall)
+        return (
+            0.0
+            if precision + recall == 0
+            else 2 * (precision * recall) / (precision + recall)
+        )
 
     def get_score(self):
-        if self.type_f1 == 'micro':
+        if self.type_f1 == "micro":
             precision = self.get_precision(sum(self.tps), sum(self.fps))
             recall = self.get_recall(sum(self.tps), sum(self.fns))
             f1_score = self.get_f1(precision, recall)
@@ -65,8 +69,7 @@ class F1:
             self.metric_scores[self.str] = f1_score
             self.metric_scores["sum"] = self.str
 
-
-        elif self.type_f1 == 'macro':
+        elif self.type_f1 == "macro":
             f1s = []
             precs = []
             recs = []
@@ -88,21 +91,25 @@ class F1:
             if precs == []:
                 self.metric_scores[self.str] = 0.0
             else:
-                self.metric_scores["precision_" + self.type_f1] = sum(precs) / len(precs)
+                self.metric_scores["precision_" + self.type_f1] = sum(precs) / len(
+                    precs
+                )
                 self.metric_scores["recall_" + self.type_f1] = sum(recs) / len(recs)
                 self.metric_scores[self.str] = sum(f1s) / len(f1s)
             self.metric_scores["sum"] = self.str
 
-        elif self.type_f1 == 'binary':
+        elif self.type_f1 == "binary":
             if len(self.tps) > 3:
-                logger.error('Choose F1 binary, but there are multiple classes, returning 0.0.')
+                logger.error(
+                    "Choose F1 binary, but there are multiple classes, returning 0.0."
+                )
 
                 self.metric_scores["precision_" + self.type_f1] = 0.0
                 self.metric_scores["recall_" + self.type_f1] = 0.0
                 self.metric_scores[self.str] = 0.0
                 self.metric_scores["sum"] = self.str
 
-            else:   
+            else:
                 if len(self.tps) > 0 or len(self.fps) > 0 or len(self.fns) > 0:
                     precision = self.get_precision(self.tps[1], self.fps[1])
                     recall = self.get_recall(self.tps[1], self.fns[1])
@@ -118,7 +125,7 @@ class F1:
                 self.metric_scores["sum"] = self.str
 
         else:
-            logger.error('F1 type ' + self.type_f1 + ' not recognized, returning 0.0.')
+            logger.error("F1 type " + self.type_f1 + " not recognized, returning 0.0.")
 
             self.metric_scores["precision_" + self.type_f1] = 0.0
             self.metric_scores["recall_" + self.type_f1] = 0.0

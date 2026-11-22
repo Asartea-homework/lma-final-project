@@ -5,10 +5,10 @@ class Accuracy:
     def __init__(self):
         self.cor = 0
         self.total = 0
-        self.str = 'accuracy'
+        self.str = "accuracy"
         self.metric_scores = {}
 
-    def score(self, preds, golds, vocabulary, mask = None):
+    def score(self, preds, golds, vocabulary, mask=None, full_data=None):
         preds = torch.flatten(preds)
         golds = torch.flatten(golds)
 
@@ -16,15 +16,14 @@ class Accuracy:
             mask = torch.flatten(mask)
             preds = preds[mask]
             golds = golds[mask]
-        # Only unks in gold, probably an indicator that 
+        # Only unks in gold, probably an indicator that
         # there are no annotations
         if len(torch.nonzero(golds != -100)) == 0:
             self.total += len(golds)
             return
 
         self.total += len(golds)
-        self.cor += sum(preds==golds).item()
-        
+        self.cor += sum(preds == golds).item()
 
     def reset(self):
         self.cor = 0
@@ -40,4 +39,3 @@ class Accuracy:
 
     def is_active(self):
         return self.total != 0
-

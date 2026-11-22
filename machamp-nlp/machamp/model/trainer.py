@@ -130,7 +130,6 @@ def train(
             indent=4,
         )
 
-    print("hello from trainer.py")
     # We create the logger here, because now we have a directory to also write it to
     logging.basicConfig(
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
@@ -347,6 +346,7 @@ def train(
                 batch["task_masks"],
                 batch["word_mask"],
                 batch["dataset_ids"],
+                batch["full_data"],
             )
             for task in loss_dict:
                 if task not in total_train_losses:

@@ -10,6 +10,12 @@
             "nli-english": {
                 "column_idx": 6,
                 "task_type": "classification",
+                "metric": "hardcons",
+                "additional_metrics": [
+                    "f1_macro",
+                    "accuracy",
+                    "softcons"
+                ],
             }
         }
     },
@@ -24,6 +30,12 @@
             "nli-spanish": {
                 "column_idx": 6,
                 "task_type": "classification",
+                "metric": "hardcons",
+                "additional_metrics": [
+                    "f1_macro",
+                    "accuracy",
+                    "softcons"
+                ],
             }
         }
     },
@@ -38,6 +50,12 @@
             "nli-basque": {
                 "column_idx": 6,
                 "task_type": "classification",
+                "metric": "hardcons",
+                "additional_metrics": [
+                    "f1_macro",
+                    "accuracy",
+                    "softcons"
+                ],
             }
         }
     },
@@ -52,6 +70,12 @@
             "nli-multi": {
                 "column_idx": 6,
                 "task_type": "classification",
+                "metric": "hardcons",
+                "additional_metrics": [
+                    "f1_macro",
+                    "accuracy",
+                    "softcons"
+                ],
             }
         }
     }

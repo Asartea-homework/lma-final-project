@@ -22,20 +22,20 @@ ParameterGroupsType = List[Tuple[List[str], Dict[str, Any]]]
 def load_json(path: str):
     """
     Loads a jsonnet file through the json package and returns a dict.
-    
+
     Parameters
     ----------
     path: str
         the path to the json(net) file to load
     """
-    return json.loads(_jsonnet.evaluate_snippet("", '\n'.join(open(path).readlines())))
+    return json.loads(_jsonnet.evaluate_snippet("", "\n".join(open(path).readlines())))
 
 
 def merge_configs(dataset_configs: List[str], parameters_config: Dict):
     """
     Merges the dataset configuration files, using also some default
     hyperparameters settings from the hyperparameter configuration.
-    Note that we can have multiple dataset_configs, but each of them 
+    Note that we can have multiple dataset_configs, but each of them
     can also have multiple datasets.
 
     Parameters
@@ -57,28 +57,33 @@ def merge_configs(dataset_configs: List[str], parameters_config: Dict):
         config_file_data = load_json(dataset_config_path)
         for dataset in config_file_data:
             if dataset in data_params:
-                logger.error("ERROR, same dataset identifier/name used twice: " + dataset)
+                logger.error(
+                    "ERROR, same dataset identifier/name used twice: " + dataset
+                )
                 exit(1)
             data_params[dataset] = config_file_data[dataset]
-            for task in data_params[dataset]['tasks']:
-                task_type = data_params[dataset]['tasks'][task]['task_type']
-                full_task_config = copy.deepcopy(parameters_config['decoders']['default_decoder'])
-                full_task_config.update(parameters_config['decoders'][task_type])
-                full_task_config.update(data_params[dataset]['tasks'][task])
-                data_params[dataset]['tasks'][task] = full_task_config
+            for task in data_params[dataset]["tasks"]:
+                task_type = data_params[dataset]["tasks"][task]["task_type"]
+                full_task_config = copy.deepcopy(
+                    parameters_config["decoders"]["default_decoder"]
+                )
+                full_task_config.update(parameters_config["decoders"][task_type])
+                full_task_config.update(data_params[dataset]["tasks"][task])
+                data_params[dataset]["tasks"][task] = full_task_config
     return data_params
 
 
 def prep_batch(
-        batch: List[MachampInstance],
-        device: str,
-        dataset: MachampDataset,
-        assume_word_level: bool = False):
+    batch: List[MachampInstance],
+    device: str,
+    dataset: MachampDataset,
+    assume_word_level: bool = False,
+):
     """
-    Converts a list of instances into a batch that can be used in the 
+    Converts a list of instances into a batch that can be used in the
     forward pass of a MachampModel training. This means it converts a
-    list of instances to a dictionary holding multiple torch.tensors, 
-    containing at least the token_ids. Based on the setup it could also 
+    list of instances to a dictionary holding multiple torch.tensors,
+    containing at least the token_ids. Based on the setup it could also
     conclude seg_ids, golds, offsets and mask.
 
     Parameters
@@ -95,7 +100,7 @@ def prep_batch(
         level information (i.e. offsets); but if gold data is absent, and we
         still need to perform token level tasks, this variable can enforce
         getting the word level information.
-        
+
 
     Returns
     -------
@@ -112,15 +117,21 @@ def prep_batch(
     """
     batch_size = len(batch)
     max_subword_len = max([len(instance) for instance in batch])
-    batch_subwords = torch.full((batch_size, max_subword_len), 0, dtype=torch.long, device=device)
-    batch_dataset_ids = torch.full((batch_size, max_subword_len), 0, dtype=torch.long, device=device)
+    batch_subwords = torch.full(
+        (batch_size, max_subword_len), 0, dtype=torch.long, device=device
+    )
+    batch_dataset_ids = torch.full(
+        (batch_size, max_subword_len), 0, dtype=torch.long, device=device
+    )
     found_dataset_id = False
-    batch_seg_ids = torch.zeros((batch_size, max_subword_len), dtype=torch.long, device=device)
+    batch_seg_ids = torch.zeros(
+        (batch_size, max_subword_len), dtype=torch.long, device=device
+    )
     golds = {}
     batch_offsets = None
     batch_word_mask = None
 
-    # Check if any of the task is token level, because then we need to save the offsets and a 
+    # Check if any of the task is token level, because then we need to save the offsets and a
     # separate mask
     all_tasks = set()
     has_word_level = assume_word_level
@@ -128,86 +139,144 @@ def prep_batch(
         for task in instance.golds:
             all_tasks.add(task)
             task_type = dataset.task_to_tasktype(task)
-            if task_type in ['seq', 'multiseq', 'seq_bio', 'tok', 'dependency', 'string2string', 'mlm']:
+            if task_type in [
+                "seq",
+                "multiseq",
+                "seq_bio",
+                "tok",
+                "dependency",
+                "string2string",
+                "mlm",
+            ]:
                 has_word_level = True
     if has_word_level:
-        max_token_len = max([len(instance.offsets) for instance in batch if type(instance.offsets) != type(None)])
-        batch_offsets = torch.full((batch_size, max_token_len), -1, dtype=torch.long, device=device)
-        batch_word_mask = torch.zeros((batch_size, max_token_len), dtype=torch.bool, device=device)
+        max_token_len = max(
+            [
+                len(instance.offsets)
+                for instance in batch
+                if type(instance.offsets) != type(None)
+            ]
+        )
+        batch_offsets = torch.full(
+            (batch_size, max_token_len), -1, dtype=torch.long, device=device
+        )
+        batch_word_mask = torch.zeros(
+            (batch_size, max_token_len), dtype=torch.bool, device=device
+        )
 
-    batch_subword_mask = torch.zeros((batch_size, max_subword_len), dtype=torch.bool, device=device)
+    batch_subword_mask = torch.zeros(
+        (batch_size, max_subword_len), dtype=torch.bool, device=device
+    )
     task_masks = {}
     for task in all_tasks:
         task_type = dataset.task_to_tasktype(task)
 
-        if task_type == 'tok':
+        if task_type == "tok":
             # there is a label for every subword except the special tokens
-            num_special_tokens = 2 - list(get_special_tokens(dataset.tokenizer)).count(None)
-            golds[task] = torch.full((batch_size, max_subword_len - num_special_tokens), -100, dtype=torch.long,
-                                     device=device)
-        elif task_type == 'regression':
-            golds[task] = torch.full((batch_size,), -100, dtype=torch.float, device=device)
-        elif task_type == 'probdistr':
+            num_special_tokens = 2 - list(get_special_tokens(dataset.tokenizer)).count(
+                None
+            )
+            golds[task] = torch.full(
+                (batch_size, max_subword_len - num_special_tokens),
+                -100,
+                dtype=torch.long,
+                device=device,
+            )
+        elif task_type == "regression":
+            golds[task] = torch.full(
+                (batch_size,), -100, dtype=torch.float, device=device
+            )
+        elif task_type == "probdistr":
             num_labels = len(batch[0].golds[task])
-            golds[task] = torch.full((batch_size, num_labels), -100, dtype=torch.float, device=device)
-        elif task_type == 'multiseq':
+            golds[task] = torch.full(
+                (batch_size, num_labels), -100, dtype=torch.float, device=device
+            )
+        elif task_type == "multiseq":
             num_labels = len(dataset.vocabulary.get_vocab(task))
-            golds[task] = torch.full((batch_size, max_token_len, num_labels), -100, dtype=torch.long, device=device)
-        elif task_type == 'multiclas':
+            golds[task] = torch.full(
+                (batch_size, max_token_len, num_labels),
+                -100,
+                dtype=torch.long,
+                device=device,
+            )
+        elif task_type == "multiclas":
             num_labels = len(dataset.vocabulary.get_vocab(task))
-            golds[task] = torch.full((batch_size, num_labels), -100, dtype=torch.long, device=device)
-        elif task_type == 'classification':
-            golds[task] = torch.full((batch_size,), -100, dtype=torch.long, device=device)
-        else: # token level task
-            golds[task] = torch.full((batch_size, max_token_len), -100, dtype=torch.long, device=device)
-        if task_type == 'dependency':
-            if task.endswith('-rels'):
-                task_masks[task[:-5]] = torch.zeros((batch_size), dtype=torch.bool, device=device)
+            golds[task] = torch.full(
+                (batch_size, num_labels), -100, dtype=torch.long, device=device
+            )
+        elif task_type == "classification":
+            golds[task] = torch.full(
+                (batch_size,), -100, dtype=torch.long, device=device
+            )
+        else:  # token level task
+            golds[task] = torch.full(
+                (batch_size, max_token_len), -100, dtype=torch.long, device=device
+            )
+        if task_type == "dependency":
+            if task.endswith("-rels"):
+                task_masks[task[:-5]] = torch.zeros(
+                    (batch_size), dtype=torch.bool, device=device
+                )
         else:
-            task_masks[task] = torch.zeros((batch_size), dtype=torch.bool, device=device)
+            task_masks[task] = torch.zeros(
+                (batch_size), dtype=torch.bool, device=device
+            )
 
     for instanceIdx, instance in enumerate(batch):
-        batch_subwords[instanceIdx][0:len(instance.token_ids)] = instance.token_ids
+        batch_subwords[instanceIdx][0 : len(instance.token_ids)] = instance.token_ids
         if instance.dataset_ids not in [[], None]:
             found_dataset_id = True
-            batch_dataset_ids[instanceIdx][0:len(instance.token_ids)] = instance.dataset_ids
-        batch_seg_ids[instanceIdx][0:len(instance.seg_ids)] = instance.seg_ids
+            batch_dataset_ids[instanceIdx][
+                0 : len(instance.token_ids)
+            ] = instance.dataset_ids
+        batch_seg_ids[instanceIdx][0 : len(instance.seg_ids)] = instance.seg_ids
         for task in instance.golds:
             task_type = dataset.task_to_tasktype(task)
 
-            if task_type == 'multiseq':
+            if task_type == "multiseq":
                 for token_idx, token_labels in enumerate(instance.golds[task]):
                     for token_label in token_labels:
                         if token_label != -100:
                             golds[task][instanceIdx][token_idx][token_label] = 1
-            elif task_type == 'probdistr':
+            elif task_type == "probdistr":
                 for label_idx, label in enumerate(instance.golds[task]):
-                    golds[task][instanceIdx][label_idx] = label 
-            elif task_type == 'multiclas':
+                    golds[task][instanceIdx][label_idx] = label
+            elif task_type == "multiclas":
                 for sent_label in instance.golds[task]:
                     if sent_label != -100:
                         golds[task][instanceIdx][sent_label] = 1
-            elif task_type in ['regression', 'classification']:
+            elif task_type in ["regression", "classification"]:
                 golds[task][instanceIdx] = instance.golds[task]
-            else: # token level task
-                golds[task][instanceIdx][0:len(instance.golds[task])] = instance.golds[task]
-            
-            if task_type == 'dependency':
-                if task.endswith('-rels'):
+            else:  # token level task
+                golds[task][instanceIdx][0 : len(instance.golds[task])] = (
+                    instance.golds[task]
+                )
+
+            if task_type == "dependency":
+                if task.endswith("-rels"):
                     task_masks[task[:-5]][instanceIdx] = True
             else:
                 task_masks[task][instanceIdx] = True
 
         if has_word_level and type(instance.offsets) != type(None):
-            batch_offsets[instanceIdx][:len(instance.offsets)] = instance.offsets
-            batch_word_mask[instanceIdx][:len(instance.offsets)] = 1
-        batch_subword_mask[instanceIdx][:len(instance.token_ids)] = 1
+            batch_offsets[instanceIdx][: len(instance.offsets)] = instance.offsets
+            batch_word_mask[instanceIdx][: len(instance.offsets)] = 1
+        batch_subword_mask[instanceIdx][: len(instance.token_ids)] = 1
 
     if not found_dataset_id:
-            batch_dataset_ids = None
+        batch_dataset_ids = None
 
-    return {'token_ids': batch_subwords, 'seg_ids': batch_seg_ids, 'golds': golds, 'offsets': batch_offsets,
-            'subword_mask': batch_subword_mask, 'task_masks': task_masks, 'word_mask': batch_word_mask, 'dataset_ids': batch_dataset_ids}
+    return {
+        "token_ids": batch_subwords,
+        "seg_ids": batch_seg_ids,
+        "golds": golds,
+        "offsets": batch_offsets,
+        "subword_mask": batch_subword_mask,
+        "task_masks": task_masks,
+        "word_mask": batch_word_mask,
+        "dataset_ids": batch_dataset_ids,
+        "full_data": [instance.full_data for instance in batch],
+    }
 
 
 def report_metrics(metrics):
@@ -226,20 +295,20 @@ def report_metrics(metrics):
     """
     info = {}
     for metric in metrics:
-        if metric == 'sum':
-            info[metric] = '{:.4f}'.format(metrics[metric])
+        if metric == "sum":
+            info[metric] = "{:.4f}".format(metrics[metric])
             continue
-        if 'optimization_metrics' in metrics[metric]:
-            optim_metric = metrics[metric]['optimization_metrics']
+        if "optimization_metrics" in metrics[metric]:
+            optim_metric = metrics[metric]["optimization_metrics"]
             value = metrics[metric][optim_metric][optim_metric]
             if type(value) == float:
-                info[metric + '_' + optim_metric] = '{:.4f}'.format(value)
+                info[metric + "_" + optim_metric] = "{:.4f}".format(value)
             else:
-                info[metric + '_' + optim_metric] = value
+                info[metric + "_" + optim_metric] = value
     longest_key = max([len(key) for key in info]) + 1
     for key, value in info.items():
-        logger.info(key + ' ' * (longest_key - len(key)) + ': ' + str(value))
-    logger.info('\n')
+        logger.info(key + " " * (longest_key - len(key)) + ": " + str(value))
+    logger.info("\n")
     return info
 
 
@@ -253,7 +322,7 @@ def clean_text(text: str):
     ----------
     text: str
         Input string (text).
-    
+
     Returns
     -------
     cleaned_text: str
@@ -268,13 +337,13 @@ def clean_text(text: str):
             cleaned_text.append(" ")
         else:
             cleaned_text.append(char)
-    return "".join(cleaned_text).replace('  ', ' ')
+    return "".join(cleaned_text).replace("  ", " ")
 
 
 # Taken from AllenNLP
 def make_parameter_groups(
-        model_parameters: Iterator[Tuple[str, torch.nn.Parameter]],
-        groups: Optional[ParameterGroupsType] = None,
+    model_parameters: Iterator[Tuple[str, torch.nn.Parameter]],
+    groups: Optional[ParameterGroupsType] = None,
 ) -> Union[List[Dict[str, Any]], List[torch.nn.Parameter]]:
     """
     Takes a list of model parameters with associated names (typically coming from something like
@@ -340,7 +409,9 @@ def make_parameter_groups(
                     if re.search(regex, name):
                         if group_index is not None and group_index != k:
                             raise ValueError(
-                                "{} was specified in two separate parameter groups".format(name)
+                                "{} was specified in two separate parameter groups".format(
+                                    name
+                                )
                             )
                         group_index = k
                         regex_use_counts[regex] += 1
@@ -355,26 +426,36 @@ def make_parameter_groups(
 
         # find and remove any groups with 'requires_grad = False'
         no_grad_group_indices: List[int] = []
-        for k, (names, group) in enumerate(zip(parameter_group_names, parameter_groups)):
+        for k, (names, group) in enumerate(
+            zip(parameter_group_names, parameter_groups)
+        ):
             if group.get("requires_grad") is False:
                 no_grad_group_indices.append(k)
-                logger.info("Disabling gradient for the following parameters: %s", names)
+                logger.info(
+                    "Disabling gradient for the following parameters: %s", names
+                )
                 for param in group["params"]:
                     param.requires_grad_(False)
 
                 # warn about any other unused options in that group.
                 unused_options = {
-                    key: val for key, val in group.items() if key not in ("params", "requires_grad")
+                    key: val
+                    for key, val in group.items()
+                    if key not in ("params", "requires_grad")
                 }
                 if unused_options:
-                    logger.warning("Ignoring unused options %s for %s", unused_options, names)
+                    logger.warning(
+                        "Ignoring unused options %s for %s", unused_options, names
+                    )
         parameter_group_names = [
             names
             for (k, names) in enumerate(parameter_group_names)
             if k not in no_grad_group_indices
         ]
         parameter_groups = [
-            group for (k, group) in enumerate(parameter_groups) if k not in no_grad_group_indices
+            group
+            for (k, group) in enumerate(parameter_groups)
+            if k not in no_grad_group_indices
         ]
 
         # log the remaining parameter groups
@@ -383,10 +464,12 @@ def make_parameter_groups(
             group_options = {
                 key: val for key, val in parameter_groups[k].items() if key != "params"
             }
-            logger.info("Group %s: %s, %s", k, list(parameter_group_names[k]), group_options)
+            logger.info(
+                "Group %s: %s, %s", k, list(parameter_group_names[k]), group_options
+            )
 
         # check for unused regex
-        #for regex, count in regex_use_counts.items():
+        # for regex, count in regex_use_counts.items():
         #    if count == 0:
         #        logger.warning(
         #            "When constructing parameter groups, %s does not match any parameter name",
@@ -399,7 +482,9 @@ def make_parameter_groups(
     num_parameters = 0
     for parameter_group in parameter_groups:
         if isinstance(parameter_group, dict):
-            num_parameters += sum(parameter.numel() for parameter in parameter_group["params"])
+            num_parameters += sum(
+                parameter.numel() for parameter in parameter_group["params"]
+            )
         else:
             num_parameters += parameter_group.numel()  # type: ignore
     logger.info("Number of trainable parameters: %s", num_parameters)
@@ -415,7 +500,7 @@ class StreamToLogger(object):
     def __init__(self, logger, level):
         self.logger = logger
         self.level = level
-        self.linebuf = ''
+        self.linebuf = ""
 
     def write(self, buf):
         for line in buf.rstrip().splitlines():
@@ -427,8 +512,8 @@ class StreamToLogger(object):
 
 def apply_scalar(mlm_out: torch.tensor, layers: List, scalar: ScalarMix):
     """
-    Applies attention to the layers of the output of the LM. 
-    If the number of layers is 1, no attention is necessary. 
+    Applies attention to the layers of the output of the LM.
+    If the number of layers is 1, no attention is necessary.
 
     Parameters
     ----------
@@ -471,18 +556,28 @@ def get_special_tokens(tokenizer: AutoTokenizer):
     end_token: int
         the id of the end token, None if there is none
     """
-    content = tokenizer.encode('a', add_special_tokens=False)
-    tokenizer_out = tokenizer.encode('a')
-    num_before = next((idx for idx in range(len(tokenizer_out) - len(content) + 1)
-                       if tokenizer_out[idx:idx + len(content)] == content), None)
+    content = tokenizer.encode("a", add_special_tokens=False)
+    tokenizer_out = tokenizer.encode("a")
+    num_before = next(
+        (
+            idx
+            for idx in range(len(tokenizer_out) - len(content) + 1)
+            if tokenizer_out[idx : idx + len(content)] == content
+        ),
+        None,
+    )
     if num_before is None:
-        logger.error('Could not find the input in the output of the tokenizer: ' +
-                     str(tokenizer.convert_ids_to_tokens(tokenizer_out)))
+        logger.error(
+            "Could not find the input in the output of the tokenizer: "
+            + str(tokenizer.convert_ids_to_tokens(tokenizer_out))
+        )
         exit(1)
     num_after = len(tokenizer_out) - num_before - len(content)
     if num_before > 1 or num_after > 1:
-        logger.error('Tokenizer adds more than one special token at the start or end, this is not handled: ' +
-                     str(tokenizer.convert_ids_to_tokens(tokenizer_out)))
+        logger.error(
+            "Tokenizer adds more than one special token at the start or end, this is not handled: "
+            + str(tokenizer.convert_ids_to_tokens(tokenizer_out))
+        )
         exit(1)
     start_token = tokenizer_out[0] if num_before == 1 else None
     end_token = tokenizer_out[-1] if num_after == 1 else None
@@ -508,54 +603,57 @@ def wrap_special_tokens(token_ids: List[int], start_token: int, end_token: int):
     token_ids: torch.tensor
         the subword ids including the special tokens
     """
-    return torch.tensor(([] if start_token == None else [start_token]) + list(token_ids) +
-                        ([] if end_token == None else [end_token]), dtype=torch.long)
+    return torch.tensor(
+        ([] if start_token == None else [start_token])
+        + list(token_ids)
+        + ([] if end_token == None else [end_token]),
+        dtype=torch.long,
+    )
 
 
 def identify_tokenizer(tokenizer: AutoTokenizer):
     """
-    Identifies the strategy the tokenizer uses to represent (the absence of) whitespaces. 
+    Identifies the strategy the tokenizer uses to represent (the absence of) whitespaces.
     Could be one of 'wordpiece', 'sentencepiece' or 'other'. Note that some have no special
     characters for this, I am not sure what to do with those yet (tokenization should be easier?)
-    other exceptions are xlm-mlm-100-1280 is special, it has </w> and sberbank-ai/mGPT 
+    other exceptions are xlm-mlm-100-1280 is special, it has </w> and sberbank-ai/mGPT
     has a Ġ for whitespaces.
 
     Parameters
     ----------
     tokenizer: AutoTokenizer
         the tokenizer to inspect
-    
+
     Returns
     -------
     tokenizer_type: str
         the type of the tokenizer, one of 'wordpiece', 'sentencepiece' or 'other'
     """
-    result = ''.join(tokenizer.tokenize('test testestest'))
-    if '##' in result:
-        return 'wordpiece'
-    elif '▁' in result:
-        return 'sentencepiece'
-    elif 'Ġ' in result:
-        return 'G'
+    result = "".join(tokenizer.tokenize("test testestest"))
+    if "##" in result:
+        return "wordpiece"
+    elif "▁" in result:
+        return "sentencepiece"
+    elif "Ġ" in result:
+        return "G"
     else:
-        return 'other'
-
+        return "other"
 
 
 class StreamToLogger2(object):
-   """
-   Fake file-like stream object that redirects writes to a logger instance.
-   From: https://stackoverflow.com/questions/19425736/how-to-redirect-stdout-and-stderr-to-logger-in-python
-   """
-   def __init__(self, logger, log_level=logging.INFO):
-      self.logger = logger
-      self.log_level = log_level
-      self.linebuf = ''
- 
-   def write(self, buf):
-      for line in buf.rstrip().splitlines():
-         self.logger.log(self.log_level, line.rstrip())
+    """
+    Fake file-like stream object that redirects writes to a logger instance.
+    From: https://stackoverflow.com/questions/19425736/how-to-redirect-stdout-and-stderr-to-logger-in-python
+    """
 
-   def flush(self):
+    def __init__(self, logger, log_level=logging.INFO):
+        self.logger = logger
+        self.log_level = log_level
+        self.linebuf = ""
+
+    def write(self, buf):
+        for line in buf.rstrip().splitlines():
+            self.logger.log(self.log_level, line.rstrip())
+
+    def flush(self):
         pass
-
