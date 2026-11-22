@@ -17,30 +17,21 @@ class HardCons:
     def score(self, preds, golds, vocabulary, mask=None, full_data=None):
         if full_data is None:
             raise ValueError(
-                "full_data is required for softcons metric, but was not provided."
+                "full_data is required for hardcons metric, but was not provided."
             )
         preds = torch.flatten(preds)
         golds = torch.flatten(golds)
         if mask is not None:
             raise NotImplementedError(
-                "Masking is not implemented for softcons metric. Please provide unmasked predictions and gold labels."
+                "Masking is not implemented for hardcons metric. Please provide unmasked predictions and gold labels."
             )
 
-        for i in range(len(full_data)):
+        for i, instance_data in enumerate(full_data):
             if i >= len(preds):
                 break
 
-            instance_data = full_data[i]
-            instance_id = instance_data.get("instance_id", None)
-            if instance_id is None:
-                raise ValueError(
-                    "Each instance in full_data must have an 'instance_id' key."
-                )
-            pair_id = instance_data.get("pair_id", None)
-            if pair_id is None:
-                raise ValueError(
-                    "Each instance in full_data must have a 'pair_id' key."
-                )
+            instance_id = instance_data[0]
+            pair_id = instance_data[1]
             direction = instance_id.split("__")[-1]
 
             pred = preds[i].item()
@@ -80,7 +71,7 @@ class HardCons:
         else:
             self.metric_scores[self.str] = consistent_and_correct_pairs / total_pairs
 
-        self.metrics_scores["sum"] = self.str
+        self.metric_scores["sum"] = self.str
         return self.metric_scores
 
     def is_active(self):
