@@ -58,8 +58,6 @@ if args.resume == "" and (
     print("Please provide at least 1 dataset configuration")
     exit(1)
 
-print("hello 1")
-
 if args.device == None:
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
 elif args.device == -1:
@@ -67,7 +65,6 @@ elif args.device == -1:
 else:
     device = "cuda:" + str(args.device)
 
-print("Hello 2")
 name = args.name
 
 if args.resume == "" and name == "":
