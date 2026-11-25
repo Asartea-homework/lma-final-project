@@ -443,6 +443,7 @@ class MachampModel(torch.nn.Module):
         word_mask: Dict[str, torch.tensor] = None,
         dataset_ids: torch.tensor = None,
         raw_text: bool = False,
+        full_data: List[List[str]] = None,
     ):
         """
         Run the forward pass, and convert the output indices to labels where
@@ -479,6 +480,8 @@ class MachampModel(torch.nn.Module):
         raw_text:
             No gold annotation available; means here that we predict for all
             tasks.
+        full_data: List[List[str]] = None
+            The full data from the instances, needed for some metrics like hardcons.
 
         Returns
         -------
@@ -628,9 +631,16 @@ class MachampModel(torch.nn.Module):
 
             # move decoder to correct device before prediction
             self.decoders[task].device = self.device
-            out_dict[task] = self.decoders[task].get_output_labels(
-                mlm_out_task, task_word_mask, golds_task
-            )
+            
+            # For classification tasks, pass full_data if available
+            if task_type == "classification" and full_data is not None:
+                out_dict[task] = self.decoders[task].get_output_labels(
+                    mlm_out_task, task_word_mask, golds_task, full_data=full_data
+                )
+            else:
+                out_dict[task] = self.decoders[task].get_output_labels(
+                    mlm_out_task, task_word_mask, golds_task
+                )
         return out_dict
 
     def reset_metrics(self):

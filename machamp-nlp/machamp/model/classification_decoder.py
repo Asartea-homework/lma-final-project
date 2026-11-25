@@ -15,7 +15,7 @@ class MachampClassificationDecoder(MachampDecoder, torch.nn.Module):
         decoder_dropout: float = 0.0,
         topn: int = 1,
         metric: str = "accuracy",
-        **kwargs
+        **kwargs,
     ):
         super().__init__(task, vocabulary, loss_weight, metric, device, **kwargs)
 
@@ -57,8 +57,8 @@ class MachampClassificationDecoder(MachampDecoder, torch.nn.Module):
             out_dict["loss"] = self.loss_weight * self.loss_function(logits, gold)
         return out_dict
 
-    def get_output_labels(self, mlm_out, mask, gold=None):
-        logits = self.forward(mlm_out, mask, gold)["logits"]
+    def get_output_labels(self, mlm_out, mask, gold=None, full_data=None):
+        logits = self.forward(mlm_out, mask, gold, full_data)["logits"]
         if self.topn == 1:
             maxes = torch.add(torch.argmax(logits[:, 1:], 1), 1)
             return {
