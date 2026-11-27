@@ -1,0 +1,661 @@
+instance_id	pair_id	text1_lang	text2_lang	text1	text2	label	instance_idx	partner_idx
+dico_phrasis_0000002__eu-eu__flipped	dico_phrasis_0000002	eu	eu	hark gerra-santutegira egindako bisita	hark santutegira egindako bisita	FORWARD_ENTAILMENT	200000	200001
+dico_phrasis_0000002__eu-eu__original	dico_phrasis_0000002	eu	eu	hark santutegira egindako bisita	hark gerra-santutegira egindako bisita	BACKWARD_ENTAILMENT	200001	200000
+dico_phrasis_0000004__eu-eu__flipped	dico_phrasis_0000004	eu	eu	protesten aurkako legeak	protesten aurkako legea	FORWARD_ENTAILMENT	200002	200003
+dico_phrasis_0000004__eu-eu__original	dico_phrasis_0000004	eu	eu	protesten aurkako legea	protesten aurkako legeak	BACKWARD_ENTAILMENT	200003	200002
+dico_phrasis_0000008__eu-eu__flipped	dico_phrasis_0000008	eu	eu	Irango aditu nuklearrak eta munduko potentziak ere	Munduko potentziak eta Iran	FORWARD_ENTAILMENT	200004	200005
+dico_phrasis_0000008__eu-eu__original	dico_phrasis_0000008	eu	eu	Munduko potentziak eta Iran	Irango aditu nuklearrak eta munduko potentziak ere	BACKWARD_ENTAILMENT	200005	200004
+dico_phrasis_0000010__eu-eu__flipped	dico_phrasis_0000010	eu	eu	Bederatzi haur	Bost haur	FORWARD_ENTAILMENT	200006	200007
+dico_phrasis_0000010__eu-eu__original	dico_phrasis_0000010	eu	eu	Bost haur	Bederatzi haur	BACKWARD_ENTAILMENT	200007	200006
+dico_phrasis_0000018__eu-eu__flipped	dico_phrasis_0000018	eu	eu	Amorruaren elkarretaratze guztietatik	haserrearen martxa	FORWARD_ENTAILMENT	200008	200009
+dico_phrasis_0000018__eu-eu__original	dico_phrasis_0000018	eu	eu	haserrearen martxa	Amorruaren elkarretaratze guztietatik	BACKWARD_ENTAILMENT	200009	200008
+dico_phrasis_0000019__eu-eu__flipped	dico_phrasis_0000019	eu	eu	Segurtasun-bideoa	Bideoa	FORWARD_ENTAILMENT	200010	200011
+dico_phrasis_0000019__eu-eu__original	dico_phrasis_0000019	eu	eu	Bideoa	Segurtasun-bideoa	BACKWARD_ENTAILMENT	200011	200010
+dico_phrasis_0000021__eu-eu__flipped	dico_phrasis_0000021	eu	eu	Sei hildako	Hildako bat	FORWARD_ENTAILMENT	200012	200013
+dico_phrasis_0000021__eu-eu__original	dico_phrasis_0000021	eu	eu	Hildako bat	Sei hildako	BACKWARD_ENTAILMENT	200013	200012
+dico_phrasis_0000023__eu-eu__flipped	dico_phrasis_0000023	eu	eu	Frantzisko aita santua	aita santua	FORWARD_ENTAILMENT	200014	200015
+dico_phrasis_0000023__eu-eu__original	dico_phrasis_0000023	eu	eu	aita santua	Frantzisko aita santua	BACKWARD_ENTAILMENT	200015	200014
+dico_phrasis_0000024__eu-eu__flipped	dico_phrasis_0000024	eu	eu	suntsitzean	suntsitu	FORWARD_ENTAILMENT	200016	200017
+dico_phrasis_0000024__eu-eu__original	dico_phrasis_0000024	eu	eu	suntsitu	suntsitzean	BACKWARD_ENTAILMENT	200017	200016
+dico_phrasis_0000030__eu-eu__flipped	dico_phrasis_0000030	eu	eu	Wikileakseko soldadu Bradley Manning	Bradley Manning	FORWARD_ENTAILMENT	200018	200019
+dico_phrasis_0000030__eu-eu__original	dico_phrasis_0000030	eu	eu	Bradley Manning	Wikileakseko soldadu Bradley Manning	BACKWARD_ENTAILMENT	200019	200018
+dico_phrasis_0000031__eu-eu__flipped	dico_phrasis_0000031	eu	eu	Brasilgo jendetzak	Brasil	FORWARD_ENTAILMENT	200020	200021
+dico_phrasis_0000031__eu-eu__original	dico_phrasis_0000031	eu	eu	Brasil	Brasilgo jendetzak	BACKWARD_ENTAILMENT	200021	200020
+dico_phrasis_0000034__eu-eu__flipped	dico_phrasis_0000034	eu	eu	Venezuelako Gobernuaren aurkako oposizioko burua	Venezuelako oposizioko buruzagia	FORWARD_ENTAILMENT	200022	200023
+dico_phrasis_0000034__eu-eu__original	dico_phrasis_0000034	eu	eu	Venezuelako oposizioko buruzagia	Venezuelako Gobernuaren aurkako oposizioko burua	BACKWARD_ENTAILMENT	200023	200022
+dico_phrasis_0000046__eu-eu__flipped	dico_phrasis_0000046	eu	eu	zuzendari nagusi berri gisa	zuzendari nagusi gisa	FORWARD_ENTAILMENT	200024	200025
+dico_phrasis_0000046__eu-eu__original	dico_phrasis_0000046	eu	eu	zuzendari nagusi gisa	zuzendari nagusi berri gisa	BACKWARD_ENTAILMENT	200025	200024
+dico_phrasis_0000059__eu-eu__flipped	dico_phrasis_0000059	eu	eu	Costa Concordia ontziaren naufragio-hondamendiarengatik	Costa Concordia hondamendiarengatik	FORWARD_ENTAILMENT	200026	200027
+dico_phrasis_0000059__eu-eu__original	dico_phrasis_0000059	eu	eu	Costa Concordia hondamendiarengatik	Costa Concordia ontziaren naufragio-hondamendiarengatik	BACKWARD_ENTAILMENT	200027	200026
+dico_phrasis_0000070__eu-eu__flipped	dico_phrasis_0000070	eu	eu	demokraziaren aldeko manifestazio erraldoirako	demokraziaren aldeko manifestaziorako	FORWARD_ENTAILMENT	200028	200029
+dico_phrasis_0000070__eu-eu__original	dico_phrasis_0000070	eu	eu	demokraziaren aldeko manifestaziorako	demokraziaren aldeko manifestazio erraldoirako	BACKWARD_ENTAILMENT	200029	200028
+dico_phrasis_0000078__eu-eu__flipped	dico_phrasis_0000078	eu	eu	Afganistango hiri batean	Afganistanen	FORWARD_ENTAILMENT	200030	200031
+dico_phrasis_0000078__eu-eu__original	dico_phrasis_0000078	eu	eu	Afganistanen	Afganistango hiri batean	BACKWARD_ENTAILMENT	200031	200030
+dico_phrasis_0000087__eu-eu__flipped	dico_phrasis_0000087	eu	eu	segurtasun nazionaleko aholkulari gisa	haren segurtasun-aholkulari gisa	FORWARD_ENTAILMENT	200032	200033
+dico_phrasis_0000087__eu-eu__original	dico_phrasis_0000087	eu	eu	haren segurtasun-aholkulari gisa	segurtasun nazionaleko aholkulari gisa	BACKWARD_ENTAILMENT	200033	200032
+dico_phrasis_0000096__eu-eu__flipped	dico_phrasis_0000096	eu	eu	Gizon bat eta emakume bat	Gizon bat	FORWARD_ENTAILMENT	200034	200035
+dico_phrasis_0000096__eu-eu__original	dico_phrasis_0000096	eu	eu	Gizon bat	Gizon bat eta emakume bat	BACKWARD_ENTAILMENT	200035	200034
+dico_phrasis_0000099__eu-eu__flipped	dico_phrasis_0000099	eu	eu	Hiru txakur	Txakurra	FORWARD_ENTAILMENT	200036	200037
+dico_phrasis_0000099__eu-eu__original	dico_phrasis_0000099	eu	eu	Txakurra	Hiru txakur	BACKWARD_ENTAILMENT	200037	200036
+dico_phrasis_0000101__eu-eu__flipped	dico_phrasis_0000101	eu	eu	Txirrindulari bat	Pertsona bat	FORWARD_ENTAILMENT	200038	200039
+dico_phrasis_0000101__eu-eu__original	dico_phrasis_0000101	eu	eu	Pertsona bat	Txirrindulari bat	BACKWARD_ENTAILMENT	200039	200038
+dico_phrasis_0000106__eu-eu__flipped	dico_phrasis_0000106	eu	eu	teniseko pilota batekin	pilota batekin	FORWARD_ENTAILMENT	200040	200041
+dico_phrasis_0000106__eu-eu__original	dico_phrasis_0000106	eu	eu	pilota batekin	teniseko pilota batekin	BACKWARD_ENTAILMENT	200041	200040
+dico_phrasis_0000118__eu-eu__flipped	dico_phrasis_0000118	eu	eu	belar berde altuan barrena	belar gainean	FORWARD_ENTAILMENT	200042	200043
+dico_phrasis_0000118__eu-eu__original	dico_phrasis_0000118	eu	eu	belar gainean	belar berde altuan barrena	BACKWARD_ENTAILMENT	200043	200042
+dico_phrasis_0000120__eu-eu__flipped	dico_phrasis_0000120	eu	eu	Txalupa zuri bat	txalupa bat	FORWARD_ENTAILMENT	200044	200045
+dico_phrasis_0000120__eu-eu__original	dico_phrasis_0000120	eu	eu	txalupa bat	Txalupa zuri bat	BACKWARD_ENTAILMENT	200045	200044
+dico_phrasis_0000125__eu-eu__flipped	dico_phrasis_0000125	eu	eu	belar berdez gainezka dagoen zelai batean	belar berdetik barrena	FORWARD_ENTAILMENT	200046	200047
+dico_phrasis_0000125__eu-eu__original	dico_phrasis_0000125	eu	eu	belar berdetik barrena	belar berdez gainezka dagoen zelai batean	BACKWARD_ENTAILMENT	200047	200046
+dico_phrasis_0000133__eu-eu__flipped	dico_phrasis_0000133	eu	eu	Alemaniar artzain-txakur iluna	Txakur beltz bat	FORWARD_ENTAILMENT	200048	200049
+dico_phrasis_0000133__eu-eu__original	dico_phrasis_0000133	eu	eu	Txakur beltz bat	Alemaniar artzain-txakur iluna	BACKWARD_ENTAILMENT	200049	200048
+dico_phrasis_0000141__eu-eu__flipped	dico_phrasis_0000141	eu	eu	igerileku baten aurrean	igerileku batean	FORWARD_ENTAILMENT	200050	200051
+dico_phrasis_0000141__eu-eu__original	dico_phrasis_0000141	eu	eu	igerileku batean	igerileku baten aurrean	BACKWARD_ENTAILMENT	200051	200050
+dico_phrasis_0000145__eu-eu__flipped	dico_phrasis_0000145	eu	eu	Bi txakur marroi	Bi txakur	FORWARD_ENTAILMENT	200052	200053
+dico_phrasis_0000145__eu-eu__original	dico_phrasis_0000145	eu	eu	Bi txakur	Bi txakur marroi	BACKWARD_ENTAILMENT	200053	200052
+dico_phrasis_0000162__eu-eu__flipped	dico_phrasis_0000162	eu	eu	zaldi guztien	zaldi bat	FORWARD_ENTAILMENT	200054	200055
+dico_phrasis_0000162__eu-eu__original	dico_phrasis_0000162	eu	eu	zaldi bat	zaldi guztien	BACKWARD_ENTAILMENT	200055	200054
+dico_phrasis_0000164__eu-eu__flipped	dico_phrasis_0000164	eu	eu	Gizon gazte bat	Gizon bat	FORWARD_ENTAILMENT	200056	200057
+dico_phrasis_0000164__eu-eu__original	dico_phrasis_0000164	eu	eu	Gizon bat	Gizon gazte bat	BACKWARD_ENTAILMENT	200057	200056
+dico_phrasis_0000165__eu-eu__flipped	dico_phrasis_0000165	eu	eu	Pitbull txakur beltz bat	Txakur beltz bat	FORWARD_ENTAILMENT	200058	200059
+dico_phrasis_0000165__eu-eu__original	dico_phrasis_0000165	eu	eu	Txakur beltz bat	Pitbull txakur beltz bat	BACKWARD_ENTAILMENT	200059	200058
+dico_phrasis_0000185__eu-eu__flipped	dico_phrasis_0000185	eu	eu	Hiru neska	Neska	FORWARD_ENTAILMENT	200060	200061
+dico_phrasis_0000185__eu-eu__original	dico_phrasis_0000185	eu	eu	Neska	Hiru neska	BACKWARD_ENTAILMENT	200061	200060
+dico_phrasis_0000190__eu-eu__flipped	dico_phrasis_0000190	eu	eu	Txakur marroixka eta zuriak	Txakur marroi argi eta zuria	FORWARD_ENTAILMENT	200062	200063
+dico_phrasis_0000190__eu-eu__original	dico_phrasis_0000190	eu	eu	Txakur marroi argi eta zuria	Txakur marroixka eta zuriak	BACKWARD_ENTAILMENT	200063	200062
+dico_phrasis_0000192__eu-eu__flipped	dico_phrasis_0000192	eu	eu	Neska ilehori bat	Emakume bat	FORWARD_ENTAILMENT	200064	200065
+dico_phrasis_0000192__eu-eu__original	dico_phrasis_0000192	eu	eu	Emakume bat	Neska ilehori bat	BACKWARD_ENTAILMENT	200065	200064
+dico_phrasis_0000198__eu-eu__flipped	dico_phrasis_0000198	eu	eu	txokolate-barra bat	gozoki-barra bat	FORWARD_ENTAILMENT	200066	200067
+dico_phrasis_0000198__eu-eu__original	dico_phrasis_0000198	eu	eu	gozoki-barra bat	txokolate-barra bat	BACKWARD_ENTAILMENT	200067	200066
+dico_phrasis_0000219__eu-eu__flipped	dico_phrasis_0000219	eu	eu	kale lau elurtuaren inguruan	elurretan zehar	FORWARD_ENTAILMENT	200068	200069
+dico_phrasis_0000219__eu-eu__original	dico_phrasis_0000219	eu	eu	elurretan zehar	kale lau elurtuaren inguruan	BACKWARD_ENTAILMENT	200069	200068
+dico_phrasis_0000221__eu-eu__flipped	dico_phrasis_0000221	eu	eu	belarrezko zelai berde batean	patio batean	FORWARD_ENTAILMENT	200070	200071
+dico_phrasis_0000221__eu-eu__original	dico_phrasis_0000221	eu	eu	patio batean	belarrezko zelai berde batean	BACKWARD_ENTAILMENT	200071	200070
+dico_phrasis_0000223__eu-eu__flipped	dico_phrasis_0000223	eu	eu	zezen marroi baten	zezen bat den bitartean	FORWARD_ENTAILMENT	200072	200073
+dico_phrasis_0000223__eu-eu__original	dico_phrasis_0000223	eu	eu	zezen bat den bitartean	zezen marroi baten	BACKWARD_ENTAILMENT	200073	200072
+dico_phrasis_0000226__eu-eu__flipped	dico_phrasis_0000226	eu	eu	lorategi berde batean barrena	belarretan barrena	FORWARD_ENTAILMENT	200074	200075
+dico_phrasis_0000226__eu-eu__original	dico_phrasis_0000226	eu	eu	belarretan barrena	lorategi berde batean barrena	BACKWARD_ENTAILMENT	200075	200074
+dico_phrasis_0000240__eu-eu__flipped	dico_phrasis_0000240	eu	eu	Kanbodiako oposizioko buruzagiak	Oposizioko buruzagiak	FORWARD_ENTAILMENT	200076	200077
+dico_phrasis_0000240__eu-eu__original	dico_phrasis_0000240	eu	eu	Oposizioko buruzagiak	Kanbodiako oposizioko buruzagiak	BACKWARD_ENTAILMENT	200077	200076
+dico_phrasis_0000241__eu-eu__flipped	dico_phrasis_0000241	eu	eu	Talibanei	Talibanak	FORWARD_ENTAILMENT	200078	200079
+dico_phrasis_0000241__eu-eu__original	dico_phrasis_0000241	eu	eu	Talibanak	Talibanei	BACKWARD_ENTAILMENT	200079	200078
+dico_phrasis_0000249__eu-eu__flipped	dico_phrasis_0000249	eu	eu	haren lehen oroigarria	gogoratua	FORWARD_ENTAILMENT	200080	200081
+dico_phrasis_0000249__eu-eu__original	dico_phrasis_0000249	eu	eu	gogoratua	haren lehen oroigarria	BACKWARD_ENTAILMENT	200081	200080
+dico_phrasis_0000259__eu-eu__flipped	dico_phrasis_0000259	eu	eu	osasun-arretaren lege berria	osasun-arretaren legea	FORWARD_ENTAILMENT	200082	200083
+dico_phrasis_0000259__eu-eu__original	dico_phrasis_0000259	eu	eu	osasun-arretaren legea	osasun-arretaren lege berria	BACKWARD_ENTAILMENT	200083	200082
+dico_phrasis_0000262__eu-eu__flipped	dico_phrasis_0000262	eu	eu	kritikari gehienen	kritikariak	FORWARD_ENTAILMENT	200084	200085
+dico_phrasis_0000262__eu-eu__original	dico_phrasis_0000262	eu	eu	kritikariak	kritikari gehienen	BACKWARD_ENTAILMENT	200085	200084
+dico_phrasis_0000263__eu-eu__flipped	dico_phrasis_0000263	eu	eu	Anaidi Musulmanari buruz	Anaidiari buruz	FORWARD_ENTAILMENT	200086	200087
+dico_phrasis_0000263__eu-eu__original	dico_phrasis_0000263	eu	eu	Anaidiari buruz	Anaidi Musulmanari buruz	BACKWARD_ENTAILMENT	200087	200086
+dico_phrasis_0000271__eu-eu__flipped	dico_phrasis_0000271	eu	eu	AEBetako akzioak	Akzioak	FORWARD_ENTAILMENT	200088	200089
+dico_phrasis_0000271__eu-eu__original	dico_phrasis_0000271	eu	eu	Akzioak	AEBetako akzioak	BACKWARD_ENTAILMENT	200089	200088
+dico_phrasis_0000277__eu-eu__flipped	dico_phrasis_0000277	eu	eu	iktusa	osasun-arazoa	FORWARD_ENTAILMENT	200090	200091
+dico_phrasis_0000277__eu-eu__original	dico_phrasis_0000277	eu	eu	osasun-arazoa	iktusa	BACKWARD_ENTAILMENT	200091	200090
+dico_phrasis_0000279__eu-eu__flipped	dico_phrasis_0000279	eu	eu	11 haur afganiar	bi haur afganiar	FORWARD_ENTAILMENT	200092	200093
+dico_phrasis_0000279__eu-eu__original	dico_phrasis_0000279	eu	eu	bi haur afganiar	11 haur afganiar	BACKWARD_ENTAILMENT	200093	200092
+dico_phrasis_0000283__eu-eu__flipped	dico_phrasis_0000283	eu	eu	Anaia Musulmanen aldekoak	Anaia Musulmanen aldekoa	FORWARD_ENTAILMENT	200094	200095
+dico_phrasis_0000283__eu-eu__original	dico_phrasis_0000283	eu	eu	Anaia Musulmanen aldekoa	Anaia Musulmanen aldekoak	BACKWARD_ENTAILMENT	200095	200094
+dico_phrasis_0000284__eu-eu__flipped	dico_phrasis_0000284	eu	eu	ostegunean	osteguna	FORWARD_ENTAILMENT	200096	200097
+dico_phrasis_0000284__eu-eu__original	dico_phrasis_0000284	eu	eu	osteguna	ostegunean	BACKWARD_ENTAILMENT	200097	200096
+dico_phrasis_0000290__eu-eu__flipped	dico_phrasis_0000290	eu	eu	itzulerarako	itzulera	FORWARD_ENTAILMENT	200098	200099
+dico_phrasis_0000290__eu-eu__original	dico_phrasis_0000290	eu	eu	itzulera	itzulerarako	BACKWARD_ENTAILMENT	200099	200098
+dico_phrasis_0000294__eu-eu__flipped	dico_phrasis_0000294	eu	eu	Siriako arma kimikoen erasoan	Siriako erasoan	FORWARD_ENTAILMENT	200100	200101
+dico_phrasis_0000294__eu-eu__original	dico_phrasis_0000294	eu	eu	Siriako erasoan	Siriako arma kimikoen erasoan	BACKWARD_ENTAILMENT	200101	200100
+dico_phrasis_0000303__eu-eu__flipped	dico_phrasis_0000303	eu	eu	otoitzean eta kantuan	otoitz egiten du	FORWARD_ENTAILMENT	200102	200103
+dico_phrasis_0000303__eu-eu__original	dico_phrasis_0000303	eu	eu	otoitz egiten du	otoitzean eta kantuan	BACKWARD_ENTAILMENT	200103	200102
+dico_phrasis_0000328__eu-eu__flipped	dico_phrasis_0000328	eu	eu	Pakistanen ipar-mendebaldean	Pak-en	FORWARD_ENTAILMENT	200104	200105
+dico_phrasis_0000328__eu-eu__original	dico_phrasis_0000328	eu	eu	Pak-en	Pakistanen ipar-mendebaldean	BACKWARD_ENTAILMENT	200105	200104
+dico_phrasis_0000329__eu-eu__flipped	dico_phrasis_0000329	eu	eu	atentatugile suizidak	atentatugile suizida	FORWARD_ENTAILMENT	200106	200107
+dico_phrasis_0000329__eu-eu__original	dico_phrasis_0000329	eu	eu	atentatugile suizida	atentatugile suizidak	BACKWARD_ENTAILMENT	200107	200106
+dico_phrasis_0000331__eu-eu__flipped	dico_phrasis_0000331	eu	eu	Txina eta Taiwan	Txina	FORWARD_ENTAILMENT	200108	200109
+dico_phrasis_0000331__eu-eu__original	dico_phrasis_0000331	eu	eu	Txina	Txina eta Taiwan	BACKWARD_ENTAILMENT	200109	200108
+dico_phrasis_0000340__eu-eu__flipped	dico_phrasis_0000340	eu	eu	aireko erasoak	erasoak	FORWARD_ENTAILMENT	200110	200111
+dico_phrasis_0000340__eu-eu__original	dico_phrasis_0000340	eu	eu	erasoak	aireko erasoak	BACKWARD_ENTAILMENT	200111	200110
+dico_phrasis_0000345__eu-eu__flipped	dico_phrasis_0000345	eu	eu	Zimmermanen ondoren	George Zimmerman	FORWARD_ENTAILMENT	200112	200113
+dico_phrasis_0000345__eu-eu__original	dico_phrasis_0000345	eu	eu	George Zimmerman	Zimmermanen ondoren	BACKWARD_ENTAILMENT	200113	200112
+dico_phrasis_0000350__eu-eu__flipped	dico_phrasis_0000350	eu	eu	pertsona guztien artean	8-10 pertsona	FORWARD_ENTAILMENT	200114	200115
+dico_phrasis_0000350__eu-eu__original	dico_phrasis_0000350	eu	eu	8-10 pertsona	pertsona guztien artean	BACKWARD_ENTAILMENT	200115	200114
+dico_phrasis_0000370__eu-eu__flipped	dico_phrasis_0000370	eu	eu	Siriako ekintza militarrari buruz	Siriako ekintzaren inguruan	FORWARD_ENTAILMENT	200116	200117
+dico_phrasis_0000370__eu-eu__original	dico_phrasis_0000370	eu	eu	Siriako ekintzaren inguruan	Siriako ekintza militarrari buruz	BACKWARD_ENTAILMENT	200117	200116
+dico_phrasis_0000375__eu-eu__flipped	dico_phrasis_0000375	eu	eu	adierazpen bat egitea	hitz egitea	FORWARD_ENTAILMENT	200118	200119
+dico_phrasis_0000375__eu-eu__original	dico_phrasis_0000375	eu	eu	hitz egitea	adierazpen bat egitea	BACKWARD_ENTAILMENT	200119	200118
+dico_phrasis_0000391__eu-eu__flipped	dico_phrasis_0000391	eu	eu	Britainia Handiko ospitalea	ospitalea	FORWARD_ENTAILMENT	200120	200121
+dico_phrasis_0000391__eu-eu__original	dico_phrasis_0000391	eu	eu	ospitalea	Britainia Handiko ospitalea	BACKWARD_ENTAILMENT	200121	200120
+dico_phrasis_0000393__eu-eu__flipped	dico_phrasis_0000393	eu	eu	diamanteei ezarritako zigorrak	zigorrak	FORWARD_ENTAILMENT	200122	200123
+dico_phrasis_0000393__eu-eu__original	dico_phrasis_0000393	eu	eu	zigorrak	diamanteei ezarritako zigorrak	BACKWARD_ENTAILMENT	200123	200122
+dico_phrasis_0000405__eu-eu__flipped	dico_phrasis_0000405	eu	eu	Morsiren mitinetan	Morsiren mitinean	FORWARD_ENTAILMENT	200124	200125
+dico_phrasis_0000405__eu-eu__original	dico_phrasis_0000405	eu	eu	Morsiren mitinean	Morsiren mitinetan	BACKWARD_ENTAILMENT	200125	200124
+dico_phrasis_0000421__eu-eu__flipped	dico_phrasis_0000421	eu	eu	Mubaraken askapen-eskaera	Mubaraken askapena	FORWARD_ENTAILMENT	200126	200127
+dico_phrasis_0000421__eu-eu__original	dico_phrasis_0000421	eu	eu	Mubaraken askapena	Mubaraken askapen-eskaera	BACKWARD_ENTAILMENT	200127	200126
+dico_phrasis_0000425__eu-eu__flipped	dico_phrasis_0000425	eu	eu	ekonomiari buruz	ekonomia	FORWARD_ENTAILMENT	200128	200129
+dico_phrasis_0000425__eu-eu__original	dico_phrasis_0000425	eu	eu	ekonomia	ekonomiari buruz	BACKWARD_ENTAILMENT	200129	200128
+dico_phrasis_0000432__eu-eu__flipped	dico_phrasis_0000432	eu	eu	top beltz batekin eta lepoko batekin	lepoko handi batekin	FORWARD_ENTAILMENT	200130	200131
+dico_phrasis_0000432__eu-eu__original	dico_phrasis_0000432	eu	eu	lepoko handi batekin	top beltz batekin eta lepoko batekin	BACKWARD_ENTAILMENT	200131	200130
+dico_phrasis_0000444__eu-eu__flipped	dico_phrasis_0000444	eu	eu	zelai berde oparo batean	zelaian	FORWARD_ENTAILMENT	200132	200133
+dico_phrasis_0000444__eu-eu__original	dico_phrasis_0000444	eu	eu	zelaian	zelai berde oparo batean	BACKWARD_ENTAILMENT	200133	200132
+dico_phrasis_0000447__eu-eu__flipped	dico_phrasis_0000447	eu	eu	Lau pertsona	Bi pertsona	FORWARD_ENTAILMENT	200134	200135
+dico_phrasis_0000447__eu-eu__original	dico_phrasis_0000447	eu	eu	Bi pertsona	Lau pertsona	BACKWARD_ENTAILMENT	200135	200134
+dico_phrasis_0000449__eu-eu__flipped	dico_phrasis_0000449	eu	eu	Auto beltz bat	Ibilgailu beltz bat	FORWARD_ENTAILMENT	200136	200137
+dico_phrasis_0000449__eu-eu__original	dico_phrasis_0000449	eu	eu	Ibilgailu beltz bat	Auto beltz bat	BACKWARD_ENTAILMENT	200137	200136
+dico_phrasis_0000452__eu-eu__flipped	dico_phrasis_0000452	eu	eu	Txakur txiki, laranja-koloreko eta zuri bat	Txakur marroixka eta zuri bat	FORWARD_ENTAILMENT	200138	200139
+dico_phrasis_0000452__eu-eu__original	dico_phrasis_0000452	eu	eu	Txakur marroixka eta zuri bat	Txakur txiki, laranja-koloreko eta zuri bat	BACKWARD_ENTAILMENT	200139	200138
+dico_phrasis_0000453__eu-eu__flipped	dico_phrasis_0000453	eu	eu	gora begiratzen	begiratzen	FORWARD_ENTAILMENT	200140	200141
+dico_phrasis_0000453__eu-eu__original	dico_phrasis_0000453	eu	eu	begiratzen	gora begiratzen	BACKWARD_ENTAILMENT	200141	200140
+dico_phrasis_0000466__eu-eu__flipped	dico_phrasis_0000466	eu	eu	Ardi handi bat	Ardi bat	FORWARD_ENTAILMENT	200142	200143
+dico_phrasis_0000466__eu-eu__original	dico_phrasis_0000466	eu	eu	Ardi bat	Ardi handi bat	BACKWARD_ENTAILMENT	200143	200142
+dico_phrasis_0000469__eu-eu__flipped	dico_phrasis_0000469	eu	eu	Ingalaterrako autobus gorri eta zuri bat	Autobus gorri eta zuri bat	FORWARD_ENTAILMENT	200144	200145
+dico_phrasis_0000469__eu-eu__original	dico_phrasis_0000469	eu	eu	Autobus gorri eta zuri bat	Ingalaterrako autobus gorri eta zuri bat	BACKWARD_ENTAILMENT	200145	200144
+dico_phrasis_0000487__eu-eu__flipped	dico_phrasis_0000487	eu	eu	adarretan	adarrean	FORWARD_ENTAILMENT	200146	200147
+dico_phrasis_0000487__eu-eu__original	dico_phrasis_0000487	eu	eu	adarrean	adarretan	BACKWARD_ENTAILMENT	200147	200146
+dico_phrasis_0000493__eu-eu__flipped	dico_phrasis_0000493	eu	eu	zaldi marroiaren gainean	zaldi bat	FORWARD_ENTAILMENT	200148	200149
+dico_phrasis_0000493__eu-eu__original	dico_phrasis_0000493	eu	eu	zaldi bat	zaldi marroiaren gainean	BACKWARD_ENTAILMENT	200149	200148
+dico_phrasis_0000495__eu-eu__flipped	dico_phrasis_0000495	eu	eu	Lurrunezko tren beltz bat	Trena	FORWARD_ENTAILMENT	200150	200151
+dico_phrasis_0000495__eu-eu__original	dico_phrasis_0000495	eu	eu	Trena	Lurrunezko tren beltz bat	BACKWARD_ENTAILMENT	200151	200150
+dico_phrasis_0000497__eu-eu__flipped	dico_phrasis_0000497	eu	eu	aireratze-pista baten	aireportutik	FORWARD_ENTAILMENT	200152	200153
+dico_phrasis_0000497__eu-eu__original	dico_phrasis_0000497	eu	eu	aireportutik	aireratze-pista baten	BACKWARD_ENTAILMENT	200153	200152
+dico_phrasis_0000499__eu-eu__flipped	dico_phrasis_0000499	eu	eu	behi-gaiko eta larruz estalitako kupula baten barruan	itxitura iletsu zuri-beltz baten barruan	FORWARD_ENTAILMENT	200154	200155
+dico_phrasis_0000499__eu-eu__original	dico_phrasis_0000499	eu	eu	itxitura iletsu zuri-beltz baten barruan	behi-gaiko eta larruz estalitako kupula baten barruan	BACKWARD_ENTAILMENT	200155	200154
+dico_phrasis_0000514__eu-eu__flipped	dico_phrasis_0000514	eu	eu	txori-elikagailutik	elikagailutik	FORWARD_ENTAILMENT	200156	200157
+dico_phrasis_0000514__eu-eu__original	dico_phrasis_0000514	eu	eu	elikagailutik	txori-elikagailutik	BACKWARD_ENTAILMENT	200157	200156
+dico_phrasis_0000516__eu-eu__flipped	dico_phrasis_0000516	eu	eu	Txori txiki, gorri eta gris bat	Txori gorri bat	FORWARD_ENTAILMENT	200158	200159
+dico_phrasis_0000516__eu-eu__original	dico_phrasis_0000516	eu	eu	Txori gorri bat	Txori txiki, gorri eta gris bat	BACKWARD_ENTAILMENT	200159	200158
+dico_phrasis_0000540__eu-eu__flipped	dico_phrasis_0000540	eu	eu	belarra duen itxitura batean	belar artean	FORWARD_ENTAILMENT	200160	200161
+dico_phrasis_0000540__eu-eu__original	dico_phrasis_0000540	eu	eu	belar artean	belarra duen itxitura batean	BACKWARD_ENTAILMENT	200161	200160
+dico_phrasis_0000541__eu-eu__flipped	dico_phrasis_0000541	eu	eu	kalean zehar	kale bat	FORWARD_ENTAILMENT	200162	200163
+dico_phrasis_0000541__eu-eu__original	dico_phrasis_0000541	eu	eu	kale bat	kalean zehar	BACKWARD_ENTAILMENT	200163	200162
+dico_phrasis_0000552__eu-eu__flipped	dico_phrasis_0000552	eu	eu	Egurrezko jangela-mahaia duen jangela	Jangelako mahaia	FORWARD_ENTAILMENT	200164	200165
+dico_phrasis_0000552__eu-eu__original	dico_phrasis_0000552	eu	eu	Jangelako mahaia	Egurrezko jangela-mahaia duen jangela	BACKWARD_ENTAILMENT	200165	200164
+dico_phrasis_0000559__eu-eu__flipped	dico_phrasis_0000559	eu	eu	Gizon bat	Pertsona bat	FORWARD_ENTAILMENT	200166	200167
+dico_phrasis_0000559__eu-eu__original	dico_phrasis_0000559	eu	eu	Pertsona bat	Gizon bat	BACKWARD_ENTAILMENT	200167	200166
+dico_phrasis_0000560__eu-eu__flipped	dico_phrasis_0000560	eu	eu	Gehienbat beltza den tren bat	Tren beltz bat	FORWARD_ENTAILMENT	200168	200169
+dico_phrasis_0000560__eu-eu__original	dico_phrasis_0000560	eu	eu	Tren beltz bat	Gehienbat beltza den tren bat	BACKWARD_ENTAILMENT	200169	200168
+dico_phrasis_0000561__eu-eu__flipped	dico_phrasis_0000561	eu	eu	Txakur zuri bat	Animalia zuri bat	FORWARD_ENTAILMENT	200170	200171
+dico_phrasis_0000561__eu-eu__original	dico_phrasis_0000561	eu	eu	Animalia zuri bat	Txakur zuri bat	BACKWARD_ENTAILMENT	200171	200170
+dico_phrasis_0000562__eu-eu__flipped	dico_phrasis_0000562	eu	eu	leiho batean	leihoa	FORWARD_ENTAILMENT	200172	200173
+dico_phrasis_0000562__eu-eu__original	dico_phrasis_0000562	eu	eu	leihoa	leiho batean	BACKWARD_ENTAILMENT	200173	200172
+dico_phrasis_0000568__eu-eu__flipped	dico_phrasis_0000568	eu	eu	Aparkatutako bi solairuko autobus gorri eta zuri bat	Aparkatutako bi solairuko autobus zuri bat	FORWARD_ENTAILMENT	200174	200175
+dico_phrasis_0000568__eu-eu__original	dico_phrasis_0000568	eu	eu	Aparkatutako bi solairuko autobus zuri bat	Aparkatutako bi solairuko autobus gorri eta zuri bat	BACKWARD_ENTAILMENT	200175	200174
+dico_phrasis_0000602__eu-eu__flipped	dico_phrasis_0000602	eu	eu	Katu gris, beltz eta zuri bat	Katu beltz eta zuria	FORWARD_ENTAILMENT	200176	200177
+dico_phrasis_0000602__eu-eu__original	dico_phrasis_0000602	eu	eu	Katu beltz eta zuria	Katu gris, beltz eta zuri bat	BACKWARD_ENTAILMENT	200177	200176
+dico_phrasis_0000604__eu-eu__flipped	dico_phrasis_0000604	eu	eu	Txakur zuri txiki bat	Txakur txikia	FORWARD_ENTAILMENT	200178	200179
+dico_phrasis_0000604__eu-eu__original	dico_phrasis_0000604	eu	eu	Txakur txikia	Txakur zuri txiki bat	BACKWARD_ENTAILMENT	200179	200178
+dico_phrasis_0000614__eu-eu__flipped	dico_phrasis_0000614	eu	eu	txakurkume batekin	txakur batekin	FORWARD_ENTAILMENT	200180	200181
+dico_phrasis_0000614__eu-eu__original	dico_phrasis_0000614	eu	eu	txakur batekin	txakurkume batekin	BACKWARD_ENTAILMENT	200181	200180
+dico_phrasis_0000616__eu-eu__flipped	dico_phrasis_0000616	eu	eu	horman muntatutako pantaila lauko telebista	telebista-pantaila baten	FORWARD_ENTAILMENT	200182	200183
+dico_phrasis_0000616__eu-eu__original	dico_phrasis_0000616	eu	eu	telebista-pantaila baten	horman muntatutako pantaila lauko telebista	BACKWARD_ENTAILMENT	200183	200182
+dico_phrasis_0000618__eu-eu__flipped	dico_phrasis_0000618	eu	eu	Bi emakume	Bi pertsona	FORWARD_ENTAILMENT	200184	200185
+dico_phrasis_0000618__eu-eu__original	dico_phrasis_0000618	eu	eu	Bi pertsona	Bi emakume	BACKWARD_ENTAILMENT	200185	200184
+dico_phrasis_0000619__eu-eu__flipped	dico_phrasis_0000619	eu	eu	Pertsona talde bat	Sei pertsona	FORWARD_ENTAILMENT	200186	200187
+dico_phrasis_0000619__eu-eu__original	dico_phrasis_0000619	eu	eu	Sei pertsona	Pertsona talde bat	BACKWARD_ENTAILMENT	200187	200186
+dico_phrasis_0000623__eu-eu__flipped	dico_phrasis_0000623	eu	eu	haur jaioberri batekin	haurtxo bat	FORWARD_ENTAILMENT	200188	200189
+dico_phrasis_0000623__eu-eu__original	dico_phrasis_0000623	eu	eu	haurtxo bat	haur jaioberri batekin	BACKWARD_ENTAILMENT	200189	200188
+dico_phrasis_0000632__eu-eu__flipped	dico_phrasis_0000632	eu	eu	bere lurreratze-trenekin	bere lurreratze-trenarekin	FORWARD_ENTAILMENT	200190	200191
+dico_phrasis_0000632__eu-eu__original	dico_phrasis_0000632	eu	eu	bere lurreratze-trenarekin	bere lurreratze-trenekin	BACKWARD_ENTAILMENT	200191	200190
+dico_phrasis_0000641__eu-eu__flipped	dico_phrasis_0000641	eu	eu	Bhuttoren heriotzaren inguruan	Bhuttoren hilketaren inguruan	EQUIVALENCE	200192	200193
+dico_phrasis_0000641__eu-eu__original	dico_phrasis_0000641	eu	eu	Bhuttoren hilketaren inguruan	Bhuttoren heriotzaren inguruan	EQUIVALENCE	200193	200192
+dico_phrasis_0000661__eu-eu__flipped	dico_phrasis_0000661	eu	eu	ekarri	ekartzen du	EQUIVALENCE	200194	200195
+dico_phrasis_0000661__eu-eu__original	dico_phrasis_0000661	eu	eu	ekartzen du	ekarri	EQUIVALENCE	200195	200194
+dico_phrasis_0000711__eu-eu__flipped	dico_phrasis_0000711	eu	eu	sobornatzea	diruz erostea	EQUIVALENCE	200196	200197
+dico_phrasis_0000711__eu-eu__original	dico_phrasis_0000711	eu	eu	diruz erostea	sobornatzea	EQUIVALENCE	200197	200196
+dico_phrasis_0000712__eu-eu__flipped	dico_phrasis_0000712	eu	eu	Microsoften produktibitaterako software-paketea	Microsoft Office	EQUIVALENCE	200198	200199
+dico_phrasis_0000712__eu-eu__original	dico_phrasis_0000712	eu	eu	Microsoft Office	Microsoften produktibitaterako software-paketea	EQUIVALENCE	200199	200198
+dico_phrasis_0000721__eu-eu__flipped	dico_phrasis_0000721	eu	eu	Ovadia Yosef errabinoa	Ovadia Yosef	EQUIVALENCE	200200	200201
+dico_phrasis_0000721__eu-eu__original	dico_phrasis_0000721	eu	eu	Ovadia Yosef	Ovadia Yosef errabinoa	EQUIVALENCE	200201	200200
+dico_phrasis_0000724__eu-eu__flipped	dico_phrasis_0000724	eu	eu	Gizon bat eta emakume bat	Emakume bat eta gizon bat	EQUIVALENCE	200202	200203
+dico_phrasis_0000724__eu-eu__original	dico_phrasis_0000724	eu	eu	Emakume bat eta gizon bat	Gizon bat eta emakume bat	EQUIVALENCE	200203	200202
+dico_phrasis_0000725__eu-eu__flipped	dico_phrasis_0000725	eu	eu	Irudi baterako	Argazki baterako	EQUIVALENCE	200204	200205
+dico_phrasis_0000725__eu-eu__original	dico_phrasis_0000725	eu	eu	Argazki baterako	Irudi baterako	EQUIVALENCE	200205	200204
+dico_phrasis_0000726__eu-eu__flipped	dico_phrasis_0000726	eu	eu	Mutil gazte bat	Mutiko gaztetxo bat	EQUIVALENCE	200206	200207
+dico_phrasis_0000726__eu-eu__original	dico_phrasis_0000726	eu	eu	Mutiko gaztetxo bat	Mutil gazte bat	EQUIVALENCE	200207	200206
+dico_phrasis_0000729__eu-eu__flipped	dico_phrasis_0000729	eu	eu	Emakume bat	Emakume heldu bat	EQUIVALENCE	200208	200209
+dico_phrasis_0000729__eu-eu__original	dico_phrasis_0000729	eu	eu	Emakume heldu bat	Emakume bat	EQUIVALENCE	200209	200208
+dico_phrasis_0000731__eu-eu__flipped	dico_phrasis_0000731	eu	eu	igerileku baten barruan	igerilekuan	EQUIVALENCE	200210	200211
+dico_phrasis_0000731__eu-eu__original	dico_phrasis_0000731	eu	eu	igerilekuan	igerileku baten barruan	EQUIVALENCE	200211	200210
+dico_phrasis_0000732__eu-eu__flipped	dico_phrasis_0000732	eu	eu	jauzika ari da	jauzi egiten ari da	EQUIVALENCE	200212	200213
+dico_phrasis_0000732__eu-eu__original	dico_phrasis_0000732	eu	eu	jauzi egiten ari da	jauzika ari da	EQUIVALENCE	200213	200212
+dico_phrasis_0000733__eu-eu__flipped	dico_phrasis_0000733	eu	eu	belarretan barrena	belar-eremuan zehar	EQUIVALENCE	200214	200215
+dico_phrasis_0000733__eu-eu__original	dico_phrasis_0000733	eu	eu	belar-eremuan zehar	belarretan barrena	EQUIVALENCE	200215	200214
+dico_phrasis_0000743__eu-eu__flipped	dico_phrasis_0000743	eu	eu	urpean dago	uretan murgilduta	EQUIVALENCE	200216	200217
+dico_phrasis_0000743__eu-eu__original	dico_phrasis_0000743	eu	eu	uretan murgilduta	urpean dago	EQUIVALENCE	200217	200216
+dico_phrasis_0000752__eu-eu__flipped	dico_phrasis_0000752	eu	eu	uretan murgilduta	uretan	EQUIVALENCE	200218	200219
+dico_phrasis_0000752__eu-eu__original	dico_phrasis_0000752	eu	eu	uretan	uretan murgilduta	EQUIVALENCE	200219	200218
+dico_phrasis_0000768__eu-eu__flipped	dico_phrasis_0000768	eu	eu	jolasten dira	jolasten ari dira	EQUIVALENCE	200220	200221
+dico_phrasis_0000768__eu-eu__original	dico_phrasis_0000768	eu	eu	jolasten ari dira	jolasten dira	EQUIVALENCE	200221	200220
+dico_phrasis_0000788__eu-eu__flipped	dico_phrasis_0000788	eu	eu	buruz behera	alderantziz	EQUIVALENCE	200222	200223
+dico_phrasis_0000788__eu-eu__original	dico_phrasis_0000788	eu	eu	alderantziz	buruz behera	EQUIVALENCE	200223	200222
+dico_phrasis_0000801__eu-eu__flipped	dico_phrasis_0000801	eu	eu	itsasertzerantz	itsasertzaren norabidean	EQUIVALENCE	200224	200225
+dico_phrasis_0000801__eu-eu__original	dico_phrasis_0000801	eu	eu	itsasertzaren norabidean	itsasertzerantz	EQUIVALENCE	200225	200224
+dico_phrasis_0000808__eu-eu__flipped	dico_phrasis_0000808	eu	eu	beagle bat	beagle arrazako txakurra	EQUIVALENCE	200226	200227
+dico_phrasis_0000808__eu-eu__original	dico_phrasis_0000808	eu	eu	beagle arrazako txakurra	beagle bat	EQUIVALENCE	200227	200226
+dico_phrasis_0000811__eu-eu__flipped	dico_phrasis_0000811	eu	eu	hondartza batean	itsasertz batean	EQUIVALENCE	200228	200229
+dico_phrasis_0000811__eu-eu__original	dico_phrasis_0000811	eu	eu	itsasertz batean	hondartza batean	EQUIVALENCE	200229	200228
+dico_phrasis_0000815__eu-eu__flipped	dico_phrasis_0000815	eu	eu	korrika ari da	korrika mugitzen ari da	EQUIVALENCE	200230	200231
+dico_phrasis_0000815__eu-eu__original	dico_phrasis_0000815	eu	eu	korrika mugitzen ari da	korrika ari da	EQUIVALENCE	200231	200230
+dico_phrasis_0000817__eu-eu__flipped	dico_phrasis_0000817	eu	eu	ur ondoko harkaitzetan	kostalde harritsu batean	EQUIVALENCE	200232	200233
+dico_phrasis_0000817__eu-eu__original	dico_phrasis_0000817	eu	eu	kostalde harritsu batean	ur ondoko harkaitzetan	EQUIVALENCE	200233	200232
+dico_phrasis_0000825__eu-eu__flipped	dico_phrasis_0000825	eu	eu	elurretan barrena	elurrez estalitako lurrean zehar	EQUIVALENCE	200234	200235
+dico_phrasis_0000825__eu-eu__original	dico_phrasis_0000825	eu	eu	elurrez estalitako lurrean zehar	elurretan barrena	EQUIVALENCE	200235	200234
+dico_phrasis_0000833__eu-eu__flipped	dico_phrasis_0000833	eu	eu	beisbol-pilota bat eskuan duela	beisbol-pilota batekin	EQUIVALENCE	200236	200237
+dico_phrasis_0000833__eu-eu__original	dico_phrasis_0000833	eu	eu	beisbol-pilota batekin	beisbol-pilota bat eskuan duela	EQUIVALENCE	200237	200236
+dico_phrasis_0000842__eu-eu__flipped	dico_phrasis_0000842	eu	eu	errebotatzen ari da	errebotatzen du	EQUIVALENCE	200238	200239
+dico_phrasis_0000842__eu-eu__original	dico_phrasis_0000842	eu	eu	errebotatzen du	errebotatzen ari da	EQUIVALENCE	200239	200238
+dico_phrasis_0000845__eu-eu__flipped	dico_phrasis_0000845	eu	eu	zabu batean eserita	zabu batean	EQUIVALENCE	200240	200241
+dico_phrasis_0000845__eu-eu__original	dico_phrasis_0000845	eu	eu	zabu batean	zabu batean eserita	EQUIVALENCE	200241	200240
+dico_phrasis_0000846__eu-eu__flipped	dico_phrasis_0000846	eu	eu	harrapatu aurretik	harrapatzear	EQUIVALENCE	200242	200243
+dico_phrasis_0000846__eu-eu__original	dico_phrasis_0000846	eu	eu	harrapatzear	harrapatu aurretik	EQUIVALENCE	200243	200242
+dico_phrasis_0000855__eu-eu__flipped	dico_phrasis_0000855	eu	eu	zutik dago	zutik jarraitzen	EQUIVALENCE	200244	200245
+dico_phrasis_0000855__eu-eu__original	dico_phrasis_0000855	eu	eu	zutik jarraitzen	zutik dago	EQUIVALENCE	200245	200244
+dico_phrasis_0000859__eu-eu__flipped	dico_phrasis_0000859	eu	eu	91 urte zituela	91 urterekin	EQUIVALENCE	200246	200247
+dico_phrasis_0000859__eu-eu__original	dico_phrasis_0000859	eu	eu	91 urterekin	91 urte zituela	EQUIVALENCE	200247	200246
+dico_phrasis_0000866__eu-eu__flipped	dico_phrasis_0000866	eu	eu	familia-elkartzeak	Familia-bilerak	EQUIVALENCE	200248	200249
+dico_phrasis_0000866__eu-eu__original	dico_phrasis_0000866	eu	eu	Familia-bilerak	familia-elkartzeak	EQUIVALENCE	200249	200248
+dico_phrasis_0000875__eu-eu__flipped	dico_phrasis_0000875	eu	eu	gaixotu	gaixo	EQUIVALENCE	200250	200251
+dico_phrasis_0000875__eu-eu__original	dico_phrasis_0000875	eu	eu	gaixo	gaixotu	EQUIVALENCE	200251	200250
+dico_phrasis_0000876__eu-eu__flipped	dico_phrasis_0000876	eu	eu	Bi kazetari frantziar	2 kazetari frantziar	EQUIVALENCE	200252	200253
+dico_phrasis_0000876__eu-eu__original	dico_phrasis_0000876	eu	eu	2 kazetari frantziar	Bi kazetari frantziar	EQUIVALENCE	200253	200252
+dico_phrasis_0000895__eu-eu__flipped	dico_phrasis_0000895	eu	eu	Texasko ongarri-fabrikako leherketaren	Texasko ongarri-fabrikako leherketan	EQUIVALENCE	200254	200255
+dico_phrasis_0000895__eu-eu__original	dico_phrasis_0000895	eu	eu	Texasko ongarri-fabrikako leherketan	Texasko ongarri-fabrikako leherketaren	EQUIVALENCE	200255	200254
+dico_phrasis_0000896__eu-eu__flipped	dico_phrasis_0000896	eu	eu	AEB	AEBak	EQUIVALENCE	200256	200257
+dico_phrasis_0000896__eu-eu__original	dico_phrasis_0000896	eu	eu	AEBak	AEB	EQUIVALENCE	200257	200256
+dico_phrasis_0000906__eu-eu__flipped	dico_phrasis_0000906	eu	eu	konstituzio berrian	herrialdeak onartu berri duen konstituzioaren barruan	EQUIVALENCE	200258	200259
+dico_phrasis_0000906__eu-eu__original	dico_phrasis_0000906	eu	eu	herrialdeak onartu berri duen konstituzioaren barruan	konstituzio berrian	EQUIVALENCE	200259	200258
+dico_phrasis_0000931__eu-eu__flipped	dico_phrasis_0000931	eu	eu	Irango enbaxadatik gertu	Iranen enbaxadaren inguruan	EQUIVALENCE	200260	200261
+dico_phrasis_0000931__eu-eu__original	dico_phrasis_0000931	eu	eu	Iranen enbaxadaren inguruan	Irango enbaxadatik gertu	EQUIVALENCE	200261	200260
+dico_phrasis_0000933__eu-eu__flipped	dico_phrasis_0000933	eu	eu	ez dela egia dio	ukatzen du	EQUIVALENCE	200262	200263
+dico_phrasis_0000933__eu-eu__original	dico_phrasis_0000933	eu	eu	ukatzen du	ez dela egia dio	EQUIVALENCE	200263	200262
+dico_phrasis_0000936__eu-eu__flipped	dico_phrasis_0000936	eu	eu	presidentetzarako hauteskunde berriak	presidentea hautatzeko hauteskunde berriak	EQUIVALENCE	200264	200265
+dico_phrasis_0000936__eu-eu__original	dico_phrasis_0000936	eu	eu	presidentea hautatzeko hauteskunde berriak	presidentetzarako hauteskunde berriak	EQUIVALENCE	200265	200264
+dico_phrasis_0000939__eu-eu__flipped	dico_phrasis_0000939	eu	eu	epaile batek	epaile batek emana	EQUIVALENCE	200266	200267
+dico_phrasis_0000939__eu-eu__original	dico_phrasis_0000939	eu	eu	epaile batek emana	epaile batek	EQUIVALENCE	200267	200266
+dico_phrasis_0000942__eu-eu__flipped	dico_phrasis_0000942	eu	eu	Ekialdeko kostaldea	Estatu Batuetako ekialdeko kostaldea	EQUIVALENCE	200268	200269
+dico_phrasis_0000942__eu-eu__original	dico_phrasis_0000942	eu	eu	Estatu Batuetako ekialdeko kostaldea	Ekialdeko kostaldea	EQUIVALENCE	200269	200268
+dico_phrasis_0000943__eu-eu__flipped	dico_phrasis_0000943	eu	eu	gora lerratzea	kremailera igotzen	EQUIVALENCE	200270	200271
+dico_phrasis_0000943__eu-eu__original	dico_phrasis_0000943	eu	eu	kremailera igotzen	gora lerratzea	EQUIVALENCE	200271	200270
+dico_phrasis_0000948__eu-eu__flipped	dico_phrasis_0000948	eu	eu	poliziaren errepresioaren harira	poliziaren indarkeriaren harira	EQUIVALENCE	200272	200273
+dico_phrasis_0000948__eu-eu__original	dico_phrasis_0000948	eu	eu	poliziaren indarkeriaren harira	poliziaren errepresioaren harira	EQUIVALENCE	200273	200272
+dico_phrasis_0000950__eu-eu__flipped	dico_phrasis_0000950	eu	eu	aditzera ematea	iragartzea	EQUIVALENCE	200274	200275
+dico_phrasis_0000950__eu-eu__original	dico_phrasis_0000950	eu	eu	iragartzea	aditzera ematea	EQUIVALENCE	200275	200274
+dico_phrasis_0000952__eu-eu__flipped	dico_phrasis_0000952	eu	eu	errupiaren krisi gisa	errupiaren kolapso gisa	EQUIVALENCE	200276	200277
+dico_phrasis_0000952__eu-eu__original	dico_phrasis_0000952	eu	eu	errupiaren kolapso gisa	errupiaren krisi gisa	EQUIVALENCE	200277	200276
+dico_phrasis_0000953__eu-eu__flipped	dico_phrasis_0000953	eu	eu	sexu berekoen arteko ezkontza	ezkontza homosexuala	EQUIVALENCE	200278	200279
+dico_phrasis_0000953__eu-eu__original	dico_phrasis_0000953	eu	eu	ezkontza homosexuala	sexu berekoen arteko ezkontza	EQUIVALENCE	200279	200278
+dico_phrasis_0000954__eu-eu__flipped	dico_phrasis_0000954	eu	eu	arte martzialetako eskolak	arte martzialetako klubak	EQUIVALENCE	200280	200281
+dico_phrasis_0000954__eu-eu__original	dico_phrasis_0000954	eu	eu	arte martzialetako klubak	arte martzialetako eskolak	EQUIVALENCE	200281	200280
+dico_phrasis_0000966__eu-eu__flipped	dico_phrasis_0000966	eu	eu	iparraldea . Europa	Europako iparraldea	EQUIVALENCE	200282	200283
+dico_phrasis_0000966__eu-eu__original	dico_phrasis_0000966	eu	eu	Europako iparraldea	iparraldea . Europa	EQUIVALENCE	200283	200282
+dico_phrasis_0000979__eu-eu__flipped	dico_phrasis_0000979	eu	eu	Morsiren aldeko protestaren ondoren	Morsiren aldeko protestetara	EQUIVALENCE	200284	200285
+dico_phrasis_0000979__eu-eu__original	dico_phrasis_0000979	eu	eu	Morsiren aldeko protestetara	Morsiren aldeko protestaren ondoren	EQUIVALENCE	200285	200284
+dico_phrasis_0000980__eu-eu__flipped	dico_phrasis_0000980	eu	eu	Bangladesheko eraikinaren kolapsoa	Bangladesheko eraikinaren hondamendia	EQUIVALENCE	200286	200287
+dico_phrasis_0000980__eu-eu__original	dico_phrasis_0000980	eu	eu	Bangladesheko eraikinaren hondamendia	Bangladesheko eraikinaren kolapsoa	EQUIVALENCE	200287	200286
+dico_phrasis_0000982__eu-eu__flipped	dico_phrasis_0000982	eu	eu	Belgikako autobus istripuan	Belgikako autokar istripuan	EQUIVALENCE	200288	200289
+dico_phrasis_0000982__eu-eu__original	dico_phrasis_0000982	eu	eu	Belgikako autokar istripuan	Belgikako autobus istripuan	EQUIVALENCE	200289	200288
+dico_phrasis_0000983__eu-eu__flipped	dico_phrasis_0000983	eu	eu	talde-bortxaketa bat jasan zuena	taldean bortxatua	EQUIVALENCE	200290	200291
+dico_phrasis_0000983__eu-eu__original	dico_phrasis_0000983	eu	eu	taldean bortxatua	talde-bortxaketa bat jasan zuena	EQUIVALENCE	200291	200290
+dico_phrasis_0000994__eu-eu__flipped	dico_phrasis_0000994	eu	eu	Maiatzeko etxebizitza	Etxebizitza maiatzean	EQUIVALENCE	200292	200293
+dico_phrasis_0000994__eu-eu__original	dico_phrasis_0000994	eu	eu	Etxebizitza maiatzean	Maiatzeko etxebizitza	EQUIVALENCE	200293	200292
+dico_phrasis_0001000__eu-eu__flipped	dico_phrasis_0001000	eu	eu	exekutatua	-ren exekuzioa	EQUIVALENCE	200294	200295
+dico_phrasis_0001000__eu-eu__original	dico_phrasis_0001000	eu	eu	-ren exekuzioa	exekutatua	EQUIVALENCE	200295	200294
+dico_phrasis_0001005__eu-eu__flipped	dico_phrasis_0001005	eu	eu	Kaliforniako gizon bat	Kaliforniako gizona	EQUIVALENCE	200296	200297
+dico_phrasis_0001005__eu-eu__original	dico_phrasis_0001005	eu	eu	Kaliforniako gizona	Kaliforniako gizon bat	EQUIVALENCE	200297	200296
+dico_phrasis_0001026__eu-eu__flipped	dico_phrasis_0001026	eu	eu	200 milioi USD	200 milioi dolar	EQUIVALENCE	200298	200299
+dico_phrasis_0001026__eu-eu__original	dico_phrasis_0001026	eu	eu	200 milioi dolar	200 milioi USD	EQUIVALENCE	200299	200298
+dico_phrasis_0001033__eu-eu__flipped	dico_phrasis_0001033	eu	eu	Washington Post	The Washington Post izeneko egunkaria	EQUIVALENCE	200300	200301
+dico_phrasis_0001033__eu-eu__original	dico_phrasis_0001033	eu	eu	The Washington Post izeneko egunkaria	Washington Post	EQUIVALENCE	200301	200300
+dico_phrasis_0001037__eu-eu__flipped	dico_phrasis_0001037	eu	eu	zaldun titulua	zaldun titulua ematen duen ohorea	EQUIVALENCE	200302	200303
+dico_phrasis_0001037__eu-eu__original	dico_phrasis_0001037	eu	eu	zaldun titulua ematen duen ohorea	zaldun titulua	EQUIVALENCE	200303	200302
+dico_phrasis_0001047__eu-eu__flipped	dico_phrasis_0001047	eu	eu	Facebooken mozkinak	Facebooken irabaziak	EQUIVALENCE	200304	200305
+dico_phrasis_0001047__eu-eu__original	dico_phrasis_0001047	eu	eu	Facebooken irabaziak	Facebooken mozkinak	EQUIVALENCE	200305	200304
+dico_phrasis_0001062__eu-eu__flipped	dico_phrasis_0001062	eu	eu	Rohani hautatu zutenetik	Rowhani hautatu zutenetik	EQUIVALENCE	200306	200307
+dico_phrasis_0001062__eu-eu__original	dico_phrasis_0001062	eu	eu	Rowhani hautatu zutenetik	Rohani hautatu zutenetik	EQUIVALENCE	200307	200306
+dico_phrasis_0001069__eu-eu__flipped	dico_phrasis_0001069	eu	eu	asiloa emateko	asiloa lortzeko	EQUIVALENCE	200308	200309
+dico_phrasis_0001069__eu-eu__original	dico_phrasis_0001069	eu	eu	asiloa lortzeko	asiloa emateko	EQUIVALENCE	200309	200308
+dico_phrasis_0001080__eu-eu__flipped	dico_phrasis_0001080	eu	eu	…ren arma kimikoak	produktu kimiko toxikoak erabiltzen dituzten armak	EQUIVALENCE	200310	200311
+dico_phrasis_0001080__eu-eu__original	dico_phrasis_0001080	eu	eu	produktu kimiko toxikoak erabiltzen dituzten armak	…ren arma kimikoak	EQUIVALENCE	200311	200310
+dico_phrasis_0001095__eu-eu__flipped	dico_phrasis_0001095	eu	eu	behi marroi eta zuri bat	kolore marroi eta zuriko behi bat	EQUIVALENCE	200312	200313
+dico_phrasis_0001095__eu-eu__original	dico_phrasis_0001095	eu	eu	kolore marroi eta zuriko behi bat	behi marroi eta zuri bat	EQUIVALENCE	200313	200312
+dico_phrasis_0001103__eu-eu__flipped	dico_phrasis_0001103	eu	eu	Katu gorrixka eta zuri bat	Katu laranja eta zuri bat	EQUIVALENCE	200314	200315
+dico_phrasis_0001103__eu-eu__original	dico_phrasis_0001103	eu	eu	Katu laranja eta zuri bat	Katu gorrixka eta zuri bat	EQUIVALENCE	200315	200314
+dico_phrasis_0001129__eu-eu__flipped	dico_phrasis_0001129	eu	eu	mutil bat	gizonezko haur bat	EQUIVALENCE	200316	200317
+dico_phrasis_0001129__eu-eu__original	dico_phrasis_0001129	eu	eu	gizonezko haur bat	mutil bat	EQUIVALENCE	200317	200316
+dico_phrasis_0001131__eu-eu__flipped	dico_phrasis_0001131	eu	eu	haiei dagozkien pneumatikoak	haien pneumatikoak	EQUIVALENCE	200318	200319
+dico_phrasis_0001131__eu-eu__original	dico_phrasis_0001131	eu	eu	haien pneumatikoak	haiei dagozkien pneumatikoak	EQUIVALENCE	200319	200318
+dico_phrasis_0001136__eu-eu__flipped	dico_phrasis_0001136	eu	eu	kalean	hiriko bide batean zehar	EQUIVALENCE	200320	200321
+dico_phrasis_0001136__eu-eu__original	dico_phrasis_0001136	eu	eu	hiriko bide batean zehar	kalean	EQUIVALENCE	200321	200320
+dico_phrasis_0001143__eu-eu__flipped	dico_phrasis_0001143	eu	eu	ile beltzeko txakurra	Txakur beltza	EQUIVALENCE	200322	200323
+dico_phrasis_0001143__eu-eu__original	dico_phrasis_0001143	eu	eu	Txakur beltza	ile beltzeko txakurra	EQUIVALENCE	200323	200322
+dico_phrasis_0001150__eu-eu__flipped	dico_phrasis_0001150	eu	eu	gauzaz betetako mahai baten alboan	mahai nahasi baten ondoan	EQUIVALENCE	200324	200325
+dico_phrasis_0001150__eu-eu__original	dico_phrasis_0001150	eu	eu	mahai nahasi baten ondoan	gauzaz betetako mahai baten alboan	EQUIVALENCE	200325	200324
+dico_phrasis_0001156__eu-eu__flipped	dico_phrasis_0001156	eu	eu	belar berdearen gainean	soropil baten gainean	EQUIVALENCE	200326	200327
+dico_phrasis_0001156__eu-eu__original	dico_phrasis_0001156	eu	eu	soropil baten gainean	belar berdearen gainean	EQUIVALENCE	200327	200326
+dico_phrasis_0001167__eu-eu__flipped	dico_phrasis_0001167	eu	eu	katu zuri-beltza	ile zuri-beltzeko felido bat	EQUIVALENCE	200328	200329
+dico_phrasis_0001167__eu-eu__original	dico_phrasis_0001167	eu	eu	ile zuri-beltzeko felido bat	katu zuri-beltza	EQUIVALENCE	200329	200328
+dico_phrasis_0001174__eu-eu__flipped	dico_phrasis_0001174	eu	eu	zurezko hondakinen	erabilitako zurezko eraikuntza-materialen	EQUIVALENCE	200330	200331
+dico_phrasis_0001174__eu-eu__original	dico_phrasis_0001174	eu	eu	erabilitako zurezko eraikuntza-materialen	zurezko hondakinen	EQUIVALENCE	200331	200330
+dico_phrasis_0001175__eu-eu__flipped	dico_phrasis_0001175	eu	eu	pila bat	meta bat	EQUIVALENCE	200332	200333
+dico_phrasis_0001175__eu-eu__original	dico_phrasis_0001175	eu	eu	meta bat	pila bat	EQUIVALENCE	200333	200332
+dico_phrasis_0001210__eu-eu__flipped	dico_phrasis_0001210	eu	eu	kamuflatutako hegazkin bat	kamuflaje-hegazkin bat	EQUIVALENCE	200334	200335
+dico_phrasis_0001210__eu-eu__original	dico_phrasis_0001210	eu	eu	kamuflaje-hegazkin bat	kamuflatutako hegazkin bat	EQUIVALENCE	200335	200334
+dico_phrasis_0001214__eu-eu__flipped	dico_phrasis_0001214	eu	eu	atxikita dago	helduta dago	EQUIVALENCE	200336	200337
+dico_phrasis_0001214__eu-eu__original	dico_phrasis_0001214	eu	eu	helduta dago	atxikita dago	EQUIVALENCE	200337	200336
+dico_phrasis_0001216__eu-eu__flipped	dico_phrasis_0001216	eu	eu	atzeko ikuspegia	atzetik ikusitako ikuspegia	EQUIVALENCE	200338	200339
+dico_phrasis_0001216__eu-eu__original	dico_phrasis_0001216	eu	eu	atzetik ikusitako ikuspegia	atzeko ikuspegia	EQUIVALENCE	200339	200338
+dico_phrasis_0001218__eu-eu__flipped	dico_phrasis_0001218	eu	eu	uraren gainazalean pausatuta	ur gainean	EQUIVALENCE	200340	200341
+dico_phrasis_0001218__eu-eu__original	dico_phrasis_0001218	eu	eu	ur gainean	uraren gainazalean pausatuta	EQUIVALENCE	200341	200340
+dico_phrasis_0001221__eu-eu__flipped	dico_phrasis_0001221	eu	eu	zuri-beltzeko argazki bat	argazki monokromo bat	EQUIVALENCE	200342	200343
+dico_phrasis_0001221__eu-eu__original	dico_phrasis_0001221	eu	eu	argazki monokromo bat	zuri-beltzeko argazki bat	EQUIVALENCE	200343	200342
+dico_phrasis_0001224__eu-eu__flipped	dico_phrasis_0001224	eu	eu	bizkarrera	bizkarrean	EQUIVALENCE	200344	200345
+dico_phrasis_0001224__eu-eu__original	dico_phrasis_0001224	eu	eu	bizkarrean	bizkarrera	EQUIVALENCE	200345	200344
+dico_phrasis_0001236__eu-eu__flipped	dico_phrasis_0001236	eu	eu	garraio-terminal batean	geltoki batean	EQUIVALENCE	200346	200347
+dico_phrasis_0001236__eu-eu__original	dico_phrasis_0001236	eu	eu	geltoki batean	garraio-terminal batean	EQUIVALENCE	200347	200346
+dico_phrasis_0001239__eu-eu__flipped	dico_phrasis_0001239	eu	eu	goian pausatuta	leku garaietan pausatuta	EQUIVALENCE	200348	200349
+dico_phrasis_0001239__eu-eu__original	dico_phrasis_0001239	eu	eu	leku garaietan pausatuta	goian pausatuta	EQUIVALENCE	200349	200348
+dico_phrasis_0001243__eu-eu__flipped	dico_phrasis_0001243	eu	eu	belardun zelai batean	belar berdeko zelai batean	EQUIVALENCE	200350	200351
+dico_phrasis_0001243__eu-eu__original	dico_phrasis_0001243	eu	eu	belar berdeko zelai batean	belardun zelai batean	EQUIVALENCE	200351	200350
+dico_phrasis_0001264__eu-eu__flipped	dico_phrasis_0001264	eu	eu	soinean	jantzita	EQUIVALENCE	200352	200353
+dico_phrasis_0001264__eu-eu__original	dico_phrasis_0001264	eu	eu	jantzita	soinean	EQUIVALENCE	200353	200352
+dico_phrasis_0001265__eu-eu__flipped	dico_phrasis_0001265	eu	eu	zeharkatzen ari dira	alde batetik bestera mugitzen	EQUIVALENCE	200354	200355
+dico_phrasis_0001265__eu-eu__original	dico_phrasis_0001265	eu	eu	alde batetik bestera mugitzen	zeharkatzen ari dira	EQUIVALENCE	200355	200354
+dico_phrasis_0001279__eu-eu__flipped	dico_phrasis_0001279	eu	eu	Bikote bat	Bi pertsona	EQUIVALENCE	200356	200357
+dico_phrasis_0001279__eu-eu__original	dico_phrasis_0001279	eu	eu	Bi pertsona	Bikote bat	EQUIVALENCE	200357	200356
+dico_phrasis_0001286__eu-eu__flipped	dico_phrasis_0001286	eu	eu	gora begiratzen du	gora begira	EQUIVALENCE	200358	200359
+dico_phrasis_0001286__eu-eu__original	dico_phrasis_0001286	eu	eu	gora begira	gora begiratzen du	EQUIVALENCE	200359	200358
+dico_phrasis_0001291__eu-eu__flipped	dico_phrasis_0001291	eu	eu	STOP seinalearen	gelditzea agintzen duen trafiko-seinalearen	EQUIVALENCE	200360	200361
+dico_phrasis_0001291__eu-eu__original	dico_phrasis_0001291	eu	eu	gelditzea agintzen duen trafiko-seinalearen	STOP seinalearen	EQUIVALENCE	200361	200360
+dico_phrasis_0001300__eu-eu__flipped	dico_phrasis_0001300	eu	eu	etzanda dago	etzanda	EQUIVALENCE	200362	200363
+dico_phrasis_0001300__eu-eu__original	dico_phrasis_0001300	eu	eu	etzanda	etzanda dago	EQUIVALENCE	200363	200362
+dico_phrasis_0001306__eu-eu__flipped	dico_phrasis_0001306	eu	eu	bi urrutiko aginterekin	bere urrutiko bi aginteekin batera	EQUIVALENCE	200364	200365
+dico_phrasis_0001306__eu-eu__original	dico_phrasis_0001306	eu	eu	bere urrutiko bi aginteekin batera	bi urrutiko aginterekin	EQUIVALENCE	200365	200364
+dico_phrasis_0001323__eu-eu__flipped	dico_phrasis_0001323	eu	eu	Australiako hauteskundeak irabazten ditu	Australiaren lehen hauteskunde-garaipena	BACKWARD_ENTAILMENT	200366	200367
+dico_phrasis_0001323__eu-eu__original	dico_phrasis_0001323	eu	eu	Australiaren lehen hauteskunde-garaipena	Australiako hauteskundeak irabazten ditu	FORWARD_ENTAILMENT	200367	200366
+dico_phrasis_0001324__eu-eu__flipped	dico_phrasis_0001324	eu	eu	Mediterraneoan	Mediterraneo itsasoaren sakonetik	BACKWARD_ENTAILMENT	200368	200369
+dico_phrasis_0001324__eu-eu__original	dico_phrasis_0001324	eu	eu	Mediterraneo itsasoaren sakonetik	Mediterraneoan	FORWARD_ENTAILMENT	200369	200368
+dico_phrasis_0001346__eu-eu__flipped	dico_phrasis_0001346	eu	eu	Londresko maratoia	Londresko maratoiko korrikalari guztiak	BACKWARD_ENTAILMENT	200370	200371
+dico_phrasis_0001346__eu-eu__original	dico_phrasis_0001346	eu	eu	Londresko maratoiko korrikalari guztiak	Londresko maratoia	FORWARD_ENTAILMENT	200371	200370
+dico_phrasis_0001352__eu-eu__flipped	dico_phrasis_0001352	eu	eu	Ekialdeko Kostaldera	AEBetako Ekialdeko Kostaldera	BACKWARD_ENTAILMENT	200372	200373
+dico_phrasis_0001352__eu-eu__original	dico_phrasis_0001352	eu	eu	AEBetako Ekialdeko Kostaldera	Ekialdeko Kostaldera	FORWARD_ENTAILMENT	200373	200372
+dico_phrasis_0001361__eu-eu__flipped	dico_phrasis_0001361	eu	eu	…ren indarkerian	indarkeria mota guztietan	BACKWARD_ENTAILMENT	200374	200375
+dico_phrasis_0001361__eu-eu__original	dico_phrasis_0001361	eu	eu	indarkeria mota guztietan	…ren indarkerian	FORWARD_ENTAILMENT	200375	200374
+dico_phrasis_0001378__eu-eu__flipped	dico_phrasis_0001378	eu	eu	Berlusconiren ministroak	Berlusconiren alderdiko ministroak	BACKWARD_ENTAILMENT	200376	200377
+dico_phrasis_0001378__eu-eu__original	dico_phrasis_0001378	eu	eu	Berlusconiren alderdiko ministroak	Berlusconiren ministroak	FORWARD_ENTAILMENT	200377	200376
+dico_phrasis_0001379__eu-eu__flipped	dico_phrasis_0001379	eu	eu	Venezuela	Nikaragua, Venezuela	BACKWARD_ENTAILMENT	200378	200379
+dico_phrasis_0001379__eu-eu__original	dico_phrasis_0001379	eu	eu	Nikaragua, Venezuela	Venezuela	FORWARD_ENTAILMENT	200379	200378
+dico_phrasis_0001386__eu-eu__flipped	dico_phrasis_0001386	eu	eu	palestinar bat	7 palestinar	BACKWARD_ENTAILMENT	200380	200381
+dico_phrasis_0001386__eu-eu__original	dico_phrasis_0001386	eu	eu	7 palestinar	palestinar bat	FORWARD_ENTAILMENT	200381	200380
+dico_phrasis_0001392__eu-eu__flipped	dico_phrasis_0001392	eu	eu	Bhuttoren heriotzan	2007an, Bhuttoren hilketan	BACKWARD_ENTAILMENT	200382	200383
+dico_phrasis_0001392__eu-eu__original	dico_phrasis_0001392	eu	eu	2007an, Bhuttoren hilketan	Bhuttoren heriotzan	FORWARD_ENTAILMENT	200383	200382
+dico_phrasis_0001398__eu-eu__flipped	dico_phrasis_0001398	eu	eu	militante palestinar bat	2 militante palestinar	BACKWARD_ENTAILMENT	200384	200385
+dico_phrasis_0001398__eu-eu__original	dico_phrasis_0001398	eu	eu	2 militante palestinar	militante palestinar bat	FORWARD_ENTAILMENT	200385	200384
+dico_phrasis_0001404__eu-eu__flipped	dico_phrasis_0001404	eu	eu	Irakeko armadako 13 errekruta	Irakeko armadako 23 errekruta	BACKWARD_ENTAILMENT	200386	200387
+dico_phrasis_0001404__eu-eu__original	dico_phrasis_0001404	eu	eu	Irakeko armadako 23 errekruta	Irakeko armadako 13 errekruta	FORWARD_ENTAILMENT	200387	200386
+dico_phrasis_0001410__eu-eu__flipped	dico_phrasis_0001410	eu	eu	Filipinak	Filipinentzat	BACKWARD_ENTAILMENT	200388	200389
+dico_phrasis_0001410__eu-eu__original	dico_phrasis_0001410	eu	eu	Filipinentzat	Filipinak	FORWARD_ENTAILMENT	200389	200388
+dico_phrasis_0001413__eu-eu__flipped	dico_phrasis_0001413	eu	eu	Protestak	Egiptoko protestetan	BACKWARD_ENTAILMENT	200390	200391
+dico_phrasis_0001413__eu-eu__original	dico_phrasis_0001413	eu	eu	Egiptoko protestetan	Protestak	FORWARD_ENTAILMENT	200391	200390
+dico_phrasis_0001423__eu-eu__flipped	dico_phrasis_0001423	eu	eu	Nigeria	Nigeriako polizia	BACKWARD_ENTAILMENT	200392	200393
+dico_phrasis_0001423__eu-eu__original	dico_phrasis_0001423	eu	eu	Nigeriako polizia	Nigeria	FORWARD_ENTAILMENT	200393	200392
+dico_phrasis_0001437__eu-eu__flipped	dico_phrasis_0001437	eu	eu	bi neska	Bi neska gazte	BACKWARD_ENTAILMENT	200394	200395
+dico_phrasis_0001437__eu-eu__original	dico_phrasis_0001437	eu	eu	Bi neska gazte	bi neska	FORWARD_ENTAILMENT	200395	200394
+dico_phrasis_0001444__eu-eu__flipped	dico_phrasis_0001444	eu	eu	Pertsona bat	Gizon bat	BACKWARD_ENTAILMENT	200396	200397
+dico_phrasis_0001444__eu-eu__original	dico_phrasis_0001444	eu	eu	Gizon bat	Pertsona bat	FORWARD_ENTAILMENT	200397	200396
+dico_phrasis_0001447__eu-eu__flipped	dico_phrasis_0001447	eu	eu	Txakur beltz bat	Txakur marroi eta beltza	BACKWARD_ENTAILMENT	200398	200399
+dico_phrasis_0001447__eu-eu__original	dico_phrasis_0001447	eu	eu	Txakur marroi eta beltza	Txakur beltz bat	FORWARD_ENTAILMENT	200399	200398
+dico_phrasis_0001451__eu-eu__flipped	dico_phrasis_0001451	eu	eu	Txakurra	Txakur marroi eta zuri bat	BACKWARD_ENTAILMENT	200400	200401
+dico_phrasis_0001451__eu-eu__original	dico_phrasis_0001451	eu	eu	Txakur marroi eta zuri bat	Txakurra	FORWARD_ENTAILMENT	200401	200400
+dico_phrasis_0001456__eu-eu__flipped	dico_phrasis_0001456	eu	eu	jolasean ari da	skijoringean ari da	BACKWARD_ENTAILMENT	200402	200403
+dico_phrasis_0001456__eu-eu__original	dico_phrasis_0001456	eu	eu	skijoringean ari da	jolasean ari da	FORWARD_ENTAILMENT	200403	200402
+dico_phrasis_0001472__eu-eu__flipped	dico_phrasis_0001472	eu	eu	zela baten	zaldi-zela baten	BACKWARD_ENTAILMENT	200404	200405
+dico_phrasis_0001472__eu-eu__original	dico_phrasis_0001472	eu	eu	zaldi-zela baten	zela baten	FORWARD_ENTAILMENT	200405	200404
+dico_phrasis_0001479__eu-eu__flipped	dico_phrasis_0001479	eu	eu	Txakur bat	Txakur marroi bat	BACKWARD_ENTAILMENT	200406	200407
+dico_phrasis_0001479__eu-eu__original	dico_phrasis_0001479	eu	eu	Txakur marroi bat	Txakur bat	FORWARD_ENTAILMENT	200407	200406
+dico_phrasis_0001491__eu-eu__flipped	dico_phrasis_0001491	eu	eu	belarrean	belar altuan	BACKWARD_ENTAILMENT	200408	200409
+dico_phrasis_0001491__eu-eu__original	dico_phrasis_0001491	eu	eu	belar altuan	belarrean	FORWARD_ENTAILMENT	200409	200408
+dico_phrasis_0001501__eu-eu__flipped	dico_phrasis_0001501	eu	eu	Txakur zuri bat	Txakur zuri busti bat	BACKWARD_ENTAILMENT	200410	200411
+dico_phrasis_0001501__eu-eu__original	dico_phrasis_0001501	eu	eu	Txakur zuri busti bat	Txakur zuri bat	FORWARD_ENTAILMENT	200411	200410
+dico_phrasis_0001505__eu-eu__flipped	dico_phrasis_0001505	eu	eu	Bi gizon asiar eta emakume bat	Bi gizon asiar eta emakume asiar bat	BACKWARD_ENTAILMENT	200412	200413
+dico_phrasis_0001505__eu-eu__original	dico_phrasis_0001505	eu	eu	Bi gizon asiar eta emakume asiar bat	Bi gizon asiar eta emakume bat	FORWARD_ENTAILMENT	200413	200412
+dico_phrasis_0001506__eu-eu__flipped	dico_phrasis_0001506	eu	eu	Bi txakur	bi txakurkume	BACKWARD_ENTAILMENT	200414	200415
+dico_phrasis_0001506__eu-eu__original	dico_phrasis_0001506	eu	eu	bi txakurkume	Bi txakur	FORWARD_ENTAILMENT	200415	200414
+dico_phrasis_0001511__eu-eu__flipped	dico_phrasis_0001511	eu	eu	soineko batekin	soineko laranja batekin	BACKWARD_ENTAILMENT	200416	200417
+dico_phrasis_0001511__eu-eu__original	dico_phrasis_0001511	eu	eu	soineko laranja batekin	soineko batekin	FORWARD_ENTAILMENT	200417	200416
+dico_phrasis_0001521__eu-eu__flipped	dico_phrasis_0001521	eu	eu	scooter bat	scooter batean	BACKWARD_ENTAILMENT	200418	200419
+dico_phrasis_0001521__eu-eu__original	dico_phrasis_0001521	eu	eu	scooter batean	scooter bat	FORWARD_ENTAILMENT	200419	200418
+dico_phrasis_0001523__eu-eu__flipped	dico_phrasis_0001523	eu	eu	Frisbee zuri bat	Frisbee zuri batekin	BACKWARD_ENTAILMENT	200420	200421
+dico_phrasis_0001523__eu-eu__original	dico_phrasis_0001523	eu	eu	Frisbee zuri batekin	Frisbee zuri bat	FORWARD_ENTAILMENT	200421	200420
+dico_phrasis_0001525__eu-eu__flipped	dico_phrasis_0001525	eu	eu	belarretan	belarretan barrena	BACKWARD_ENTAILMENT	200422	200423
+dico_phrasis_0001525__eu-eu__original	dico_phrasis_0001525	eu	eu	belarretan barrena	belarretan	FORWARD_ENTAILMENT	200423	200422
+dico_phrasis_0001527__eu-eu__flipped	dico_phrasis_0001527	eu	eu	Bi neska	Neskak	BACKWARD_ENTAILMENT	200424	200425
+dico_phrasis_0001527__eu-eu__original	dico_phrasis_0001527	eu	eu	Neskak	Bi neska	FORWARD_ENTAILMENT	200425	200424
+dico_phrasis_0001540__eu-eu__flipped	dico_phrasis_0001540	eu	eu	elurretan barrena	elur sakonean barrena	BACKWARD_ENTAILMENT	200426	200427
+dico_phrasis_0001540__eu-eu__original	dico_phrasis_0001540	eu	eu	elur sakonean barrena	elurretan barrena	FORWARD_ENTAILMENT	200427	200426
+dico_phrasis_0001547__eu-eu__flipped	dico_phrasis_0001547	eu	eu	instrumentuak	metalezko haize-instrumentuak	BACKWARD_ENTAILMENT	200428	200429
+dico_phrasis_0001547__eu-eu__original	dico_phrasis_0001547	eu	eu	metalezko haize-instrumentuak	instrumentuak	FORWARD_ENTAILMENT	200429	200428
+dico_phrasis_0001551__eu-eu__flipped	dico_phrasis_0001551	eu	eu	emakume saudiarrak	saudiarrak	BACKWARD_ENTAILMENT	200430	200431
+dico_phrasis_0001551__eu-eu__original	dico_phrasis_0001551	eu	eu	saudiarrak	emakume saudiarrak	FORWARD_ENTAILMENT	200431	200430
+dico_phrasis_0001562__eu-eu__flipped	dico_phrasis_0001562	eu	eu	Japoniako tuneletik	hondoratutako Japoniako tunelean	BACKWARD_ENTAILMENT	200432	200433
+dico_phrasis_0001562__eu-eu__original	dico_phrasis_0001562	eu	eu	hondoratutako Japoniako tunelean	Japoniako tuneletik	FORWARD_ENTAILMENT	200433	200432
+dico_phrasis_0001564__eu-eu__flipped	dico_phrasis_0001564	eu	eu	ezkontza homosexuala	ezkontza homosexualari buruzko lege-proiektua	BACKWARD_ENTAILMENT	200434	200435
+dico_phrasis_0001564__eu-eu__original	dico_phrasis_0001564	eu	eu	ezkontza homosexualari buruzko lege-proiektua	ezkontza homosexuala	FORWARD_ENTAILMENT	200435	200434
+dico_phrasis_0001567__eu-eu__flipped	dico_phrasis_0001567	eu	eu	Bangladesheko eraikinaren biktimen balantzearen berri eman ahala	Bangladesheko eraikinaren hondamendi hilgarriaren ostean	BACKWARD_ENTAILMENT	200436	200437
+dico_phrasis_0001567__eu-eu__original	dico_phrasis_0001567	eu	eu	Bangladesheko eraikinaren hondamendi hilgarriaren ostean	Bangladesheko eraikinaren biktimen balantzearen berri eman ahala	FORWARD_ENTAILMENT	200437	200436
+dico_phrasis_0001583__eu-eu__flipped	dico_phrasis_0001583	eu	eu	haren arma kimikoak	arma kimikoei buruz	BACKWARD_ENTAILMENT	200438	200439
+dico_phrasis_0001583__eu-eu__original	dico_phrasis_0001583	eu	eu	arma kimikoei buruz	haren arma kimikoak	FORWARD_ENTAILMENT	200439	200438
+dico_phrasis_0001584__eu-eu__flipped	dico_phrasis_0001584	eu	eu	Bostongo biktimentzat	Bostongo bonba-erasoaren biktimentzat	BACKWARD_ENTAILMENT	200440	200441
+dico_phrasis_0001584__eu-eu__original	dico_phrasis_0001584	eu	eu	Bostongo bonba-erasoaren biktimentzat	Bostongo biktimentzat	FORWARD_ENTAILMENT	200441	200440
+dico_phrasis_0001590__eu-eu__flipped	dico_phrasis_0001590	eu	eu	beste agintaldi baterako	zazpigarren agintaldirako	BACKWARD_ENTAILMENT	200442	200443
+dico_phrasis_0001590__eu-eu__original	dico_phrasis_0001590	eu	eu	zazpigarren agintaldirako	beste agintaldi baterako	FORWARD_ENTAILMENT	200443	200442
+dico_phrasis_0001599__eu-eu__flipped	dico_phrasis_0001599	eu	eu	Pakistango talibanak	Pakistango talibanen buruzagi Hakimullah Mehsud	BACKWARD_ENTAILMENT	200444	200445
+dico_phrasis_0001599__eu-eu__original	dico_phrasis_0001599	eu	eu	Pakistango talibanen buruzagi Hakimullah Mehsud	Pakistango talibanak	FORWARD_ENTAILMENT	200445	200444
+dico_phrasis_0001600__eu-eu__flipped	dico_phrasis_0001600	eu	eu	Hakimullah	Pakistango talibanen buruzagi Hakimullah Mehsud	BACKWARD_ENTAILMENT	200446	200447
+dico_phrasis_0001600__eu-eu__original	dico_phrasis_0001600	eu	eu	Pakistango talibanen buruzagi Hakimullah Mehsud	Hakimullah	FORWARD_ENTAILMENT	200447	200446
+dico_phrasis_0001606__eu-eu__flipped	dico_phrasis_0001606	eu	eu	aireportura	Alaskako aireportuko pistara	BACKWARD_ENTAILMENT	200448	200449
+dico_phrasis_0001606__eu-eu__original	dico_phrasis_0001606	eu	eu	Alaskako aireportuko pistara	aireportura	FORWARD_ENTAILMENT	200449	200448
+dico_phrasis_0001629__eu-eu__flipped	dico_phrasis_0001629	eu	eu	matxinoek kontrolatutako herrian	matxinoek kontrolatutako herri estrategikora	BACKWARD_ENTAILMENT	200450	200451
+dico_phrasis_0001629__eu-eu__original	dico_phrasis_0001629	eu	eu	matxinoek kontrolatutako herri estrategikora	matxinoek kontrolatutako herrian	FORWARD_ENTAILMENT	200451	200450
+dico_phrasis_0001630__eu-eu__flipped	dico_phrasis_0001630	eu	eu	Thailandiako manifestariak	Thailandiako oposizioko manifestariak	BACKWARD_ENTAILMENT	200452	200453
+dico_phrasis_0001630__eu-eu__original	dico_phrasis_0001630	eu	eu	Thailandiako oposizioko manifestariak	Thailandiako manifestariak	FORWARD_ENTAILMENT	200453	200452
+dico_phrasis_0001645__eu-eu__flipped	dico_phrasis_0001645	eu	eu	ospitalea	ospitalean	BACKWARD_ENTAILMENT	200454	200455
+dico_phrasis_0001645__eu-eu__original	dico_phrasis_0001645	eu	eu	ospitalean	ospitalea	FORWARD_ENTAILMENT	200455	200454
+dico_phrasis_0001654__eu-eu__flipped	dico_phrasis_0001654	eu	eu	Egipto	Egiptoko ministerioa	BACKWARD_ENTAILMENT	200456	200457
+dico_phrasis_0001654__eu-eu__original	dico_phrasis_0001654	eu	eu	Egiptoko ministerioa	Egipto	FORWARD_ENTAILMENT	200457	200456
+dico_phrasis_0001656__eu-eu__flipped	dico_phrasis_0001656	eu	eu	ospitalea	Texasko ospitalea	BACKWARD_ENTAILMENT	200458	200459
+dico_phrasis_0001656__eu-eu__original	dico_phrasis_0001656	eu	eu	Texasko ospitalea	ospitalea	FORWARD_ENTAILMENT	200459	200458
+dico_phrasis_0001659__eu-eu__flipped	dico_phrasis_0001659	eu	eu	25.000 milioi dolarreko petrolio-lotura	30.000 milioi dolarreko petrolio-lotura	BACKWARD_ENTAILMENT	200460	200461
+dico_phrasis_0001659__eu-eu__original	dico_phrasis_0001659	eu	eu	30.000 milioi dolarreko petrolio-lotura	25.000 milioi dolarreko petrolio-lotura	FORWARD_ENTAILMENT	200461	200460
+dico_phrasis_0001663__eu-eu__flipped	dico_phrasis_0001663	eu	eu	Siriako arma kimikoak	Siriako arma kimikoen garraiorako	BACKWARD_ENTAILMENT	200462	200463
+dico_phrasis_0001663__eu-eu__original	dico_phrasis_0001663	eu	eu	Siriako arma kimikoen garraiorako	Siriako arma kimikoak	FORWARD_ENTAILMENT	200463	200462
+dico_phrasis_0001665__eu-eu__flipped	dico_phrasis_0001665	eu	eu	Bi palestinar	Palestinarrak	BACKWARD_ENTAILMENT	200464	200465
+dico_phrasis_0001665__eu-eu__original	dico_phrasis_0001665	eu	eu	Palestinarrak	Bi palestinar	FORWARD_ENTAILMENT	200465	200464
+dico_phrasis_0001667__eu-eu__flipped	dico_phrasis_0001667	eu	eu	Manifestariak	ABVPko manifestariak	BACKWARD_ENTAILMENT	200466	200467
+dico_phrasis_0001667__eu-eu__original	dico_phrasis_0001667	eu	eu	ABVPko manifestariak	Manifestariak	FORWARD_ENTAILMENT	200467	200466
+dico_phrasis_0001669__eu-eu__flipped	dico_phrasis_0001669	eu	eu	12 militante	35 militante	BACKWARD_ENTAILMENT	200468	200469
+dico_phrasis_0001669__eu-eu__original	dico_phrasis_0001669	eu	eu	35 militante	12 militante	FORWARD_ENTAILMENT	200469	200468
+dico_phrasis_0001675__eu-eu__flipped	dico_phrasis_0001675	eu	eu	Rafa Nadal	gaixo dagoen Nadal	BACKWARD_ENTAILMENT	200470	200471
+dico_phrasis_0001675__eu-eu__original	dico_phrasis_0001675	eu	eu	gaixo dagoen Nadal	Rafa Nadal	FORWARD_ENTAILMENT	200471	200470
+dico_phrasis_0001682__eu-eu__flipped	dico_phrasis_0001682	eu	eu	Errepide bazterreko bonba	Errepide bazterreko bonbak	BACKWARD_ENTAILMENT	200472	200473
+dico_phrasis_0001682__eu-eu__original	dico_phrasis_0001682	eu	eu	Errepide bazterreko bonbak	Errepide bazterreko bonba	FORWARD_ENTAILMENT	200473	200472
+dico_phrasis_0001685__eu-eu__flipped	dico_phrasis_0001685	eu	eu	ixten du	bat-batean ixten du	BACKWARD_ENTAILMENT	200474	200475
+dico_phrasis_0001685__eu-eu__original	dico_phrasis_0001685	eu	eu	bat-batean ixten du	ixten du	FORWARD_ENTAILMENT	200475	200474
+dico_phrasis_0001690__eu-eu__flipped	dico_phrasis_0001690	eu	eu	errekor berria	errekor goren berria	BACKWARD_ENTAILMENT	200476	200477
+dico_phrasis_0001690__eu-eu__original	dico_phrasis_0001690	eu	eu	errekor goren berria	errekor berria	FORWARD_ENTAILMENT	200477	200476
+dico_phrasis_0001691__eu-eu__flipped	dico_phrasis_0001691	eu	eu	Akzioak	AEBetako akzioak	BACKWARD_ENTAILMENT	200478	200479
+dico_phrasis_0001691__eu-eu__original	dico_phrasis_0001691	eu	eu	AEBetako akzioak	Akzioak	FORWARD_ENTAILMENT	200479	200478
+dico_phrasis_0001702__eu-eu__flipped	dico_phrasis_0001702	eu	eu	Alemaniako hauteskundean	Alemaniako hauteskundeetan	BACKWARD_ENTAILMENT	200480	200481
+dico_phrasis_0001702__eu-eu__original	dico_phrasis_0001702	eu	eu	Alemaniako hauteskundeetan	Alemaniako hauteskundean	FORWARD_ENTAILMENT	200481	200480
+dico_phrasis_0001706__eu-eu__flipped	dico_phrasis_0001706	eu	eu	Pakistango armada	Pakistango armadan	BACKWARD_ENTAILMENT	200482	200483
+dico_phrasis_0001706__eu-eu__original	dico_phrasis_0001706	eu	eu	Pakistango armadan	Pakistango armada	FORWARD_ENTAILMENT	200483	200482
+dico_phrasis_0001710__eu-eu__flipped	dico_phrasis_0001710	eu	eu	Malala	Pakistango Malala	BACKWARD_ENTAILMENT	200484	200485
+dico_phrasis_0001710__eu-eu__original	dico_phrasis_0001710	eu	eu	Pakistango Malala	Malala	FORWARD_ENTAILMENT	200485	200484
+dico_phrasis_0001714__eu-eu__flipped	dico_phrasis_0001714	eu	eu	bilera	Moskuko bilera	BACKWARD_ENTAILMENT	200486	200487
+dico_phrasis_0001714__eu-eu__original	dico_phrasis_0001714	eu	eu	Moskuko bilera	bilera	FORWARD_ENTAILMENT	200487	200486
+dico_phrasis_0001727__eu-eu__flipped	dico_phrasis_0001727	eu	eu	liskarra	Liskar laburrak	BACKWARD_ENTAILMENT	200488	200489
+dico_phrasis_0001727__eu-eu__original	dico_phrasis_0001727	eu	eu	Liskar laburrak	liskarra	FORWARD_ENTAILMENT	200489	200488
+dico_phrasis_0001748__eu-eu__flipped	dico_phrasis_0001748	eu	eu	Bi animalia	Bi basahuntz	BACKWARD_ENTAILMENT	200490	200491
+dico_phrasis_0001748__eu-eu__original	dico_phrasis_0001748	eu	eu	Bi basahuntz	Bi animalia	FORWARD_ENTAILMENT	200491	200490
+dico_phrasis_0001750__eu-eu__flipped	dico_phrasis_0001750	eu	eu	Tren bat	Tren beltza	BACKWARD_ENTAILMENT	200492	200493
+dico_phrasis_0001750__eu-eu__original	dico_phrasis_0001750	eu	eu	Tren beltza	Tren bat	FORWARD_ENTAILMENT	200493	200492
+dico_phrasis_0001751__eu-eu__flipped	dico_phrasis_0001751	eu	eu	sofa baten gainean	sofa beltz baten gainean	BACKWARD_ENTAILMENT	200494	200495
+dico_phrasis_0001751__eu-eu__original	dico_phrasis_0001751	eu	eu	sofa beltz baten gainean	sofa baten gainean	FORWARD_ENTAILMENT	200495	200494
+dico_phrasis_0001755__eu-eu__flipped	dico_phrasis_0001755	eu	eu	haurtxo bat	haurtxo txiki bat	BACKWARD_ENTAILMENT	200496	200497
+dico_phrasis_0001755__eu-eu__original	dico_phrasis_0001755	eu	eu	haurtxo txiki bat	haurtxo bat	FORWARD_ENTAILMENT	200497	200496
+dico_phrasis_0001757__eu-eu__flipped	dico_phrasis_0001757	eu	eu	Katu bat	Katu grisa	BACKWARD_ENTAILMENT	200498	200499
+dico_phrasis_0001757__eu-eu__original	dico_phrasis_0001757	eu	eu	Katu grisa	Katu bat	FORWARD_ENTAILMENT	200499	200498
+dico_phrasis_0001772__eu-eu__flipped	dico_phrasis_0001772	eu	eu	Hiru telebista	Hainbat telebista	BACKWARD_ENTAILMENT	200500	200501
+dico_phrasis_0001772__eu-eu__original	dico_phrasis_0001772	eu	eu	Hainbat telebista	Hiru telebista	FORWARD_ENTAILMENT	200501	200500
+dico_phrasis_0001778__eu-eu__flipped	dico_phrasis_0001778	eu	eu	Trena	Tren gorri bat	BACKWARD_ENTAILMENT	200502	200503
+dico_phrasis_0001778__eu-eu__original	dico_phrasis_0001778	eu	eu	Tren gorri bat	Trena	FORWARD_ENTAILMENT	200503	200502
+dico_phrasis_0001781__eu-eu__flipped	dico_phrasis_0001781	eu	eu	geltokian	tren-geltokian	BACKWARD_ENTAILMENT	200504	200505
+dico_phrasis_0001781__eu-eu__original	dico_phrasis_0001781	eu	eu	tren-geltokian	geltokian	FORWARD_ENTAILMENT	200505	200504
+dico_phrasis_0001794__eu-eu__flipped	dico_phrasis_0001794	eu	eu	ardi bat	ukuiluko animalien artean	BACKWARD_ENTAILMENT	200506	200507
+dico_phrasis_0001794__eu-eu__original	dico_phrasis_0001794	eu	eu	ukuiluko animalien artean	ardi bat	FORWARD_ENTAILMENT	200507	200506
+dico_phrasis_0001801__eu-eu__flipped	dico_phrasis_0001801	eu	eu	Gurutzaldi-ontzi bat	Gurutzaldi-ontzi handi bat	BACKWARD_ENTAILMENT	200508	200509
+dico_phrasis_0001801__eu-eu__original	dico_phrasis_0001801	eu	eu	Gurutzaldi-ontzi handi bat	Gurutzaldi-ontzi bat	FORWARD_ENTAILMENT	200509	200508
+dico_phrasis_0001817__eu-eu__flipped	dico_phrasis_0001817	eu	eu	uretan	ibai batean behera	BACKWARD_ENTAILMENT	200510	200511
+dico_phrasis_0001817__eu-eu__original	dico_phrasis_0001817	eu	eu	ibai batean behera	uretan	FORWARD_ENTAILMENT	200511	200510
+dico_phrasis_0001830__eu-eu__flipped	dico_phrasis_0001830	eu	eu	Autobus gorria	Autobus zuri eta gorri bat	BACKWARD_ENTAILMENT	200512	200513
+dico_phrasis_0001830__eu-eu__original	dico_phrasis_0001830	eu	eu	Autobus zuri eta gorri bat	Autobus gorria	FORWARD_ENTAILMENT	200513	200512
+dico_phrasis_0001841__eu-eu__flipped	dico_phrasis_0001841	eu	eu	Pertsonak	Hainbat pertsona	BACKWARD_ENTAILMENT	200514	200515
+dico_phrasis_0001841__eu-eu__original	dico_phrasis_0001841	eu	eu	Hainbat pertsona	Pertsonak	FORWARD_ENTAILMENT	200515	200514
+dico_phrasis_0001846__eu-eu__flipped	dico_phrasis_0001846	eu	eu	aurrien aurrean	aurrietako eskaileren aurrean	BACKWARD_ENTAILMENT	200516	200517
+dico_phrasis_0001846__eu-eu__original	dico_phrasis_0001846	eu	eu	aurrietako eskaileren aurrean	aurrien aurrean	FORWARD_ENTAILMENT	200517	200516
+dico_phrasis_0001847__eu-eu__flipped	dico_phrasis_0001847	eu	eu	bizikleta	bizikleta batekin	BACKWARD_ENTAILMENT	200518	200519
+dico_phrasis_0001847__eu-eu__original	dico_phrasis_0001847	eu	eu	bizikleta batekin	bizikleta	FORWARD_ENTAILMENT	200519	200518
+dico_phrasis_0001848__eu-eu__flipped	dico_phrasis_0001848	eu	eu	gidatzen	beherantz gidatzen	BACKWARD_ENTAILMENT	200520	200521
+dico_phrasis_0001848__eu-eu__original	dico_phrasis_0001848	eu	eu	beherantz gidatzen	gidatzen	FORWARD_ENTAILMENT	200521	200520
+dico_phrasis_0001856__eu-eu__flipped	dico_phrasis_0001856	eu	eu	lurrean	belar gainean	BACKWARD_ENTAILMENT	200522	200523
+dico_phrasis_0001856__eu-eu__original	dico_phrasis_0001856	eu	eu	belar gainean	lurrean	FORWARD_ENTAILMENT	200523	200522
+dico_phrasis_0001871__eu-eu__flipped	dico_phrasis_0001871	eu	eu	Apple ordenagailu bat	Apple ordenagailu zuri bat	BACKWARD_ENTAILMENT	200524	200525
+dico_phrasis_0001871__eu-eu__original	dico_phrasis_0001871	eu	eu	Apple ordenagailu zuri bat	Apple ordenagailu bat	FORWARD_ENTAILMENT	200525	200524
+dico_phrasis_0001875__eu-eu__flipped	dico_phrasis_0001875	eu	eu	haurtxo bat	haurtxo batekin	BACKWARD_ENTAILMENT	200526	200527
+dico_phrasis_0001875__eu-eu__original	dico_phrasis_0001875	eu	eu	haurtxo batekin	haurtxo bat	FORWARD_ENTAILMENT	200527	200526
+dico_phrasis_0001880__eu-eu__flipped	dico_phrasis_0001880	eu	eu	Behi zuri-beltz bat	Behi adardun zuri-beltz bat	BACKWARD_ENTAILMENT	200528	200529
+dico_phrasis_0001880__eu-eu__original	dico_phrasis_0001880	eu	eu	Behi adardun zuri-beltz bat	Behi zuri-beltz bat	FORWARD_ENTAILMENT	200529	200528
+dico_phrasis_0001882__eu-eu__flipped	dico_phrasis_0001882	eu	eu	kapela luze batekin	jantzi formal beltzak eta kapela luze beltz bat jantzita	BACKWARD_ENTAILMENT	200530	200531
+dico_phrasis_0001882__eu-eu__original	dico_phrasis_0001882	eu	eu	jantzi formal beltzak eta kapela luze beltz bat jantzita	kapela luze batekin	FORWARD_ENTAILMENT	200531	200530
+dico_phrasis_0001883__eu-eu__flipped	dico_phrasis_0001883	eu	eu	Txori txiki bat	Txori marroi txiki batzuk	BACKWARD_ENTAILMENT	200532	200533
+dico_phrasis_0001883__eu-eu__original	dico_phrasis_0001883	eu	eu	Txori marroi txiki batzuk	Txori txiki bat	FORWARD_ENTAILMENT	200533	200532
+dico_phrasis_0001884__eu-eu__flipped	dico_phrasis_0001884	eu	eu	zaldi marroi bat	zaldi marroi baten gainean	BACKWARD_ENTAILMENT	200534	200535
+dico_phrasis_0001884__eu-eu__original	dico_phrasis_0001884	eu	eu	zaldi marroi baten gainean	zaldi marroi bat	FORWARD_ENTAILMENT	200535	200534
+dico_phrasis_0001887__eu-eu__flipped	dico_phrasis_0001887	eu	eu	zelai batean	zelai handi batean	BACKWARD_ENTAILMENT	200536	200537
+dico_phrasis_0001887__eu-eu__original	dico_phrasis_0001887	eu	eu	zelai handi batean	zelai batean	FORWARD_ENTAILMENT	200537	200536
+dico_phrasis_0001900__eu-eu__flipped	dico_phrasis_0001900	eu	eu	erosketa-orga bat	erosketa-orga txiki bat	BACKWARD_ENTAILMENT	200538	200539
+dico_phrasis_0001900__eu-eu__original	dico_phrasis_0001900	eu	eu	erosketa-orga txiki bat	erosketa-orga bat	FORWARD_ENTAILMENT	200539	200538
+dico_phrasis_0001904__eu-eu__flipped	dico_phrasis_0001904	eu	eu	Bi pertsona	Bi gazte	BACKWARD_ENTAILMENT	200540	200541
+dico_phrasis_0001904__eu-eu__original	dico_phrasis_0001904	eu	eu	Bi gazte	Bi pertsona	FORWARD_ENTAILMENT	200541	200540
+dico_phrasis_0001906__eu-eu__flipped	dico_phrasis_0001906	eu	eu	Tren bat	Tren luze bat	BACKWARD_ENTAILMENT	200542	200543
+dico_phrasis_0001906__eu-eu__original	dico_phrasis_0001906	eu	eu	Tren luze bat	Tren bat	FORWARD_ENTAILMENT	200543	200542
+dico_phrasis_0001908__eu-eu__flipped	dico_phrasis_0001908	eu	eu	itsasontzi bat	Itsasontzi txikia	BACKWARD_ENTAILMENT	200544	200545
+dico_phrasis_0001908__eu-eu__original	dico_phrasis_0001908	eu	eu	Itsasontzi txikia	itsasontzi bat	FORWARD_ENTAILMENT	200545	200544
+dico_phrasis_0001926__eu-eu__flipped	dico_phrasis_0001926	eu	eu	joko bat	bideo-joko bat	BACKWARD_ENTAILMENT	200546	200547
+dico_phrasis_0001926__eu-eu__original	dico_phrasis_0001926	eu	eu	bideo-joko bat	joko bat	FORWARD_ENTAILMENT	200547	200546
+dico_phrasis_0001940__eu-eu__flipped	dico_phrasis_0001940	eu	eu	jan	otordu bat egin	BACKWARD_ENTAILMENT	200548	200549
+dico_phrasis_0001940__eu-eu__original	dico_phrasis_0001940	eu	eu	otordu bat egin	jan	FORWARD_ENTAILMENT	200549	200548
+dico_phrasis_0001944__eu-eu__flipped	dico_phrasis_0001944	eu	eu	Behia	Bi behi	BACKWARD_ENTAILMENT	200550	200551
+dico_phrasis_0001944__eu-eu__original	dico_phrasis_0001944	eu	eu	Bi behi	Behia	FORWARD_ENTAILMENT	200551	200550
+dico_phrasis_0001945__eu-eu__flipped	dico_phrasis_0001945	eu	eu	Bi behi	Hiru behi	BACKWARD_ENTAILMENT	200552	200553
+dico_phrasis_0001945__eu-eu__original	dico_phrasis_0001945	eu	eu	Hiru behi	Bi behi	FORWARD_ENTAILMENT	200553	200552
+dico_phrasis_0001949__eu-eu__original	dico_phrasis_0001949	eu	eu	Siriako oposizioaren batasuna	Siriako oposizio zatitua	NEGATIVE_OTHER	200554	-1
+dico_phrasis_0001952__eu-eu__original	dico_phrasis_0001952	eu	eu	uretatik kanpo	uretan barrena	NEGATIVE_OTHER	200555	-1
+dico_phrasis_0001962__eu-eu__original	dico_phrasis_0001962	eu	eu	Farrowengana	Farrowen aurka	NEGATIVE_OTHER	200556	-1
+dico_phrasis_0001979__eu-eu__original	dico_phrasis_0001979	eu	eu	Siriako gehiegikeriei buruz	Siriako arma kimikoei buruz	NEGATIVE_OTHER	200557	-1
+dico_phrasis_0002003__eu-eu__original	dico_phrasis_0002003	eu	eu	Bangladesheko kolapsoan bilaketa	Bangladesheko kolapsoan hildakoak	NEGATIVE_OTHER	200558	-1
+dico_phrasis_0002044__eu-eu__original	dico_phrasis_0002044	eu	eu	belar gainean	zuhaitz baten ondoan	NEGATIVE_OTHER	200559	-1
+dico_phrasis_0002052__eu-eu__original	dico_phrasis_0002052	eu	eu	muino elurtu batean behera	leran ibiltzen	NEGATIVE_OTHER	200560	-1
+dico_phrasis_0002056__eu-eu__original	dico_phrasis_0002056	eu	eu	ur bizietako raftinga	ur-lasterretan behera	NEGATIVE_OTHER	200561	-1
+dico_phrasis_0002069__eu-eu__original	dico_phrasis_0002069	eu	eu	Familia bat	Neskatila biluzi bat	NEGATIVE_OTHER	200562	-1
+dico_phrasis_0002071__eu-eu__original	dico_phrasis_0002071	eu	eu	makila laranja baten gainean	burbuilak egiteko uztai laranja batetik	NEGATIVE_OTHER	200563	-1
+dico_phrasis_0002092__eu-eu__original	dico_phrasis_0002092	eu	eu	uretan barrena	belarretan barrena	NEGATIVE_OTHER	200564	-1
+dico_phrasis_0002104__eu-eu__original	dico_phrasis_0002104	eu	eu	Txakur ilehori bat	Neskatila ilehori bat	NEGATIVE_OTHER	200565	-1
+dico_phrasis_0002141__eu-eu__original	dico_phrasis_0002141	eu	eu	eguzkiak argitutako baso batean	hondartza batean	NEGATIVE_OTHER	200566	-1
+dico_phrasis_0002147__eu-eu__original	dico_phrasis_0002147	eu	eu	Siriako arma kimikoei buruz	Siriako arma kimikoei buruzko baieztapenen harira	NEGATIVE_OTHER	200567	-1
+dico_phrasis_0002152__eu-eu__original	dico_phrasis_0002152	eu	eu	afganiarrak	Afganistango barrutiko gobernadorea	NEGATIVE_OTHER	200568	-1
+dico_phrasis_0002181__eu-eu__original	dico_phrasis_0002181	eu	eu	aldaketa «politikoak»	proposatutako murrizketak	NEGATIVE_OTHER	200569	-1
+dico_phrasis_0002188__eu-eu__original	dico_phrasis_0002188	eu	eu	kardinalei	Vatikanoa	NEGATIVE_OTHER	200570	-1
+dico_phrasis_0002220__eu-eu__original	dico_phrasis_0002220	eu	eu	Mali herrirako	Maliko armada	NEGATIVE_OTHER	200571	-1
+dico_phrasis_0002242__eu-eu__original	dico_phrasis_0002242	eu	eu	Irekitzen da	Martxan hasten da	NEGATIVE_OTHER	200572	-1
+dico_phrasis_0002244__eu-eu__original	dico_phrasis_0002244	eu	eu	bi pertsona	2	NEGATIVE_OTHER	200573	-1
+dico_phrasis_0002251__eu-eu__original	dico_phrasis_0002251	eu	eu	Anaia Musulmanen Gidari Gorena	Anaia Musulmanen taldea	NEGATIVE_OTHER	200574	-1
+dico_phrasis_0002266__eu-eu__original	dico_phrasis_0002266	eu	eu	presidentetzarako hauteskundeak	behin-behineko presidentea	NEGATIVE_OTHER	200575	-1
+dico_phrasis_0002300__eu-eu__original	dico_phrasis_0002300	eu	eu	pista batean	lurretik gertu	NEGATIVE_OTHER	200576	-1
+dico_phrasis_0002307__eu-eu__original	dico_phrasis_0002307	eu	eu	ate baten aurrean	hesi baten aurrean	NEGATIVE_OTHER	200577	-1
+dico_phrasis_0002314__eu-eu__original	dico_phrasis_0002314	eu	eu	jangela batekin	sofa handiekin eta jangelako mahai batekin	NEGATIVE_OTHER	200578	-1
+dico_phrasis_0002383__eu-eu__original	dico_phrasis_0002383	eu	eu	Monakoren garaipenarekin	Monakoren garaipena gorabehera	NEGATIVE_OTHER	200579	-1
+dico_phrasis_0002406__eu-eu__original	dico_phrasis_0002406	eu	eu	Kanadan petrolio-trenaren leherketa	Kanadan tren-istripua	NEGATIVE_OTHER	200580	-1
+dico_phrasis_0002436__eu-eu__original	dico_phrasis_0002436	eu	eu	haurraren gainetik	alabaren gainetik	NEGATIVE_OTHER	200581	-1
+dico_phrasis_0002446__eu-eu__original	dico_phrasis_0002446	eu	eu	Ukrainan	Sirian	NEGATIVE_OTHER	200582	-1
+dico_phrasis_0002463__eu-eu__original	dico_phrasis_0002463	eu	eu	…ren integrazioa	batzea	NEGATIVE_OTHER	200583	-1
+dico_phrasis_0002479__eu-eu__original	dico_phrasis_0002479	eu	eu	6,1651era	6,1696ra	NEGATIVE_OTHER	200584	-1
+dico_phrasis_0002486__eu-eu__original	dico_phrasis_0002486	eu	eu	38	39ra	NEGATIVE_OTHER	200585	-1
+dico_phrasis_0002487__eu-eu__original	dico_phrasis_0002487	eu	eu	Italia hegoaldeko autobus-istripua	Italiako autobus-istripua	NEGATIVE_OTHER	200586	-1
+dico_phrasis_0002492__eu-eu__original	dico_phrasis_0002492	eu	eu	Supertifoia	Tifoirik indartsuena	NEGATIVE_OTHER	200587	-1
+dico_phrasis_0002493__eu-eu__original	dico_phrasis_0002493	eu	eu	Errusia atzera egin zuen	Errusiaren erretiratzearen	NEGATIVE_OTHER	200588	-1
+dico_phrasis_0002510__eu-eu__original	dico_phrasis_0002510	eu	eu	manager gisa	Ferguson	NEGATIVE_OTHER	200589	-1
+dico_phrasis_0002527__eu-eu__original	dico_phrasis_0002527	eu	eu	errabino eta Israelgo erregegile	Israelgo politikako erregegile	NEGATIVE_OTHER	200590	-1
+dico_phrasis_0002548__eu-eu__original	dico_phrasis_0002548	eu	eu	haien txakurra dagoen bitartean	txakur beltz bat dagoen bitartean	NEGATIVE_OTHER	200591	-1
+dico_phrasis_0002560__eu-eu__original	dico_phrasis_0002560	eu	eu	Bi haur gazte	Bi haur txiki	NEGATIVE_OTHER	200592	-1
+dico_phrasis_0002567__eu-eu__original	dico_phrasis_0002567	eu	eu	bizarra mozten	zizelkatzen ari da	NEGATIVE_OTHER	200593	-1
+dico_phrasis_0002584__eu-eu__original	dico_phrasis_0002584	eu	eu	jolasten ari dira	korrika egin	NEGATIVE_OTHER	200594	-1
+dico_phrasis_0002597__eu-eu__original	dico_phrasis_0002597	eu	eu	jolas-egitura gorri baten gainean	eskalada-egitura gorri baten gainean	NEGATIVE_OTHER	200595	-1
+dico_phrasis_0002599__eu-eu__original	dico_phrasis_0002599	eu	eu	olatuetan	olatu ertain baten gainean	NEGATIVE_OTHER	200596	-1
+dico_phrasis_0002613__eu-eu__original	dico_phrasis_0002613	eu	eu	itsasertzean	hondartzaren ondoan	NEGATIVE_OTHER	200597	-1
+dico_phrasis_0002616__eu-eu__original	dico_phrasis_0002616	eu	eu	beste baten gainera	beste batera	NEGATIVE_OTHER	200598	-1
+dico_phrasis_0002623__eu-eu__original	dico_phrasis_0002623	eu	eu	beste txakur bat bezala	beste txakur bat dagoen bitartean	NEGATIVE_OTHER	200599	-1
+dico_phrasis_0002671__eu-eu__original	dico_phrasis_0002671	eu	eu	egiten du	egin	NEGATIVE_OTHER	200600	-1
+dico_phrasis_0002676__eu-eu__original	dico_phrasis_0002676	eu	eu	Mutil gazte bat	Neska gazte bat	NEGATIVE_OTHER	200601	-1
+dico_phrasis_0002708__eu-eu__original	dico_phrasis_0002708	eu	eu	6,8ko lurrikara	6,3 magnitudeko lurrikara	NEGATIVE_OTHER	200602	-1
+dico_phrasis_0002711__eu-eu__original	dico_phrasis_0002711	eu	eu	su hartzen du	sutearen ondoren	NEGATIVE_OTHER	200603	-1
+dico_phrasis_0002712__eu-eu__original	dico_phrasis_0002712	eu	eu	Israelgo indarrak	segurtasun-indarrak	NEGATIVE_OTHER	200604	-1
+dico_phrasis_0002715__eu-eu__original	dico_phrasis_0002715	eu	eu	Txinako lurrikararen ondoren	Txinako lurrikaran	NEGATIVE_OTHER	200605	-1
+dico_phrasis_0002738__eu-eu__original	dico_phrasis_0002738	eu	eu	erruduntzat joa	kartzela-zigorra jaso	NEGATIVE_OTHER	200606	-1
+dico_phrasis_0002750__eu-eu__original	dico_phrasis_0002750	eu	eu	bildu	atxilotu	NEGATIVE_OTHER	200607	-1
+dico_phrasis_0002772__eu-eu__original	dico_phrasis_0002772	eu	eu	USDaren aurka ostegunean	USDaren aurka asteartean	NEGATIVE_OTHER	200608	-1
+dico_phrasis_0002790__eu-eu__original	dico_phrasis_0002790	eu	eu	Zisjordanian	Zisjordania osoan	NEGATIVE_OTHER	200609	-1
+dico_phrasis_0002792__eu-eu__original	dico_phrasis_0002792	eu	eu	Turkiako 2 sindikatu	Sindikatuak	NEGATIVE_OTHER	200610	-1
+dico_phrasis_0002804__eu-eu__original	dico_phrasis_0002804	eu	eu	airelineetako pilotuak	Turkish Airlineseko 2 pilotu	NEGATIVE_OTHER	200611	-1
+dico_phrasis_0002806__eu-eu__original	dico_phrasis_0002806	eu	eu	AEBen drone-erasoa	Pakistango drone-erasoa	NEGATIVE_OTHER	200612	-1
+dico_phrasis_0002842__eu-eu__original	dico_phrasis_0002842	eu	eu	zikloi erraldoiarentzat	Phailin zikloiarentzat	NEGATIVE_OTHER	200613	-1
+dico_phrasis_0002843__eu-eu__original	dico_phrasis_0002843	eu	eu	ostiralean	ostegunean	NEGATIVE_OTHER	200614	-1
+dico_phrasis_0002844__eu-eu__original	dico_phrasis_0002844	eu	eu	Txinako ipar-mendebaldea	Txinan	NEGATIVE_OTHER	200615	-1
+dico_phrasis_0002898__eu-eu__original	dico_phrasis_0002898	eu	eu	harrapatuta egon daiteke	harrapatuta	NEGATIVE_OTHER	200616	-1
+dico_phrasis_0002900__eu-eu__original	dico_phrasis_0002900	eu	eu	Australiako senataria	Australiako legegilea	NEGATIVE_OTHER	200617	-1
+dico_phrasis_0002925__eu-eu__original	dico_phrasis_0002925	eu	eu	sarea partekatzeko akordioarekin	sarea partekatzeko eta espektroari buruzko akordioa	NEGATIVE_OTHER	200618	-1
+dico_phrasis_0002927__eu-eu__original	dico_phrasis_0002927	eu	eu	World Trade Center berria	One World Trade Center	NEGATIVE_OTHER	200619	-1
+dico_phrasis_0002933__eu-eu__original	dico_phrasis_0002933	eu	eu	Nigeriako legegilea	parlamentari nigeriarra	NEGATIVE_OTHER	200620	-1
+dico_phrasis_0002937__eu-eu__original	dico_phrasis_0002937	eu	eu	lapurtutako 56 garezur	56 giza garezurren ondoren	NEGATIVE_OTHER	200621	-1
+dico_phrasis_0002938__eu-eu__original	dico_phrasis_0002938	eu	eu	etxe-museoan	haren etxean	NEGATIVE_OTHER	200622	-1
+dico_phrasis_0002943__eu-eu__original	dico_phrasis_0002943	eu	eu	lehen elkarrizketetan	lehen elkarrizketa nuklearrak	NEGATIVE_OTHER	200623	-1
+dico_phrasis_0002952__eu-eu__original	dico_phrasis_0002952	eu	eu	Al Qaedaren bahituak	bahituentzat	NEGATIVE_OTHER	200624	-1
+dico_phrasis_0002959__eu-eu__original	dico_phrasis_0002959	eu	eu	Tian ` anmenen	Tiananmen plazan	NEGATIVE_OTHER	200625	-1
+dico_phrasis_0002986__eu-eu__original	dico_phrasis_0002986	eu	eu	Mandela bezala	Mandelarentzat	NEGATIVE_OTHER	200626	-1
+dico_phrasis_0003000__eu-eu__original	dico_phrasis_0003000	eu	eu	Katu marradun bat	Etxeko katu bat	NEGATIVE_OTHER	200627	-1
+dico_phrasis_0003007__eu-eu__original	dico_phrasis_0003007	eu	eu	Bi katu	Katu zuri bat	NEGATIVE_OTHER	200628	-1
+dico_phrasis_0003044__eu-eu__original	dico_phrasis_0003044	eu	eu	zutik egon	posatzen ari dira	NEGATIVE_OTHER	200629	-1
+dico_phrasis_0003051__eu-eu__original	dico_phrasis_0003051	eu	eu	hesitutako eremu batean	atedun patio batean	NEGATIVE_OTHER	200630	-1
+dico_phrasis_0003056__eu-eu__original	dico_phrasis_0003056	eu	eu	alanbrezko sareta baten gainean	txori-jantoki baten gainean	NEGATIVE_OTHER	200631	-1
+dico_phrasis_0003057__eu-eu__original	dico_phrasis_0003057	eu	eu	trenbidearen gainean	trenbidean aurrerago	NEGATIVE_OTHER	200632	-1
+dico_phrasis_0003063__eu-eu__original	dico_phrasis_0003063	eu	eu	jendez gainezka dagoen kale batean	kale publiko batean	NEGATIVE_OTHER	200633	-1
+dico_phrasis_0003064__eu-eu__original	dico_phrasis_0003064	eu	eu	Bi solairuko autobus gorri bat	Autobus zuri bat	NEGATIVE_OTHER	200634	-1
+dico_phrasis_0003096__eu-eu__original	dico_phrasis_0003096	eu	eu	Hurbileko ikuspegia	Alboko ikuspegia	NEGATIVE_OTHER	200635	-1
+dico_phrasis_0003112__eu-eu__original	dico_phrasis_0003112	eu	eu	txori-jantoki batetik	txori-jantoki baten gainean	NEGATIVE_OTHER	200636	-1
+dico_phrasis_0003136__eu-eu__original	dico_phrasis_0003136	eu	eu	ereduzko eraikin baten ondoan	eraikin apaindu baten haurra	NEGATIVE_OTHER	200637	-1
+dico_phrasis_0003178__eu-eu__original	dico_phrasis_0003178	eu	eu	poni bat	zaldi marroi bat	NEGATIVE_OTHER	200638	-1
+dico_phrasis_0003187__eu-eu__original	dico_phrasis_0003187	eu	eu	Gizon bat	Haur bat	NEGATIVE_OTHER	200639	-1
+dico_phrasis_0003193__eu-eu__original	dico_phrasis_0003193	eu	eu	pistak	pista batean	NEGATIVE_OTHER	200640	-1
+dico_phrasis_0003200__eu-eu__original	dico_phrasis_0003200	eu	eu	txistera jantzita	txistera batekin	NEGATIVE_OTHER	200641	-1
+dico_phrasis_0003203__eu-eu__original	dico_phrasis_0003203	eu	eu	Katu marradun horia	Katu tabby laranja bat	NEGATIVE_OTHER	200642	-1
+dico_phrasis_0003204__eu-eu__original	dico_phrasis_0003204	eu	eu	aurrean lorategiak dituztela	lorategi formal baten ondoan	NEGATIVE_OTHER	200643	-1
+dico_phrasis_0003226__eu-eu__original	dico_phrasis_0003226	eu	eu	Bi txakur zuri-beltz	Txakur bat zutik dagoen beste txakur baten ondoan	NEGATIVE_OTHER	200644	-1
+dico_phrasis_0003241__eu-eu__original	dico_phrasis_0003241	eu	eu	bat	bat bezala	NEGATIVE_OTHER	200645	-1
+dico_phrasis_0003243__eu-eu__original	dico_phrasis_0003243	eu	eu	Loroa	Txori zuri bat	NEGATIVE_OTHER	200646	-1
+dico_phrasis_0003245__eu-eu__original	dico_phrasis_0003245	eu	eu	kameraren barrura	kamerarantz	NEGATIVE_OTHER	200647	-1
+dico_phrasis_0003250__eu-eu__original	dico_phrasis_0003250	eu	eu	Jangelako mahai bat	Egurrezko mahai bat	NEGATIVE_OTHER	200648	-1
+dico_phrasis_0003251__eu-eu__original	dico_phrasis_0003251	eu	eu	kandelekin, ardoarekin eta teontzi batekin	kandelekin, ardoarekin eta plastikozko katilu more batekin	NEGATIVE_OTHER	200649	-1
+dico_phrasis_0003254__eu-eu__original	dico_phrasis_0003254	eu	eu	errekatxo bat	ibai batean	NEGATIVE_OTHER	200650	-1
+dico_phrasis_0003264__eu-eu__original	dico_phrasis_0003264	eu	eu	kamioi baten	furgoneta baten	NEGATIVE_OTHER	200651	-1
+dico_phrasis_0003267__eu-eu__original	dico_phrasis_0003267	eu	eu	uretatik gertu eta itsasontzi handi bat	urarekin eta gabarra batekin	NEGATIVE_OTHER	200652	-1
+dico_phrasis_0003281__eu-eu__original	dico_phrasis_0003281	eu	eu	denda batean	kafetegi batean	NEGATIVE_OTHER	200653	-1
+dico_phrasis_0003283__eu-eu__original	dico_phrasis_0003283	eu	eu	Hurbileko ikuspegi bat	Hurbildu	NEGATIVE_OTHER	200654	-1
+dico_phrasis_0003290__eu-eu__original	dico_phrasis_0003290	eu	eu	Bizikleta zuri bat	Estilo zaharreko bizikleta bat	NEGATIVE_OTHER	200655	-1
+dico_phrasis_0003294__eu-eu__original	dico_phrasis_0003294	eu	eu	Mutil gazte bat	Mutil txiki bat	NEGATIVE_OTHER	200656	-1
+dico_phrasis_0003304__eu-eu__original	dico_phrasis_0003304	eu	eu	larruzko sofa batean	sofa beltz batean	NEGATIVE_OTHER	200657	-1
+dico_phrasis_0003307__eu-eu__original	dico_phrasis_0003307	eu	eu	zilar-koloreko tren-makina baten	tren-makina beltz baten	NEGATIVE_OTHER	200658	-1
+dico_phrasis_0003320__eu-eu__original	dico_phrasis_0003320	eu	eu	zuhaitz batetik	zuhaitz batean	NEGATIVE_OTHER	200659	-1

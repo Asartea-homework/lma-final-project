@@ -1,0 +1,661 @@
+instance_id	pair_id	text1_lang	text2_lang	text1	text2	label	instance_idx	partner_idx
+dico_phrasis_0000002__es-es__flipped	dico_phrasis_0000002	es	es	su visita a un santuario de guerra	su visita a un santuario	FORWARD_ENTAILMENT	100000	100001
+dico_phrasis_0000002__es-es__original	dico_phrasis_0000002	es	es	su visita a un santuario	su visita a un santuario de guerra	BACKWARD_ENTAILMENT	100001	100000
+dico_phrasis_0000004__es-es__flipped	dico_phrasis_0000004	es	es	leyes antiprotestas	ley antiprotestas	FORWARD_ENTAILMENT	100002	100003
+dico_phrasis_0000004__es-es__original	dico_phrasis_0000004	es	es	ley antiprotestas	leyes antiprotestas	BACKWARD_ENTAILMENT	100003	100002
+dico_phrasis_0000008__es-es__flipped	dico_phrasis_0000008	es	es	Expertos nucleares iraníes y también las potencias mundiales	Las potencias mundiales e Irán	FORWARD_ENTAILMENT	100004	100005
+dico_phrasis_0000008__es-es__original	dico_phrasis_0000008	es	es	Las potencias mundiales e Irán	Expertos nucleares iraníes y también las potencias mundiales	BACKWARD_ENTAILMENT	100005	100004
+dico_phrasis_0000010__es-es__flipped	dico_phrasis_0000010	es	es	Nueve niños	Cinco niños	FORWARD_ENTAILMENT	100006	100007
+dico_phrasis_0000010__es-es__original	dico_phrasis_0000010	es	es	Cinco niños	Nueve niños	BACKWARD_ENTAILMENT	100007	100006
+dico_phrasis_0000018__es-es__flipped	dico_phrasis_0000018	es	es	de todas las concentraciones de la Ira	marcha de la ira	FORWARD_ENTAILMENT	100008	100009
+dico_phrasis_0000018__es-es__original	dico_phrasis_0000018	es	es	marcha de la ira	de todas las concentraciones de la Ira	BACKWARD_ENTAILMENT	100009	100008
+dico_phrasis_0000019__es-es__flipped	dico_phrasis_0000019	es	es	Vídeo de seguridad	Vídeo	FORWARD_ENTAILMENT	100010	100011
+dico_phrasis_0000019__es-es__original	dico_phrasis_0000019	es	es	Vídeo	Vídeo de seguridad	BACKWARD_ENTAILMENT	100011	100010
+dico_phrasis_0000021__es-es__flipped	dico_phrasis_0000021	es	es	Seis muertos	Un muerto	FORWARD_ENTAILMENT	100012	100013
+dico_phrasis_0000021__es-es__original	dico_phrasis_0000021	es	es	Un muerto	Seis muertos	BACKWARD_ENTAILMENT	100013	100012
+dico_phrasis_0000023__es-es__flipped	dico_phrasis_0000023	es	es	papa Francisco	papa	FORWARD_ENTAILMENT	100014	100015
+dico_phrasis_0000023__es-es__original	dico_phrasis_0000023	es	es	papa	papa Francisco	BACKWARD_ENTAILMENT	100015	100014
+dico_phrasis_0000024__es-es__flipped	dico_phrasis_0000024	es	es	al destruir	destruir	FORWARD_ENTAILMENT	100016	100017
+dico_phrasis_0000024__es-es__original	dico_phrasis_0000024	es	es	destruir	al destruir	BACKWARD_ENTAILMENT	100017	100016
+dico_phrasis_0000030__es-es__flipped	dico_phrasis_0000030	es	es	el soldado de WikiLeaks Bradley Manning	Bradley Manning	FORWARD_ENTAILMENT	100018	100019
+dico_phrasis_0000030__es-es__original	dico_phrasis_0000030	es	es	Bradley Manning	el soldado de WikiLeaks Bradley Manning	BACKWARD_ENTAILMENT	100019	100018
+dico_phrasis_0000031__es-es__flipped	dico_phrasis_0000031	es	es	multitudes en Brasil	Brasil	FORWARD_ENTAILMENT	100020	100021
+dico_phrasis_0000031__es-es__original	dico_phrasis_0000031	es	es	Brasil	multitudes en Brasil	BACKWARD_ENTAILMENT	100021	100020
+dico_phrasis_0000034__es-es__flipped	dico_phrasis_0000034	es	es	Gobierno de Venezuela, jefe de la oposición	líder de la oposición venezolana	FORWARD_ENTAILMENT	100022	100023
+dico_phrasis_0000034__es-es__original	dico_phrasis_0000034	es	es	líder de la oposición venezolana	Gobierno de Venezuela, jefe de la oposición	BACKWARD_ENTAILMENT	100023	100022
+dico_phrasis_0000046__es-es__flipped	dico_phrasis_0000046	es	es	como nuevo director ejecutivo	como director ejecutivo	FORWARD_ENTAILMENT	100024	100025
+dico_phrasis_0000046__es-es__original	dico_phrasis_0000046	es	es	como director ejecutivo	como nuevo director ejecutivo	BACKWARD_ENTAILMENT	100025	100024
+dico_phrasis_0000059__es-es__flipped	dico_phrasis_0000059	es	es	por el desastre del naufragio del Costa Concordia	por el desastre del Costa Concordia	FORWARD_ENTAILMENT	100026	100027
+dico_phrasis_0000059__es-es__original	dico_phrasis_0000059	es	es	por el desastre del Costa Concordia	por el desastre del naufragio del Costa Concordia	BACKWARD_ENTAILMENT	100027	100026
+dico_phrasis_0000070__es-es__flipped	dico_phrasis_0000070	es	es	enorme manifestación por la democracia	marcha por la democracia	FORWARD_ENTAILMENT	100028	100029
+dico_phrasis_0000070__es-es__original	dico_phrasis_0000070	es	es	marcha por la democracia	enorme manifestación por la democracia	BACKWARD_ENTAILMENT	100029	100028
+dico_phrasis_0000078__es-es__flipped	dico_phrasis_0000078	es	es	en una ciudad afgana	en Afganistán	FORWARD_ENTAILMENT	100030	100031
+dico_phrasis_0000078__es-es__original	dico_phrasis_0000078	es	es	en Afganistán	en una ciudad afgana	BACKWARD_ENTAILMENT	100031	100030
+dico_phrasis_0000087__es-es__flipped	dico_phrasis_0000087	es	es	como asesor de seguridad nacional	como su asesor de seguridad	FORWARD_ENTAILMENT	100032	100033
+dico_phrasis_0000087__es-es__original	dico_phrasis_0000087	es	es	como su asesor de seguridad	como asesor de seguridad nacional	BACKWARD_ENTAILMENT	100033	100032
+dico_phrasis_0000096__es-es__flipped	dico_phrasis_0000096	es	es	Un hombre y una mujer	Un hombre	FORWARD_ENTAILMENT	100034	100035
+dico_phrasis_0000096__es-es__original	dico_phrasis_0000096	es	es	Un hombre	Un hombre y una mujer	BACKWARD_ENTAILMENT	100035	100034
+dico_phrasis_0000099__es-es__flipped	dico_phrasis_0000099	es	es	Tres perros	El perro	FORWARD_ENTAILMENT	100036	100037
+dico_phrasis_0000099__es-es__original	dico_phrasis_0000099	es	es	El perro	Tres perros	BACKWARD_ENTAILMENT	100037	100036
+dico_phrasis_0000101__es-es__flipped	dico_phrasis_0000101	es	es	Un ciclista	Una persona	FORWARD_ENTAILMENT	100038	100039
+dico_phrasis_0000101__es-es__original	dico_phrasis_0000101	es	es	Una persona	Un ciclista	BACKWARD_ENTAILMENT	100039	100038
+dico_phrasis_0000106__es-es__flipped	dico_phrasis_0000106	es	es	con una pelota de tenis	con una pelota	FORWARD_ENTAILMENT	100040	100041
+dico_phrasis_0000106__es-es__original	dico_phrasis_0000106	es	es	con una pelota	con una pelota de tenis	BACKWARD_ENTAILMENT	100041	100040
+dico_phrasis_0000118__es-es__flipped	dico_phrasis_0000118	es	es	a través de la hierba alta y verde	sobre la hierba	FORWARD_ENTAILMENT	100042	100043
+dico_phrasis_0000118__es-es__original	dico_phrasis_0000118	es	es	sobre la hierba	a través de la hierba alta y verde	BACKWARD_ENTAILMENT	100043	100042
+dico_phrasis_0000120__es-es__flipped	dico_phrasis_0000120	es	es	Un barco blanco	un barco	FORWARD_ENTAILMENT	100044	100045
+dico_phrasis_0000120__es-es__original	dico_phrasis_0000120	es	es	un barco	Un barco blanco	BACKWARD_ENTAILMENT	100045	100044
+dico_phrasis_0000125__es-es__flipped	dico_phrasis_0000125	es	es	en un campo cubierto de hierba verde crecida	a través de la hierba verde	FORWARD_ENTAILMENT	100046	100047
+dico_phrasis_0000125__es-es__original	dico_phrasis_0000125	es	es	a través de la hierba verde	en un campo cubierto de hierba verde crecida	BACKWARD_ENTAILMENT	100047	100046
+dico_phrasis_0000133__es-es__flipped	dico_phrasis_0000133	es	es	El perro pastor alemán de pelaje oscuro	Un perro negro	FORWARD_ENTAILMENT	100048	100049
+dico_phrasis_0000133__es-es__original	dico_phrasis_0000133	es	es	Un perro negro	El perro pastor alemán de pelaje oscuro	BACKWARD_ENTAILMENT	100049	100048
+dico_phrasis_0000141__es-es__flipped	dico_phrasis_0000141	es	es	delante de una piscina	en una piscina	FORWARD_ENTAILMENT	100050	100051
+dico_phrasis_0000141__es-es__original	dico_phrasis_0000141	es	es	en una piscina	delante de una piscina	BACKWARD_ENTAILMENT	100051	100050
+dico_phrasis_0000145__es-es__flipped	dico_phrasis_0000145	es	es	Dos perros marrones	Dos perros	FORWARD_ENTAILMENT	100052	100053
+dico_phrasis_0000145__es-es__original	dico_phrasis_0000145	es	es	Dos perros	Dos perros marrones	BACKWARD_ENTAILMENT	100053	100052
+dico_phrasis_0000162__es-es__flipped	dico_phrasis_0000162	es	es	de cada caballo	un caballo	FORWARD_ENTAILMENT	100054	100055
+dico_phrasis_0000162__es-es__original	dico_phrasis_0000162	es	es	un caballo	de cada caballo	BACKWARD_ENTAILMENT	100055	100054
+dico_phrasis_0000164__es-es__flipped	dico_phrasis_0000164	es	es	Un hombre joven	Un hombre	FORWARD_ENTAILMENT	100056	100057
+dico_phrasis_0000164__es-es__original	dico_phrasis_0000164	es	es	Un hombre	Un hombre joven	BACKWARD_ENTAILMENT	100057	100056
+dico_phrasis_0000165__es-es__flipped	dico_phrasis_0000165	es	es	Un perro pitbull negro	Un perro negro	FORWARD_ENTAILMENT	100058	100059
+dico_phrasis_0000165__es-es__original	dico_phrasis_0000165	es	es	Un perro negro	Un perro pitbull negro	BACKWARD_ENTAILMENT	100059	100058
+dico_phrasis_0000185__es-es__flipped	dico_phrasis_0000185	es	es	Tres niñas	La niña	FORWARD_ENTAILMENT	100060	100061
+dico_phrasis_0000185__es-es__original	dico_phrasis_0000185	es	es	La niña	Tres niñas	BACKWARD_ENTAILMENT	100061	100060
+dico_phrasis_0000190__es-es__flipped	dico_phrasis_0000190	es	es	Los perros parduzcos y blancos	El perro canela y blanco	FORWARD_ENTAILMENT	100062	100063
+dico_phrasis_0000190__es-es__original	dico_phrasis_0000190	es	es	El perro canela y blanco	Los perros parduzcos y blancos	BACKWARD_ENTAILMENT	100063	100062
+dico_phrasis_0000192__es-es__flipped	dico_phrasis_0000192	es	es	una chica rubia	Una mujer	FORWARD_ENTAILMENT	100064	100065
+dico_phrasis_0000192__es-es__original	dico_phrasis_0000192	es	es	Una mujer	una chica rubia	BACKWARD_ENTAILMENT	100065	100064
+dico_phrasis_0000198__es-es__flipped	dico_phrasis_0000198	es	es	una barra de chocolate	una golosina en barra	FORWARD_ENTAILMENT	100066	100067
+dico_phrasis_0000198__es-es__original	dico_phrasis_0000198	es	es	una golosina en barra	una barra de chocolate	BACKWARD_ENTAILMENT	100067	100066
+dico_phrasis_0000219__es-es__flipped	dico_phrasis_0000219	es	es	por la calle llana y nevada	por la nieve	FORWARD_ENTAILMENT	100068	100069
+dico_phrasis_0000219__es-es__original	dico_phrasis_0000219	es	es	por la nieve	por la calle llana y nevada	BACKWARD_ENTAILMENT	100069	100068
+dico_phrasis_0000221__es-es__flipped	dico_phrasis_0000221	es	es	en un campo verde cubierto de hierba	en un terreno	FORWARD_ENTAILMENT	100070	100071
+dico_phrasis_0000221__es-es__original	dico_phrasis_0000221	es	es	en un terreno	en un campo verde cubierto de hierba	BACKWARD_ENTAILMENT	100071	100070
+dico_phrasis_0000223__es-es__flipped	dico_phrasis_0000223	es	es	de un toro marrón	mientras un toro	FORWARD_ENTAILMENT	100072	100073
+dico_phrasis_0000223__es-es__original	dico_phrasis_0000223	es	es	mientras un toro	de un toro marrón	BACKWARD_ENTAILMENT	100073	100072
+dico_phrasis_0000226__es-es__flipped	dico_phrasis_0000226	es	es	a través de un patio verde	a través de la hierba	FORWARD_ENTAILMENT	100074	100075
+dico_phrasis_0000226__es-es__original	dico_phrasis_0000226	es	es	a través de la hierba	a través de un patio verde	BACKWARD_ENTAILMENT	100075	100074
+dico_phrasis_0000240__es-es__flipped	dico_phrasis_0000240	es	es	Líderes de la oposición camboyana	Líderes de la oposición	FORWARD_ENTAILMENT	100076	100077
+dico_phrasis_0000240__es-es__original	dico_phrasis_0000240	es	es	Líderes de la oposición	Líderes de la oposición camboyana	BACKWARD_ENTAILMENT	100077	100076
+dico_phrasis_0000241__es-es__flipped	dico_phrasis_0000241	es	es	a los talibanes	talibanes	FORWARD_ENTAILMENT	100078	100079
+dico_phrasis_0000241__es-es__original	dico_phrasis_0000241	es	es	talibanes	a los talibanes	BACKWARD_ENTAILMENT	100079	100078
+dico_phrasis_0000249__es-es__flipped	dico_phrasis_0000249	es	es	su primer monumento conmemorativo	recordado	FORWARD_ENTAILMENT	100080	100081
+dico_phrasis_0000249__es-es__original	dico_phrasis_0000249	es	es	recordado	su primer monumento conmemorativo	BACKWARD_ENTAILMENT	100081	100080
+dico_phrasis_0000259__es-es__flipped	dico_phrasis_0000259	es	es	nueva ley de atención médica	ley de atención médica	FORWARD_ENTAILMENT	100082	100083
+dico_phrasis_0000259__es-es__original	dico_phrasis_0000259	es	es	ley de atención médica	nueva ley de atención médica	BACKWARD_ENTAILMENT	100083	100082
+dico_phrasis_0000262__es-es__flipped	dico_phrasis_0000262	es	es	de la mayoría de los críticos	Críticos	FORWARD_ENTAILMENT	100084	100085
+dico_phrasis_0000262__es-es__original	dico_phrasis_0000262	es	es	Críticos	de la mayoría de los críticos	BACKWARD_ENTAILMENT	100085	100084
+dico_phrasis_0000263__es-es__flipped	dico_phrasis_0000263	es	es	sobre la Hermandad Musulmana	sobre la Hermandad	FORWARD_ENTAILMENT	100086	100087
+dico_phrasis_0000263__es-es__original	dico_phrasis_0000263	es	es	sobre la Hermandad	sobre la Hermandad Musulmana	BACKWARD_ENTAILMENT	100087	100086
+dico_phrasis_0000271__es-es__flipped	dico_phrasis_0000271	es	es	Acciones estadounidenses	Acciones	FORWARD_ENTAILMENT	100088	100089
+dico_phrasis_0000271__es-es__original	dico_phrasis_0000271	es	es	Acciones	Acciones estadounidenses	BACKWARD_ENTAILMENT	100089	100088
+dico_phrasis_0000277__es-es__flipped	dico_phrasis_0000277	es	es	accidente cerebrovascular	problema de salud	FORWARD_ENTAILMENT	100090	100091
+dico_phrasis_0000277__es-es__original	dico_phrasis_0000277	es	es	problema de salud	accidente cerebrovascular	BACKWARD_ENTAILMENT	100091	100090
+dico_phrasis_0000279__es-es__flipped	dico_phrasis_0000279	es	es	11 niños afganos	dos niños afganos	FORWARD_ENTAILMENT	100092	100093
+dico_phrasis_0000279__es-es__original	dico_phrasis_0000279	es	es	dos niños afganos	11 niños afganos	BACKWARD_ENTAILMENT	100093	100092
+dico_phrasis_0000283__es-es__flipped	dico_phrasis_0000283	es	es	simpatizantes de los Hermanos Musulmanes	simpatizante de los Hermanos Musulmanes	FORWARD_ENTAILMENT	100094	100095
+dico_phrasis_0000283__es-es__original	dico_phrasis_0000283	es	es	simpatizante de los Hermanos Musulmanes	simpatizantes de los Hermanos Musulmanes	BACKWARD_ENTAILMENT	100095	100094
+dico_phrasis_0000284__es-es__flipped	dico_phrasis_0000284	es	es	el jueves	jueves	FORWARD_ENTAILMENT	100096	100097
+dico_phrasis_0000284__es-es__original	dico_phrasis_0000284	es	es	jueves	el jueves	BACKWARD_ENTAILMENT	100097	100096
+dico_phrasis_0000290__es-es__flipped	dico_phrasis_0000290	es	es	para devolución	devolución	FORWARD_ENTAILMENT	100098	100099
+dico_phrasis_0000290__es-es__original	dico_phrasis_0000290	es	es	devolución	para devolución	BACKWARD_ENTAILMENT	100099	100098
+dico_phrasis_0000294__es-es__flipped	dico_phrasis_0000294	es	es	en un ataque con armas químicas en Siria	en un ataque en Siria	FORWARD_ENTAILMENT	100100	100101
+dico_phrasis_0000294__es-es__original	dico_phrasis_0000294	es	es	en un ataque en Siria	en un ataque con armas químicas en Siria	BACKWARD_ENTAILMENT	100101	100100
+dico_phrasis_0000303__es-es__flipped	dico_phrasis_0000303	es	es	en oración y canto	reza	FORWARD_ENTAILMENT	100102	100103
+dico_phrasis_0000303__es-es__original	dico_phrasis_0000303	es	es	reza	en oración y canto	BACKWARD_ENTAILMENT	100103	100102
+dico_phrasis_0000328__es-es__flipped	dico_phrasis_0000328	es	es	en el noroeste de Pakistán	en Pakistán	FORWARD_ENTAILMENT	100104	100105
+dico_phrasis_0000328__es-es__original	dico_phrasis_0000328	es	es	en Pakistán	en el noroeste de Pakistán	BACKWARD_ENTAILMENT	100105	100104
+dico_phrasis_0000329__es-es__flipped	dico_phrasis_0000329	es	es	Atacantes suicidas	Atacante suicida	FORWARD_ENTAILMENT	100106	100107
+dico_phrasis_0000329__es-es__original	dico_phrasis_0000329	es	es	Atacante suicida	Atacantes suicidas	BACKWARD_ENTAILMENT	100107	100106
+dico_phrasis_0000331__es-es__flipped	dico_phrasis_0000331	es	es	China y Taiwán	China	FORWARD_ENTAILMENT	100108	100109
+dico_phrasis_0000331__es-es__original	dico_phrasis_0000331	es	es	China	China y Taiwán	BACKWARD_ENTAILMENT	100109	100108
+dico_phrasis_0000340__es-es__flipped	dico_phrasis_0000340	es	es	ataques aéreos	ataques	FORWARD_ENTAILMENT	100110	100111
+dico_phrasis_0000340__es-es__original	dico_phrasis_0000340	es	es	ataques	ataques aéreos	BACKWARD_ENTAILMENT	100111	100110
+dico_phrasis_0000345__es-es__flipped	dico_phrasis_0000345	es	es	después de Zimmerman	George Zimmerman	FORWARD_ENTAILMENT	100112	100113
+dico_phrasis_0000345__es-es__original	dico_phrasis_0000345	es	es	George Zimmerman	después de Zimmerman	BACKWARD_ENTAILMENT	100113	100112
+dico_phrasis_0000350__es-es__flipped	dico_phrasis_0000350	es	es	de todas las personas	entre 8 y 10 personas	FORWARD_ENTAILMENT	100114	100115
+dico_phrasis_0000350__es-es__original	dico_phrasis_0000350	es	es	entre 8 y 10 personas	de todas las personas	BACKWARD_ENTAILMENT	100115	100114
+dico_phrasis_0000370__es-es__flipped	dico_phrasis_0000370	es	es	sobre la acción militar en Siria	sobre la acción en Siria	FORWARD_ENTAILMENT	100116	100117
+dico_phrasis_0000370__es-es__original	dico_phrasis_0000370	es	es	sobre la acción en Siria	sobre la acción militar en Siria	BACKWARD_ENTAILMENT	100117	100116
+dico_phrasis_0000375__es-es__flipped	dico_phrasis_0000375	es	es	hacer una declaración	hablar	FORWARD_ENTAILMENT	100118	100119
+dico_phrasis_0000375__es-es__original	dico_phrasis_0000375	es	es	hablar	hacer una declaración	BACKWARD_ENTAILMENT	100119	100118
+dico_phrasis_0000391__es-es__flipped	dico_phrasis_0000391	es	es	hospital británico	hospital	FORWARD_ENTAILMENT	100120	100121
+dico_phrasis_0000391__es-es__original	dico_phrasis_0000391	es	es	hospital	hospital británico	BACKWARD_ENTAILMENT	100121	100120
+dico_phrasis_0000393__es-es__flipped	dico_phrasis_0000393	es	es	sanciones a los diamantes	sanciones	FORWARD_ENTAILMENT	100122	100123
+dico_phrasis_0000393__es-es__original	dico_phrasis_0000393	es	es	sanciones	sanciones a los diamantes	BACKWARD_ENTAILMENT	100123	100122
+dico_phrasis_0000405__es-es__flipped	dico_phrasis_0000405	es	es	en mítines de Morsi	en un mitin de Morsi	FORWARD_ENTAILMENT	100124	100125
+dico_phrasis_0000405__es-es__original	dico_phrasis_0000405	es	es	en un mitin de Morsi	en mítines de Morsi	BACKWARD_ENTAILMENT	100125	100124
+dico_phrasis_0000421__es-es__flipped	dico_phrasis_0000421	es	es	solicitud de liberación de Mubarak	liberación de Mubarak	FORWARD_ENTAILMENT	100126	100127
+dico_phrasis_0000421__es-es__original	dico_phrasis_0000421	es	es	liberación de Mubarak	solicitud de liberación de Mubarak	BACKWARD_ENTAILMENT	100127	100126
+dico_phrasis_0000425__es-es__flipped	dico_phrasis_0000425	es	es	sobre economía	economía	FORWARD_ENTAILMENT	100128	100129
+dico_phrasis_0000425__es-es__original	dico_phrasis_0000425	es	es	economía	sobre economía	BACKWARD_ENTAILMENT	100129	100128
+dico_phrasis_0000432__es-es__flipped	dico_phrasis_0000432	es	es	con un top negro y un collar	con un collar grande	FORWARD_ENTAILMENT	100130	100131
+dico_phrasis_0000432__es-es__original	dico_phrasis_0000432	es	es	con un collar grande	con un top negro y un collar	BACKWARD_ENTAILMENT	100131	100130
+dico_phrasis_0000444__es-es__flipped	dico_phrasis_0000444	es	es	en un campo verde y exuberante	en el campo	FORWARD_ENTAILMENT	100132	100133
+dico_phrasis_0000444__es-es__original	dico_phrasis_0000444	es	es	en el campo	en un campo verde y exuberante	BACKWARD_ENTAILMENT	100133	100132
+dico_phrasis_0000447__es-es__flipped	dico_phrasis_0000447	es	es	Cuatro personas	Dos personas	FORWARD_ENTAILMENT	100134	100135
+dico_phrasis_0000447__es-es__original	dico_phrasis_0000447	es	es	Dos personas	Cuatro personas	BACKWARD_ENTAILMENT	100135	100134
+dico_phrasis_0000449__es-es__flipped	dico_phrasis_0000449	es	es	Un coche negro	Un vehículo negro	FORWARD_ENTAILMENT	100136	100137
+dico_phrasis_0000449__es-es__original	dico_phrasis_0000449	es	es	Un vehículo negro	Un coche negro	BACKWARD_ENTAILMENT	100137	100136
+dico_phrasis_0000452__es-es__flipped	dico_phrasis_0000452	es	es	Un perro pequeño de color naranja y blanco	Un perro de color marrón y blanco	FORWARD_ENTAILMENT	100138	100139
+dico_phrasis_0000452__es-es__original	dico_phrasis_0000452	es	es	Un perro de color marrón y blanco	Un perro pequeño de color naranja y blanco	BACKWARD_ENTAILMENT	100139	100138
+dico_phrasis_0000453__es-es__flipped	dico_phrasis_0000453	es	es	mirando hacia arriba	mirando	FORWARD_ENTAILMENT	100140	100141
+dico_phrasis_0000453__es-es__original	dico_phrasis_0000453	es	es	mirando	mirando hacia arriba	BACKWARD_ENTAILMENT	100141	100140
+dico_phrasis_0000466__es-es__flipped	dico_phrasis_0000466	es	es	Una oveja grande	Una oveja	FORWARD_ENTAILMENT	100142	100143
+dico_phrasis_0000466__es-es__original	dico_phrasis_0000466	es	es	Una oveja	Una oveja grande	BACKWARD_ENTAILMENT	100143	100142
+dico_phrasis_0000469__es-es__flipped	dico_phrasis_0000469	es	es	Un autobús de Inglaterra rojo y blanco	Un autobús rojo y blanco	FORWARD_ENTAILMENT	100144	100145
+dico_phrasis_0000469__es-es__original	dico_phrasis_0000469	es	es	Un autobús rojo y blanco	Un autobús de Inglaterra rojo y blanco	BACKWARD_ENTAILMENT	100145	100144
+dico_phrasis_0000487__es-es__flipped	dico_phrasis_0000487	es	es	en ramas	en la rama	FORWARD_ENTAILMENT	100146	100147
+dico_phrasis_0000487__es-es__original	dico_phrasis_0000487	es	es	en la rama	en ramas	BACKWARD_ENTAILMENT	100147	100146
+dico_phrasis_0000493__es-es__flipped	dico_phrasis_0000493	es	es	sobre el caballo marrón	un caballo	FORWARD_ENTAILMENT	100148	100149
+dico_phrasis_0000493__es-es__original	dico_phrasis_0000493	es	es	un caballo	sobre el caballo marrón	BACKWARD_ENTAILMENT	100149	100148
+dico_phrasis_0000495__es-es__flipped	dico_phrasis_0000495	es	es	Un tren de vapor negro	Tren	FORWARD_ENTAILMENT	100150	100151
+dico_phrasis_0000495__es-es__original	dico_phrasis_0000495	es	es	Tren	Un tren de vapor negro	BACKWARD_ENTAILMENT	100151	100150
+dico_phrasis_0000497__es-es__flipped	dico_phrasis_0000497	es	es	de alguna pista de aterrizaje	desde el aeropuerto	FORWARD_ENTAILMENT	100152	100153
+dico_phrasis_0000497__es-es__original	dico_phrasis_0000497	es	es	desde el aeropuerto	de alguna pista de aterrizaje	BACKWARD_ENTAILMENT	100153	100152
+dico_phrasis_0000499__es-es__flipped	dico_phrasis_0000499	es	es	dentro de una cúpula cubierta de pelo con diseño de vaca	dentro de un recinto peludo blanco y negro	FORWARD_ENTAILMENT	100154	100155
+dico_phrasis_0000499__es-es__original	dico_phrasis_0000499	es	es	dentro de un recinto peludo blanco y negro	dentro de una cúpula cubierta de pelo con diseño de vaca	BACKWARD_ENTAILMENT	100155	100154
+dico_phrasis_0000514__es-es__flipped	dico_phrasis_0000514	es	es	de un comedero para pájaros	del comedero	FORWARD_ENTAILMENT	100156	100157
+dico_phrasis_0000514__es-es__original	dico_phrasis_0000514	es	es	del comedero	de un comedero para pájaros	BACKWARD_ENTAILMENT	100157	100156
+dico_phrasis_0000516__es-es__flipped	dico_phrasis_0000516	es	es	Un pájaro pequeño, rojo y gris	Un pájaro rojo	FORWARD_ENTAILMENT	100158	100159
+dico_phrasis_0000516__es-es__original	dico_phrasis_0000516	es	es	Un pájaro rojo	Un pájaro pequeño, rojo y gris	BACKWARD_ENTAILMENT	100159	100158
+dico_phrasis_0000540__es-es__flipped	dico_phrasis_0000540	es	es	en un corral con heno	en el heno	FORWARD_ENTAILMENT	100160	100161
+dico_phrasis_0000540__es-es__original	dico_phrasis_0000540	es	es	en el heno	en un corral con heno	BACKWARD_ENTAILMENT	100161	100160
+dico_phrasis_0000541__es-es__flipped	dico_phrasis_0000541	es	es	a lo largo de la calle	una calle	FORWARD_ENTAILMENT	100162	100163
+dico_phrasis_0000541__es-es__original	dico_phrasis_0000541	es	es	una calle	a lo largo de la calle	BACKWARD_ENTAILMENT	100163	100162
+dico_phrasis_0000552__es-es__flipped	dico_phrasis_0000552	es	es	Comedor con mesa de madera	La mesa del comedor	FORWARD_ENTAILMENT	100164	100165
+dico_phrasis_0000552__es-es__original	dico_phrasis_0000552	es	es	La mesa del comedor	Comedor con mesa de madera	BACKWARD_ENTAILMENT	100165	100164
+dico_phrasis_0000559__es-es__flipped	dico_phrasis_0000559	es	es	Un hombre	Una persona	FORWARD_ENTAILMENT	100166	100167
+dico_phrasis_0000559__es-es__original	dico_phrasis_0000559	es	es	Una persona	Un hombre	BACKWARD_ENTAILMENT	100167	100166
+dico_phrasis_0000560__es-es__flipped	dico_phrasis_0000560	es	es	Un tren mayormente negro	Un tren negro	FORWARD_ENTAILMENT	100168	100169
+dico_phrasis_0000560__es-es__original	dico_phrasis_0000560	es	es	Un tren negro	Un tren mayormente negro	BACKWARD_ENTAILMENT	100169	100168
+dico_phrasis_0000561__es-es__flipped	dico_phrasis_0000561	es	es	Un perro blanco	Un animal blanco	FORWARD_ENTAILMENT	100170	100171
+dico_phrasis_0000561__es-es__original	dico_phrasis_0000561	es	es	Un animal blanco	Un perro blanco	BACKWARD_ENTAILMENT	100171	100170
+dico_phrasis_0000562__es-es__flipped	dico_phrasis_0000562	es	es	junto a una ventana	la ventana	FORWARD_ENTAILMENT	100172	100173
+dico_phrasis_0000562__es-es__original	dico_phrasis_0000562	es	es	la ventana	junto a una ventana	BACKWARD_ENTAILMENT	100173	100172
+dico_phrasis_0000568__es-es__flipped	dico_phrasis_0000568	es	es	Un autobús de dos pisos rojo y blanco está estacionado	Autobús blanco de dos pisos estacionado	FORWARD_ENTAILMENT	100174	100175
+dico_phrasis_0000568__es-es__original	dico_phrasis_0000568	es	es	Autobús blanco de dos pisos estacionado	Un autobús de dos pisos rojo y blanco está estacionado	BACKWARD_ENTAILMENT	100175	100174
+dico_phrasis_0000602__es-es__flipped	dico_phrasis_0000602	es	es	Un gato gris, negro y blanco	El gato blanco y negro	FORWARD_ENTAILMENT	100176	100177
+dico_phrasis_0000602__es-es__original	dico_phrasis_0000602	es	es	El gato blanco y negro	Un gato gris, negro y blanco	BACKWARD_ENTAILMENT	100177	100176
+dico_phrasis_0000604__es-es__flipped	dico_phrasis_0000604	es	es	Un perro blanco pequeño	El perro pequeño	FORWARD_ENTAILMENT	100178	100179
+dico_phrasis_0000604__es-es__original	dico_phrasis_0000604	es	es	El perro pequeño	Un perro blanco pequeño	BACKWARD_ENTAILMENT	100179	100178
+dico_phrasis_0000614__es-es__flipped	dico_phrasis_0000614	es	es	con un cachorro	con un perro	FORWARD_ENTAILMENT	100180	100181
+dico_phrasis_0000614__es-es__original	dico_phrasis_0000614	es	es	con un perro	con un cachorro	BACKWARD_ENTAILMENT	100181	100180
+dico_phrasis_0000616__es-es__flipped	dico_phrasis_0000616	es	es	El televisor de pantalla plana montado en la pared	de una pantalla de televisión	FORWARD_ENTAILMENT	100182	100183
+dico_phrasis_0000616__es-es__original	dico_phrasis_0000616	es	es	de una pantalla de televisión	El televisor de pantalla plana montado en la pared	BACKWARD_ENTAILMENT	100183	100182
+dico_phrasis_0000618__es-es__flipped	dico_phrasis_0000618	es	es	Dos mujeres	Dos personas	FORWARD_ENTAILMENT	100184	100185
+dico_phrasis_0000618__es-es__original	dico_phrasis_0000618	es	es	Dos personas	Dos mujeres	BACKWARD_ENTAILMENT	100185	100184
+dico_phrasis_0000619__es-es__flipped	dico_phrasis_0000619	es	es	Un grupo de personas	Seis personas	FORWARD_ENTAILMENT	100186	100187
+dico_phrasis_0000619__es-es__original	dico_phrasis_0000619	es	es	Seis personas	Un grupo de personas	BACKWARD_ENTAILMENT	100187	100186
+dico_phrasis_0000623__es-es__flipped	dico_phrasis_0000623	es	es	con un bebé recién nacido	un bebé	FORWARD_ENTAILMENT	100188	100189
+dico_phrasis_0000623__es-es__original	dico_phrasis_0000623	es	es	un bebé	con un bebé recién nacido	BACKWARD_ENTAILMENT	100189	100188
+dico_phrasis_0000632__es-es__flipped	dico_phrasis_0000632	es	es	con sus trenes de aterrizaje	con su tren de aterrizaje	FORWARD_ENTAILMENT	100190	100191
+dico_phrasis_0000632__es-es__original	dico_phrasis_0000632	es	es	con su tren de aterrizaje	con sus trenes de aterrizaje	BACKWARD_ENTAILMENT	100191	100190
+dico_phrasis_0000641__es-es__flipped	dico_phrasis_0000641	es	es	en la muerte de Bhutto	por el asesinato de Bhutto	EQUIVALENCE	100192	100193
+dico_phrasis_0000641__es-es__original	dico_phrasis_0000641	es	es	por el asesinato de Bhutto	en la muerte de Bhutto	EQUIVALENCE	100193	100192
+dico_phrasis_0000661__es-es__flipped	dico_phrasis_0000661	es	es	traer	trae	EQUIVALENCE	100194	100195
+dico_phrasis_0000661__es-es__original	dico_phrasis_0000661	es	es	trae	traer	EQUIVALENCE	100195	100194
+dico_phrasis_0000711__es-es__flipped	dico_phrasis_0000711	es	es	de sobornar	sobornar	EQUIVALENCE	100196	100197
+dico_phrasis_0000711__es-es__original	dico_phrasis_0000711	es	es	sobornar	de sobornar	EQUIVALENCE	100197	100196
+dico_phrasis_0000712__es-es__flipped	dico_phrasis_0000712	es	es	la suite de software de productividad de Microsoft	Microsoft Office	EQUIVALENCE	100198	100199
+dico_phrasis_0000712__es-es__original	dico_phrasis_0000712	es	es	Microsoft Office	la suite de software de productividad de Microsoft	EQUIVALENCE	100199	100198
+dico_phrasis_0000721__es-es__flipped	dico_phrasis_0000721	es	es	rabino Ovadia Yosef	Ovadia Yosef	EQUIVALENCE	100200	100201
+dico_phrasis_0000721__es-es__original	dico_phrasis_0000721	es	es	Ovadia Yosef	rabino Ovadia Yosef	EQUIVALENCE	100201	100200
+dico_phrasis_0000724__es-es__flipped	dico_phrasis_0000724	es	es	Un hombre y una mujer	Una mujer y un hombre	EQUIVALENCE	100202	100203
+dico_phrasis_0000724__es-es__original	dico_phrasis_0000724	es	es	Una mujer y un hombre	Un hombre y una mujer	EQUIVALENCE	100203	100202
+dico_phrasis_0000725__es-es__flipped	dico_phrasis_0000725	es	es	para una imagen	Para una fotografía	EQUIVALENCE	100204	100205
+dico_phrasis_0000725__es-es__original	dico_phrasis_0000725	es	es	Para una fotografía	para una imagen	EQUIVALENCE	100205	100204
+dico_phrasis_0000726__es-es__flipped	dico_phrasis_0000726	es	es	Un niño pequeño	Un niño de corta edad	EQUIVALENCE	100206	100207
+dico_phrasis_0000726__es-es__original	dico_phrasis_0000726	es	es	Un niño de corta edad	Un niño pequeño	EQUIVALENCE	100207	100206
+dico_phrasis_0000729__es-es__flipped	dico_phrasis_0000729	es	es	Una mujer	Una mujer adulta	EQUIVALENCE	100208	100209
+dico_phrasis_0000729__es-es__original	dico_phrasis_0000729	es	es	Una mujer adulta	Una mujer	EQUIVALENCE	100209	100208
+dico_phrasis_0000731__es-es__flipped	dico_phrasis_0000731	es	es	dentro de una piscina	en la piscina	EQUIVALENCE	100210	100211
+dico_phrasis_0000731__es-es__original	dico_phrasis_0000731	es	es	en la piscina	dentro de una piscina	EQUIVALENCE	100211	100210
+dico_phrasis_0000732__es-es__flipped	dico_phrasis_0000732	es	es	saltando	está saltando	EQUIVALENCE	100212	100213
+dico_phrasis_0000732__es-es__original	dico_phrasis_0000732	es	es	está saltando	saltando	EQUIVALENCE	100213	100212
+dico_phrasis_0000733__es-es__flipped	dico_phrasis_0000733	es	es	por la hierba	a través de la zona de césped	EQUIVALENCE	100214	100215
+dico_phrasis_0000733__es-es__original	dico_phrasis_0000733	es	es	a través de la zona de césped	por la hierba	EQUIVALENCE	100215	100214
+dico_phrasis_0000743__es-es__flipped	dico_phrasis_0000743	es	es	está bajo el agua	sumergido en agua	EQUIVALENCE	100216	100217
+dico_phrasis_0000743__es-es__original	dico_phrasis_0000743	es	es	sumergido en agua	está bajo el agua	EQUIVALENCE	100217	100216
+dico_phrasis_0000752__es-es__flipped	dico_phrasis_0000752	es	es	sumergido en el agua	en el agua	EQUIVALENCE	100218	100219
+dico_phrasis_0000752__es-es__original	dico_phrasis_0000752	es	es	en el agua	sumergido en el agua	EQUIVALENCE	100219	100218
+dico_phrasis_0000768__es-es__flipped	dico_phrasis_0000768	es	es	juegan	están jugando	EQUIVALENCE	100220	100221
+dico_phrasis_0000768__es-es__original	dico_phrasis_0000768	es	es	están jugando	juegan	EQUIVALENCE	100221	100220
+dico_phrasis_0000788__es-es__flipped	dico_phrasis_0000788	es	es	al revés	invertido	EQUIVALENCE	100222	100223
+dico_phrasis_0000788__es-es__original	dico_phrasis_0000788	es	es	invertido	al revés	EQUIVALENCE	100223	100222
+dico_phrasis_0000801__es-es__flipped	dico_phrasis_0000801	es	es	hacia la costa	en dirección a la línea de costa	EQUIVALENCE	100224	100225
+dico_phrasis_0000801__es-es__original	dico_phrasis_0000801	es	es	en dirección a la línea de costa	hacia la costa	EQUIVALENCE	100225	100224
+dico_phrasis_0000808__es-es__flipped	dico_phrasis_0000808	es	es	un beagle	el perro de raza beagle	EQUIVALENCE	100226	100227
+dico_phrasis_0000808__es-es__original	dico_phrasis_0000808	es	es	el perro de raza beagle	un beagle	EQUIVALENCE	100227	100226
+dico_phrasis_0000811__es-es__flipped	dico_phrasis_0000811	es	es	en una playa	en una orilla	EQUIVALENCE	100228	100229
+dico_phrasis_0000811__es-es__original	dico_phrasis_0000811	es	es	en una orilla	en una playa	EQUIVALENCE	100229	100228
+dico_phrasis_0000815__es-es__flipped	dico_phrasis_0000815	es	es	está corriendo	moviéndose a la carrera	EQUIVALENCE	100230	100231
+dico_phrasis_0000815__es-es__original	dico_phrasis_0000815	es	es	moviéndose a la carrera	está corriendo	EQUIVALENCE	100231	100230
+dico_phrasis_0000817__es-es__flipped	dico_phrasis_0000817	es	es	sobre rocas junto al agua	en una costa rocosa	EQUIVALENCE	100232	100233
+dico_phrasis_0000817__es-es__original	dico_phrasis_0000817	es	es	en una costa rocosa	sobre rocas junto al agua	EQUIVALENCE	100233	100232
+dico_phrasis_0000825__es-es__flipped	dico_phrasis_0000825	es	es	a través de la nieve	por terreno cubierto de nieve	EQUIVALENCE	100234	100235
+dico_phrasis_0000825__es-es__original	dico_phrasis_0000825	es	es	por terreno cubierto de nieve	a través de la nieve	EQUIVALENCE	100235	100234
+dico_phrasis_0000833__es-es__flipped	dico_phrasis_0000833	es	es	sosteniendo una pelota de béisbol	con una pelota de béisbol	EQUIVALENCE	100236	100237
+dico_phrasis_0000833__es-es__original	dico_phrasis_0000833	es	es	con una pelota de béisbol	sosteniendo una pelota de béisbol	EQUIVALENCE	100237	100236
+dico_phrasis_0000842__es-es__flipped	dico_phrasis_0000842	es	es	está rebotando	rebota	EQUIVALENCE	100238	100239
+dico_phrasis_0000842__es-es__original	dico_phrasis_0000842	es	es	rebota	está rebotando	EQUIVALENCE	100239	100238
+dico_phrasis_0000845__es-es__flipped	dico_phrasis_0000845	es	es	sentado en un columpio	en un columpio	EQUIVALENCE	100240	100241
+dico_phrasis_0000845__es-es__original	dico_phrasis_0000845	es	es	en un columpio	sentado en un columpio	EQUIVALENCE	100241	100240
+dico_phrasis_0000846__es-es__flipped	dico_phrasis_0000846	es	es	antes de atrapar	a punto de atrapar	EQUIVALENCE	100242	100243
+dico_phrasis_0000846__es-es__original	dico_phrasis_0000846	es	es	a punto de atrapar	antes de atrapar	EQUIVALENCE	100243	100242
+dico_phrasis_0000855__es-es__flipped	dico_phrasis_0000855	es	es	está de pie	permaneciendo de pie	EQUIVALENCE	100244	100245
+dico_phrasis_0000855__es-es__original	dico_phrasis_0000855	es	es	permaneciendo de pie	está de pie	EQUIVALENCE	100245	100244
+dico_phrasis_0000859__es-es__flipped	dico_phrasis_0000859	es	es	a la edad de 91 años	a los 91 años	EQUIVALENCE	100246	100247
+dico_phrasis_0000859__es-es__original	dico_phrasis_0000859	es	es	a los 91 años	a la edad de 91 años	EQUIVALENCE	100247	100246
+dico_phrasis_0000866__es-es__flipped	dico_phrasis_0000866	es	es	uniones familiares	Reuniones familiares	EQUIVALENCE	100248	100249
+dico_phrasis_0000866__es-es__original	dico_phrasis_0000866	es	es	Reuniones familiares	uniones familiares	EQUIVALENCE	100249	100248
+dico_phrasis_0000875__es-es__flipped	dico_phrasis_0000875	es	es	caer enfermo	enfermo	EQUIVALENCE	100250	100251
+dico_phrasis_0000875__es-es__original	dico_phrasis_0000875	es	es	enfermo	caer enfermo	EQUIVALENCE	100251	100250
+dico_phrasis_0000876__es-es__flipped	dico_phrasis_0000876	es	es	Dos periodistas franceses	2 periodistas franceses	EQUIVALENCE	100252	100253
+dico_phrasis_0000876__es-es__original	dico_phrasis_0000876	es	es	2 periodistas franceses	Dos periodistas franceses	EQUIVALENCE	100253	100252
+dico_phrasis_0000895__es-es__flipped	dico_phrasis_0000895	es	es	de la explosión de una planta de fertilizantes en Texas	en la explosión de una planta de fertilizantes en Texas	EQUIVALENCE	100254	100255
+dico_phrasis_0000895__es-es__original	dico_phrasis_0000895	es	es	en la explosión de una planta de fertilizantes en Texas	de la explosión de una planta de fertilizantes en Texas	EQUIVALENCE	100255	100254
+dico_phrasis_0000896__es-es__flipped	dico_phrasis_0000896	es	es	EE. UU.	Estados Unidos	EQUIVALENCE	100256	100257
+dico_phrasis_0000896__es-es__original	dico_phrasis_0000896	es	es	Estados Unidos	EE. UU.	EQUIVALENCE	100257	100256
+dico_phrasis_0000906__es-es__flipped	dico_phrasis_0000906	es	es	en la nueva constitución	en la constitución recién adoptada del país	EQUIVALENCE	100258	100259
+dico_phrasis_0000906__es-es__original	dico_phrasis_0000906	es	es	en la constitución recién adoptada del país	en la nueva constitución	EQUIVALENCE	100259	100258
+dico_phrasis_0000931__es-es__flipped	dico_phrasis_0000931	es	es	cerca de la embajada iraní	en las inmediaciones de la embajada de Irán	EQUIVALENCE	100260	100261
+dico_phrasis_0000931__es-es__original	dico_phrasis_0000931	es	es	en las inmediaciones de la embajada de Irán	cerca de la embajada iraní	EQUIVALENCE	100261	100260
+dico_phrasis_0000933__es-es__flipped	dico_phrasis_0000933	es	es	dice que no es verdad	lo niega	EQUIVALENCE	100262	100263
+dico_phrasis_0000933__es-es__original	dico_phrasis_0000933	es	es	lo niega	dice que no es verdad	EQUIVALENCE	100263	100262
+dico_phrasis_0000936__es-es__flipped	dico_phrasis_0000936	es	es	nueva elección presidencial	nueva elección para presidente	EQUIVALENCE	100264	100265
+dico_phrasis_0000936__es-es__original	dico_phrasis_0000936	es	es	nueva elección para presidente	nueva elección presidencial	EQUIVALENCE	100265	100264
+dico_phrasis_0000939__es-es__flipped	dico_phrasis_0000939	es	es	por un juez	emitido por un juez	EQUIVALENCE	100266	100267
+dico_phrasis_0000939__es-es__original	dico_phrasis_0000939	es	es	emitido por un juez	por un juez	EQUIVALENCE	100267	100266
+dico_phrasis_0000942__es-es__flipped	dico_phrasis_0000942	es	es	la Costa Este	el litoral oriental de Estados Unidos	EQUIVALENCE	100268	100269
+dico_phrasis_0000942__es-es__original	dico_phrasis_0000942	es	es	el litoral oriental de Estados Unidos	la Costa Este	EQUIVALENCE	100269	100268
+dico_phrasis_0000943__es-es__flipped	dico_phrasis_0000943	es	es	deslizar hacia arriba	subiendo la cremallera	EQUIVALENCE	100270	100271
+dico_phrasis_0000943__es-es__original	dico_phrasis_0000943	es	es	subiendo la cremallera	deslizar hacia arriba	EQUIVALENCE	100271	100270
+dico_phrasis_0000948__es-es__flipped	dico_phrasis_0000948	es	es	por la represión policial	por la violencia policial	EQUIVALENCE	100272	100273
+dico_phrasis_0000948__es-es__original	dico_phrasis_0000948	es	es	por la violencia policial	por la represión policial	EQUIVALENCE	100273	100272
+dico_phrasis_0000950__es-es__flipped	dico_phrasis_0000950	es	es	exponer	anunciar	EQUIVALENCE	100274	100275
+dico_phrasis_0000950__es-es__original	dico_phrasis_0000950	es	es	anunciar	exponer	EQUIVALENCE	100275	100274
+dico_phrasis_0000952__es-es__flipped	dico_phrasis_0000952	es	es	ante la crisis de la rupia	ante el desplome de la rupia	EQUIVALENCE	100276	100277
+dico_phrasis_0000952__es-es__original	dico_phrasis_0000952	es	es	ante el desplome de la rupia	ante la crisis de la rupia	EQUIVALENCE	100277	100276
+dico_phrasis_0000953__es-es__flipped	dico_phrasis_0000953	es	es	matrimonio entre personas del mismo sexo	matrimonio gay	EQUIVALENCE	100278	100279
+dico_phrasis_0000953__es-es__original	dico_phrasis_0000953	es	es	matrimonio gay	matrimonio entre personas del mismo sexo	EQUIVALENCE	100279	100278
+dico_phrasis_0000954__es-es__flipped	dico_phrasis_0000954	es	es	escuelas de artes marciales	clubes de artes marciales	EQUIVALENCE	100280	100281
+dico_phrasis_0000954__es-es__original	dico_phrasis_0000954	es	es	clubes de artes marciales	escuelas de artes marciales	EQUIVALENCE	100281	100280
+dico_phrasis_0000966__es-es__flipped	dico_phrasis_0000966	es	es	norte de Europa	Europa del Norte	EQUIVALENCE	100282	100283
+dico_phrasis_0000966__es-es__original	dico_phrasis_0000966	es	es	Europa del Norte	norte de Europa	EQUIVALENCE	100283	100282
+dico_phrasis_0000979__es-es__flipped	dico_phrasis_0000979	es	es	después de una protesta pro-Morsi	a las protestas pro-Morsi	EQUIVALENCE	100284	100285
+dico_phrasis_0000979__es-es__original	dico_phrasis_0000979	es	es	a las protestas pro-Morsi	después de una protesta pro-Morsi	EQUIVALENCE	100285	100284
+dico_phrasis_0000980__es-es__flipped	dico_phrasis_0000980	es	es	derrumbe de un edificio en Bangladés	desastre de un edificio en Bangladés	EQUIVALENCE	100286	100287
+dico_phrasis_0000980__es-es__original	dico_phrasis_0000980	es	es	desastre de un edificio en Bangladés	derrumbe de un edificio en Bangladés	EQUIVALENCE	100287	100286
+dico_phrasis_0000982__es-es__flipped	dico_phrasis_0000982	es	es	en accidente de autobús belga	en accidente de autocar belga	EQUIVALENCE	100288	100289
+dico_phrasis_0000982__es-es__original	dico_phrasis_0000982	es	es	en accidente de autocar belga	en accidente de autobús belga	EQUIVALENCE	100289	100288
+dico_phrasis_0000983__es-es__flipped	dico_phrasis_0000983	es	es	sometida a una violación en grupo	violada en grupo	EQUIVALENCE	100290	100291
+dico_phrasis_0000983__es-es__original	dico_phrasis_0000983	es	es	violada en grupo	sometida a una violación en grupo	EQUIVALENCE	100291	100290
+dico_phrasis_0000994__es-es__flipped	dico_phrasis_0000994	es	es	Vivienda de mayo	Vivienda en mayo	EQUIVALENCE	100292	100293
+dico_phrasis_0000994__es-es__original	dico_phrasis_0000994	es	es	Vivienda en mayo	Vivienda de mayo	EQUIVALENCE	100293	100292
+dico_phrasis_0001000__es-es__flipped	dico_phrasis_0001000	es	es	ejecutado	ejecución de	EQUIVALENCE	100294	100295
+dico_phrasis_0001000__es-es__original	dico_phrasis_0001000	es	es	ejecución de	ejecutado	EQUIVALENCE	100295	100294
+dico_phrasis_0001005__es-es__flipped	dico_phrasis_0001005	es	es	un hombre de California	hombre californiano	EQUIVALENCE	100296	100297
+dico_phrasis_0001005__es-es__original	dico_phrasis_0001005	es	es	hombre californiano	un hombre de California	EQUIVALENCE	100297	100296
+dico_phrasis_0001026__es-es__flipped	dico_phrasis_0001026	es	es	200 millones de USD	200 millones de dólares	EQUIVALENCE	100298	100299
+dico_phrasis_0001026__es-es__original	dico_phrasis_0001026	es	es	200 millones de dólares	200 millones de USD	EQUIVALENCE	100299	100298
+dico_phrasis_0001033__es-es__flipped	dico_phrasis_0001033	es	es	The Washington Post	el periódico llamado The Washington Post	EQUIVALENCE	100300	100301
+dico_phrasis_0001033__es-es__original	dico_phrasis_0001033	es	es	el periódico llamado The Washington Post	The Washington Post	EQUIVALENCE	100301	100300
+dico_phrasis_0001037__es-es__flipped	dico_phrasis_0001037	es	es	un título de caballero	un honor que confiere el título de caballero	EQUIVALENCE	100302	100303
+dico_phrasis_0001037__es-es__original	dico_phrasis_0001037	es	es	un honor que confiere el título de caballero	un título de caballero	EQUIVALENCE	100303	100302
+dico_phrasis_0001047__es-es__flipped	dico_phrasis_0001047	es	es	beneficios de Facebook	ganancias de Facebook	EQUIVALENCE	100304	100305
+dico_phrasis_0001047__es-es__original	dico_phrasis_0001047	es	es	ganancias de Facebook	beneficios de Facebook	EQUIVALENCE	100305	100304
+dico_phrasis_0001062__es-es__flipped	dico_phrasis_0001062	es	es	desde la elección de Rohani	desde la elección de Rowhani	EQUIVALENCE	100306	100307
+dico_phrasis_0001062__es-es__original	dico_phrasis_0001062	es	es	desde la elección de Rowhani	desde la elección de Rohani	EQUIVALENCE	100307	100306
+dico_phrasis_0001069__es-es__flipped	dico_phrasis_0001069	es	es	para conceder asilo	para asilo	EQUIVALENCE	100308	100309
+dico_phrasis_0001069__es-es__original	dico_phrasis_0001069	es	es	para asilo	para conceder asilo	EQUIVALENCE	100309	100308
+dico_phrasis_0001080__es-es__flipped	dico_phrasis_0001080	es	es	armas químicas	armas que utilizan sustancias químicas tóxicas	EQUIVALENCE	100310	100311
+dico_phrasis_0001080__es-es__original	dico_phrasis_0001080	es	es	armas que utilizan sustancias químicas tóxicas	armas químicas	EQUIVALENCE	100311	100310
+dico_phrasis_0001095__es-es__flipped	dico_phrasis_0001095	es	es	Una vaca marrón y blanca	un bovino de color marrón y blanco	EQUIVALENCE	100312	100313
+dico_phrasis_0001095__es-es__original	dico_phrasis_0001095	es	es	un bovino de color marrón y blanco	Una vaca marrón y blanca	EQUIVALENCE	100313	100312
+dico_phrasis_0001103__es-es__flipped	dico_phrasis_0001103	es	es	Un gato pelirrojo y blanco	Un gato naranja y blanco	EQUIVALENCE	100314	100315
+dico_phrasis_0001103__es-es__original	dico_phrasis_0001103	es	es	Un gato naranja y blanco	Un gato pelirrojo y blanco	EQUIVALENCE	100315	100314
+dico_phrasis_0001129__es-es__flipped	dico_phrasis_0001129	es	es	Un niño	un niño varón	EQUIVALENCE	100316	100317
+dico_phrasis_0001129__es-es__original	dico_phrasis_0001129	es	es	un niño varón	Un niño	EQUIVALENCE	100317	100316
+dico_phrasis_0001131__es-es__flipped	dico_phrasis_0001131	es	es	los neumáticos que les pertenecen	sus neumáticos	EQUIVALENCE	100318	100319
+dico_phrasis_0001131__es-es__original	dico_phrasis_0001131	es	es	sus neumáticos	los neumáticos que les pertenecen	EQUIVALENCE	100319	100318
+dico_phrasis_0001136__es-es__flipped	dico_phrasis_0001136	es	es	en la calle	por una calle de la ciudad	EQUIVALENCE	100320	100321
+dico_phrasis_0001136__es-es__original	dico_phrasis_0001136	es	es	por una calle de la ciudad	en la calle	EQUIVALENCE	100321	100320
+dico_phrasis_0001143__es-es__flipped	dico_phrasis_0001143	es	es	el canino de pelaje negro	El perro negro	EQUIVALENCE	100322	100323
+dico_phrasis_0001143__es-es__original	dico_phrasis_0001143	es	es	El perro negro	el canino de pelaje negro	EQUIVALENCE	100323	100322
+dico_phrasis_0001150__es-es__flipped	dico_phrasis_0001150	es	es	al lado de una mesa abarrotada	junto a una mesa desordenada	EQUIVALENCE	100324	100325
+dico_phrasis_0001150__es-es__original	dico_phrasis_0001150	es	es	junto a una mesa desordenada	al lado de una mesa abarrotada	EQUIVALENCE	100325	100324
+dico_phrasis_0001156__es-es__flipped	dico_phrasis_0001156	es	es	sobre la hierba verde	en un césped	EQUIVALENCE	100326	100327
+dico_phrasis_0001156__es-es__original	dico_phrasis_0001156	es	es	en un césped	sobre la hierba verde	EQUIVALENCE	100327	100326
+dico_phrasis_0001167__es-es__flipped	dico_phrasis_0001167	es	es	gato blanco y negro	un felino de pelaje blanco y negro	EQUIVALENCE	100328	100329
+dico_phrasis_0001167__es-es__original	dico_phrasis_0001167	es	es	un felino de pelaje blanco y negro	gato blanco y negro	EQUIVALENCE	100329	100328
+dico_phrasis_0001174__es-es__flipped	dico_phrasis_0001174	es	es	de escombros de madera	de materiales de construcción de madera usados	EQUIVALENCE	100330	100331
+dico_phrasis_0001174__es-es__original	dico_phrasis_0001174	es	es	de materiales de construcción de madera usados	de escombros de madera	EQUIVALENCE	100331	100330
+dico_phrasis_0001175__es-es__flipped	dico_phrasis_0001175	es	es	Montón	un montón	EQUIVALENCE	100332	100333
+dico_phrasis_0001175__es-es__original	dico_phrasis_0001175	es	es	un montón	Montón	EQUIVALENCE	100333	100332
+dico_phrasis_0001210__es-es__flipped	dico_phrasis_0001210	es	es	Un avión camuflado	Avión de camuflaje	EQUIVALENCE	100334	100335
+dico_phrasis_0001210__es-es__original	dico_phrasis_0001210	es	es	Avión de camuflaje	Un avión camuflado	EQUIVALENCE	100335	100334
+dico_phrasis_0001214__es-es__flipped	dico_phrasis_0001214	es	es	se aferra	aferrándose	EQUIVALENCE	100336	100337
+dico_phrasis_0001214__es-es__original	dico_phrasis_0001214	es	es	aferrándose	se aferra	EQUIVALENCE	100337	100336
+dico_phrasis_0001216__es-es__flipped	dico_phrasis_0001216	es	es	La vista trasera	la vista desde atrás	EQUIVALENCE	100338	100339
+dico_phrasis_0001216__es-es__original	dico_phrasis_0001216	es	es	la vista desde atrás	La vista trasera	EQUIVALENCE	100339	100338
+dico_phrasis_0001218__es-es__flipped	dico_phrasis_0001218	es	es	reposando en la superficie del agua	sobre el agua	EQUIVALENCE	100340	100341
+dico_phrasis_0001218__es-es__original	dico_phrasis_0001218	es	es	sobre el agua	reposando en la superficie del agua	EQUIVALENCE	100341	100340
+dico_phrasis_0001221__es-es__flipped	dico_phrasis_0001221	es	es	una foto en blanco y negro	una fotografía monocromática	EQUIVALENCE	100342	100343
+dico_phrasis_0001221__es-es__original	dico_phrasis_0001221	es	es	una fotografía monocromática	una foto en blanco y negro	EQUIVALENCE	100343	100342
+dico_phrasis_0001224__es-es__flipped	dico_phrasis_0001224	es	es	sobre la espalda	en la espalda	EQUIVALENCE	100344	100345
+dico_phrasis_0001224__es-es__original	dico_phrasis_0001224	es	es	en la espalda	sobre la espalda	EQUIVALENCE	100345	100344
+dico_phrasis_0001236__es-es__flipped	dico_phrasis_0001236	es	es	en una terminal de transporte	en una estación	EQUIVALENCE	100346	100347
+dico_phrasis_0001236__es-es__original	dico_phrasis_0001236	es	es	en una estación	en una terminal de transporte	EQUIVALENCE	100347	100346
+dico_phrasis_0001239__es-es__flipped	dico_phrasis_0001239	es	es	encaramado	reposando en lugares elevados	EQUIVALENCE	100348	100349
+dico_phrasis_0001239__es-es__original	dico_phrasis_0001239	es	es	reposando en lugares elevados	encaramado	EQUIVALENCE	100349	100348
+dico_phrasis_0001243__es-es__flipped	dico_phrasis_0001243	es	es	de un campo cubierto de hierba	en un campo de hierba verde	EQUIVALENCE	100350	100351
+dico_phrasis_0001243__es-es__original	dico_phrasis_0001243	es	es	en un campo de hierba verde	de un campo cubierto de hierba	EQUIVALENCE	100351	100350
+dico_phrasis_0001264__es-es__flipped	dico_phrasis_0001264	es	es	llevando puesto	vestido con	EQUIVALENCE	100352	100353
+dico_phrasis_0001264__es-es__original	dico_phrasis_0001264	es	es	vestido con	llevando puesto	EQUIVALENCE	100353	100352
+dico_phrasis_0001265__es-es__flipped	dico_phrasis_0001265	es	es	están cruzando	pasando de un lado al otro	EQUIVALENCE	100354	100355
+dico_phrasis_0001265__es-es__original	dico_phrasis_0001265	es	es	pasando de un lado al otro	están cruzando	EQUIVALENCE	100355	100354
+dico_phrasis_0001279__es-es__flipped	dico_phrasis_0001279	es	es	Una pareja	Dos personas	EQUIVALENCE	100356	100357
+dico_phrasis_0001279__es-es__original	dico_phrasis_0001279	es	es	Dos personas	Una pareja	EQUIVALENCE	100357	100356
+dico_phrasis_0001286__es-es__flipped	dico_phrasis_0001286	es	es	mira hacia arriba	mirando hacia arriba	EQUIVALENCE	100358	100359
+dico_phrasis_0001286__es-es__original	dico_phrasis_0001286	es	es	mirando hacia arriba	mira hacia arriba	EQUIVALENCE	100359	100358
+dico_phrasis_0001291__es-es__flipped	dico_phrasis_0001291	es	es	de la señal de stop	de la señal de tráfico que obliga a detenerse	EQUIVALENCE	100360	100361
+dico_phrasis_0001291__es-es__original	dico_phrasis_0001291	es	es	de la señal de tráfico que obliga a detenerse	de la señal de stop	EQUIVALENCE	100361	100360
+dico_phrasis_0001300__es-es__flipped	dico_phrasis_0001300	es	es	está acostado	acostado	EQUIVALENCE	100362	100363
+dico_phrasis_0001300__es-es__original	dico_phrasis_0001300	es	es	acostado	está acostado	EQUIVALENCE	100363	100362
+dico_phrasis_0001306__es-es__flipped	dico_phrasis_0001306	es	es	con dos mandos a distancia	acompañado de sus dos mandos a distancia	EQUIVALENCE	100364	100365
+dico_phrasis_0001306__es-es__original	dico_phrasis_0001306	es	es	acompañado de sus dos mandos a distancia	con dos mandos a distancia	EQUIVALENCE	100365	100364
+dico_phrasis_0001323__es-es__flipped	dico_phrasis_0001323	es	es	gana las elecciones australianas	logra la primera victoria electoral en Australia	BACKWARD_ENTAILMENT	100366	100367
+dico_phrasis_0001323__es-es__original	dico_phrasis_0001323	es	es	logra la primera victoria electoral en Australia	gana las elecciones australianas	FORWARD_ENTAILMENT	100367	100366
+dico_phrasis_0001324__es-es__flipped	dico_phrasis_0001324	es	es	en el Mediterráneo	de las profundidades del mar Mediterráneo	BACKWARD_ENTAILMENT	100368	100369
+dico_phrasis_0001324__es-es__original	dico_phrasis_0001324	es	es	de las profundidades del mar Mediterráneo	en el Mediterráneo	FORWARD_ENTAILMENT	100369	100368
+dico_phrasis_0001346__es-es__flipped	dico_phrasis_0001346	es	es	Maratón de Londres	Todos los corredores del Maratón de Londres	BACKWARD_ENTAILMENT	100370	100371
+dico_phrasis_0001346__es-es__original	dico_phrasis_0001346	es	es	Todos los corredores del Maratón de Londres	Maratón de Londres	FORWARD_ENTAILMENT	100371	100370
+dico_phrasis_0001352__es-es__flipped	dico_phrasis_0001352	es	es	a la costa este	a la costa este de EE. UU.	BACKWARD_ENTAILMENT	100372	100373
+dico_phrasis_0001352__es-es__original	dico_phrasis_0001352	es	es	a la costa este de EE. UU.	a la costa este	FORWARD_ENTAILMENT	100373	100372
+dico_phrasis_0001361__es-es__flipped	dico_phrasis_0001361	es	es	su violencia	en todas las formas de violencia	BACKWARD_ENTAILMENT	100374	100375
+dico_phrasis_0001361__es-es__original	dico_phrasis_0001361	es	es	en todas las formas de violencia	su violencia	FORWARD_ENTAILMENT	100375	100374
+dico_phrasis_0001378__es-es__flipped	dico_phrasis_0001378	es	es	ministros de Berlusconi	ministros del partido de Berlusconi	BACKWARD_ENTAILMENT	100376	100377
+dico_phrasis_0001378__es-es__original	dico_phrasis_0001378	es	es	ministros del partido de Berlusconi	ministros de Berlusconi	FORWARD_ENTAILMENT	100377	100376
+dico_phrasis_0001379__es-es__flipped	dico_phrasis_0001379	es	es	Venezuela	Nicaragua, Venezuela	BACKWARD_ENTAILMENT	100378	100379
+dico_phrasis_0001379__es-es__original	dico_phrasis_0001379	es	es	Nicaragua, Venezuela	Venezuela	FORWARD_ENTAILMENT	100379	100378
+dico_phrasis_0001386__es-es__flipped	dico_phrasis_0001386	es	es	palestino	7 palestinos	BACKWARD_ENTAILMENT	100380	100381
+dico_phrasis_0001386__es-es__original	dico_phrasis_0001386	es	es	7 palestinos	palestino	FORWARD_ENTAILMENT	100381	100380
+dico_phrasis_0001392__es-es__flipped	dico_phrasis_0001392	es	es	en la muerte de Bhutto	en el asesinato de Bhutto en 2007	BACKWARD_ENTAILMENT	100382	100383
+dico_phrasis_0001392__es-es__original	dico_phrasis_0001392	es	es	en el asesinato de Bhutto en 2007	en la muerte de Bhutto	FORWARD_ENTAILMENT	100383	100382
+dico_phrasis_0001398__es-es__flipped	dico_phrasis_0001398	es	es	miliciano palestino	2 milicianos palestinos	BACKWARD_ENTAILMENT	100384	100385
+dico_phrasis_0001398__es-es__original	dico_phrasis_0001398	es	es	2 milicianos palestinos	miliciano palestino	FORWARD_ENTAILMENT	100385	100384
+dico_phrasis_0001404__es-es__flipped	dico_phrasis_0001404	es	es	13 reclutas del ejército iraquí	23 reclutas del ejército iraquí	BACKWARD_ENTAILMENT	100386	100387
+dico_phrasis_0001404__es-es__original	dico_phrasis_0001404	es	es	23 reclutas del ejército iraquí	13 reclutas del ejército iraquí	FORWARD_ENTAILMENT	100387	100386
+dico_phrasis_0001410__es-es__flipped	dico_phrasis_0001410	es	es	Filipinas	para Filipinas	BACKWARD_ENTAILMENT	100388	100389
+dico_phrasis_0001410__es-es__original	dico_phrasis_0001410	es	es	para Filipinas	Filipinas	FORWARD_ENTAILMENT	100389	100388
+dico_phrasis_0001413__es-es__flipped	dico_phrasis_0001413	es	es	Protestas	En las protestas egipcias	BACKWARD_ENTAILMENT	100390	100391
+dico_phrasis_0001413__es-es__original	dico_phrasis_0001413	es	es	En las protestas egipcias	Protestas	FORWARD_ENTAILMENT	100391	100390
+dico_phrasis_0001423__es-es__flipped	dico_phrasis_0001423	es	es	Nigeria	policía nigeriana	BACKWARD_ENTAILMENT	100392	100393
+dico_phrasis_0001423__es-es__original	dico_phrasis_0001423	es	es	policía nigeriana	Nigeria	FORWARD_ENTAILMENT	100393	100392
+dico_phrasis_0001437__es-es__flipped	dico_phrasis_0001437	es	es	dos niñas	Dos niñas jóvenes	BACKWARD_ENTAILMENT	100394	100395
+dico_phrasis_0001437__es-es__original	dico_phrasis_0001437	es	es	Dos niñas jóvenes	dos niñas	FORWARD_ENTAILMENT	100395	100394
+dico_phrasis_0001444__es-es__flipped	dico_phrasis_0001444	es	es	Una persona	Un hombre	BACKWARD_ENTAILMENT	100396	100397
+dico_phrasis_0001444__es-es__original	dico_phrasis_0001444	es	es	Un hombre	Una persona	FORWARD_ENTAILMENT	100397	100396
+dico_phrasis_0001447__es-es__flipped	dico_phrasis_0001447	es	es	Un perro negro	El perro marrón y negro	BACKWARD_ENTAILMENT	100398	100399
+dico_phrasis_0001447__es-es__original	dico_phrasis_0001447	es	es	El perro marrón y negro	Un perro negro	FORWARD_ENTAILMENT	100399	100398
+dico_phrasis_0001451__es-es__flipped	dico_phrasis_0001451	es	es	El perro	Un perro marrón y blanco	BACKWARD_ENTAILMENT	100400	100401
+dico_phrasis_0001451__es-es__original	dico_phrasis_0001451	es	es	Un perro marrón y blanco	El perro	FORWARD_ENTAILMENT	100401	100400
+dico_phrasis_0001456__es-es__flipped	dico_phrasis_0001456	es	es	está jugando	está practicando skijoring	BACKWARD_ENTAILMENT	100402	100403
+dico_phrasis_0001456__es-es__original	dico_phrasis_0001456	es	es	está practicando skijoring	está jugando	FORWARD_ENTAILMENT	100403	100402
+dico_phrasis_0001472__es-es__flipped	dico_phrasis_0001472	es	es	de una silla de montar	de una silla de montar para caballo	BACKWARD_ENTAILMENT	100404	100405
+dico_phrasis_0001472__es-es__original	dico_phrasis_0001472	es	es	de una silla de montar para caballo	de una silla de montar	FORWARD_ENTAILMENT	100405	100404
+dico_phrasis_0001479__es-es__flipped	dico_phrasis_0001479	es	es	Perro	Un perro marrón	BACKWARD_ENTAILMENT	100406	100407
+dico_phrasis_0001479__es-es__original	dico_phrasis_0001479	es	es	Un perro marrón	Perro	FORWARD_ENTAILMENT	100407	100406
+dico_phrasis_0001491__es-es__flipped	dico_phrasis_0001491	es	es	en la hierba	en la hierba alta	BACKWARD_ENTAILMENT	100408	100409
+dico_phrasis_0001491__es-es__original	dico_phrasis_0001491	es	es	en la hierba alta	en la hierba	FORWARD_ENTAILMENT	100409	100408
+dico_phrasis_0001501__es-es__flipped	dico_phrasis_0001501	es	es	Un perro blanco	Un perro blanco mojado	BACKWARD_ENTAILMENT	100410	100411
+dico_phrasis_0001501__es-es__original	dico_phrasis_0001501	es	es	Un perro blanco mojado	Un perro blanco	FORWARD_ENTAILMENT	100411	100410
+dico_phrasis_0001505__es-es__flipped	dico_phrasis_0001505	es	es	Dos hombres asiáticos y una mujer	Dos hombres asiáticos y una mujer asiática	BACKWARD_ENTAILMENT	100412	100413
+dico_phrasis_0001505__es-es__original	dico_phrasis_0001505	es	es	Dos hombres asiáticos y una mujer asiática	Dos hombres asiáticos y una mujer	FORWARD_ENTAILMENT	100413	100412
+dico_phrasis_0001506__es-es__flipped	dico_phrasis_0001506	es	es	dos perros	dos cachorros	BACKWARD_ENTAILMENT	100414	100415
+dico_phrasis_0001506__es-es__original	dico_phrasis_0001506	es	es	dos cachorros	dos perros	FORWARD_ENTAILMENT	100415	100414
+dico_phrasis_0001511__es-es__flipped	dico_phrasis_0001511	es	es	con un vestido	con un vestido naranja	BACKWARD_ENTAILMENT	100416	100417
+dico_phrasis_0001511__es-es__original	dico_phrasis_0001511	es	es	con un vestido naranja	con un vestido	FORWARD_ENTAILMENT	100417	100416
+dico_phrasis_0001521__es-es__flipped	dico_phrasis_0001521	es	es	un patinete	en un patinete	BACKWARD_ENTAILMENT	100418	100419
+dico_phrasis_0001521__es-es__original	dico_phrasis_0001521	es	es	en un patinete	un patinete	FORWARD_ENTAILMENT	100419	100418
+dico_phrasis_0001523__es-es__flipped	dico_phrasis_0001523	es	es	un frisbi blanco	con un frisbi blanco	BACKWARD_ENTAILMENT	100420	100421
+dico_phrasis_0001523__es-es__original	dico_phrasis_0001523	es	es	con un frisbi blanco	un frisbi blanco	FORWARD_ENTAILMENT	100421	100420
+dico_phrasis_0001525__es-es__flipped	dico_phrasis_0001525	es	es	en la hierba	a través de la hierba	BACKWARD_ENTAILMENT	100422	100423
+dico_phrasis_0001525__es-es__original	dico_phrasis_0001525	es	es	a través de la hierba	en la hierba	FORWARD_ENTAILMENT	100423	100422
+dico_phrasis_0001527__es-es__flipped	dico_phrasis_0001527	es	es	Dos niñas	Niñas	BACKWARD_ENTAILMENT	100424	100425
+dico_phrasis_0001527__es-es__original	dico_phrasis_0001527	es	es	Niñas	Dos niñas	FORWARD_ENTAILMENT	100425	100424
+dico_phrasis_0001540__es-es__flipped	dico_phrasis_0001540	es	es	a través de la nieve	a través de la nieve profunda	BACKWARD_ENTAILMENT	100426	100427
+dico_phrasis_0001540__es-es__original	dico_phrasis_0001540	es	es	a través de la nieve profunda	a través de la nieve	FORWARD_ENTAILMENT	100427	100426
+dico_phrasis_0001547__es-es__flipped	dico_phrasis_0001547	es	es	instrumentos	instrumentos de metal	BACKWARD_ENTAILMENT	100428	100429
+dico_phrasis_0001547__es-es__original	dico_phrasis_0001547	es	es	instrumentos de metal	instrumentos	FORWARD_ENTAILMENT	100429	100428
+dico_phrasis_0001551__es-es__flipped	dico_phrasis_0001551	es	es	Mujeres saudíes	Saudíes	BACKWARD_ENTAILMENT	100430	100431
+dico_phrasis_0001551__es-es__original	dico_phrasis_0001551	es	es	Saudíes	Mujeres saudíes	FORWARD_ENTAILMENT	100431	100430
+dico_phrasis_0001562__es-es__flipped	dico_phrasis_0001562	es	es	de un túnel de Japón	en un túnel derrumbado de Japón	BACKWARD_ENTAILMENT	100432	100433
+dico_phrasis_0001562__es-es__original	dico_phrasis_0001562	es	es	en un túnel derrumbado de Japón	de un túnel de Japón	FORWARD_ENTAILMENT	100433	100432
+dico_phrasis_0001564__es-es__flipped	dico_phrasis_0001564	es	es	matrimonio gay	proyecto de ley sobre el matrimonio gay	BACKWARD_ENTAILMENT	100434	100435
+dico_phrasis_0001564__es-es__original	dico_phrasis_0001564	es	es	proyecto de ley sobre el matrimonio gay	matrimonio gay	FORWARD_ENTAILMENT	100435	100434
+dico_phrasis_0001567__es-es__flipped	dico_phrasis_0001567	es	es	mientras el saldo de víctimas del edificio en Bangladés	tras el derrumbe mortal de un edificio en Bangladés	BACKWARD_ENTAILMENT	100436	100437
+dico_phrasis_0001567__es-es__original	dico_phrasis_0001567	es	es	tras el derrumbe mortal de un edificio en Bangladés	mientras el saldo de víctimas del edificio en Bangladés	FORWARD_ENTAILMENT	100437	100436
+dico_phrasis_0001583__es-es__flipped	dico_phrasis_0001583	es	es	sus armas químicas	sobre armas químicas	BACKWARD_ENTAILMENT	100438	100439
+dico_phrasis_0001583__es-es__original	dico_phrasis_0001583	es	es	sobre armas químicas	sus armas químicas	FORWARD_ENTAILMENT	100439	100438
+dico_phrasis_0001584__es-es__flipped	dico_phrasis_0001584	es	es	para las víctimas de Boston	para las víctimas del atentado de Boston	BACKWARD_ENTAILMENT	100440	100441
+dico_phrasis_0001584__es-es__original	dico_phrasis_0001584	es	es	para las víctimas del atentado de Boston	para las víctimas de Boston	FORWARD_ENTAILMENT	100441	100440
+dico_phrasis_0001590__es-es__flipped	dico_phrasis_0001590	es	es	para otro mandato	para un séptimo mandato	BACKWARD_ENTAILMENT	100442	100443
+dico_phrasis_0001590__es-es__original	dico_phrasis_0001590	es	es	para un séptimo mandato	para otro mandato	FORWARD_ENTAILMENT	100443	100442
+dico_phrasis_0001599__es-es__flipped	dico_phrasis_0001599	es	es	talibanes pakistaníes	jefe de los talibanes pakistaníes Hakimullah Mehsud	BACKWARD_ENTAILMENT	100444	100445
+dico_phrasis_0001599__es-es__original	dico_phrasis_0001599	es	es	jefe de los talibanes pakistaníes Hakimullah Mehsud	talibanes pakistaníes	FORWARD_ENTAILMENT	100445	100444
+dico_phrasis_0001600__es-es__flipped	dico_phrasis_0001600	es	es	Hakimullah	jefe de los talibanes pakistaníes Hakimullah Mehsud	BACKWARD_ENTAILMENT	100446	100447
+dico_phrasis_0001600__es-es__original	dico_phrasis_0001600	es	es	jefe de los talibanes pakistaníes Hakimullah Mehsud	Hakimullah	FORWARD_ENTAILMENT	100447	100446
+dico_phrasis_0001606__es-es__flipped	dico_phrasis_0001606	es	es	al aeropuerto	a la pista del aeropuerto de Alaska	BACKWARD_ENTAILMENT	100448	100449
+dico_phrasis_0001606__es-es__original	dico_phrasis_0001606	es	es	a la pista del aeropuerto de Alaska	al aeropuerto	FORWARD_ENTAILMENT	100449	100448
+dico_phrasis_0001629__es-es__flipped	dico_phrasis_0001629	es	es	en una ciudad controlada por los rebeldes	hacia el interior de una ciudad estratégica controlada por los rebeldes	BACKWARD_ENTAILMENT	100450	100451
+dico_phrasis_0001629__es-es__original	dico_phrasis_0001629	es	es	hacia el interior de una ciudad estratégica controlada por los rebeldes	en una ciudad controlada por los rebeldes	FORWARD_ENTAILMENT	100451	100450
+dico_phrasis_0001630__es-es__flipped	dico_phrasis_0001630	es	es	manifestantes tailandeses	manifestantes de la oposición tailandesa	BACKWARD_ENTAILMENT	100452	100453
+dico_phrasis_0001630__es-es__original	dico_phrasis_0001630	es	es	manifestantes de la oposición tailandesa	manifestantes tailandeses	FORWARD_ENTAILMENT	100453	100452
+dico_phrasis_0001645__es-es__flipped	dico_phrasis_0001645	es	es	hospital	en el hospital	BACKWARD_ENTAILMENT	100454	100455
+dico_phrasis_0001645__es-es__original	dico_phrasis_0001645	es	es	en el hospital	hospital	FORWARD_ENTAILMENT	100455	100454
+dico_phrasis_0001654__es-es__flipped	dico_phrasis_0001654	es	es	Egipto	ministerio de Egipto	BACKWARD_ENTAILMENT	100456	100457
+dico_phrasis_0001654__es-es__original	dico_phrasis_0001654	es	es	ministerio de Egipto	Egipto	FORWARD_ENTAILMENT	100457	100456
+dico_phrasis_0001656__es-es__flipped	dico_phrasis_0001656	es	es	hospital	hospital de Texas	BACKWARD_ENTAILMENT	100458	100459
+dico_phrasis_0001656__es-es__original	dico_phrasis_0001656	es	es	hospital de Texas	hospital	FORWARD_ENTAILMENT	100459	100458
+dico_phrasis_0001659__es-es__flipped	dico_phrasis_0001659	es	es	conexión petrolera de 25.000 millones de dólares	conexión petrolera de 30.000 millones de dólares	BACKWARD_ENTAILMENT	100460	100461
+dico_phrasis_0001659__es-es__original	dico_phrasis_0001659	es	es	conexión petrolera de 30.000 millones de dólares	conexión petrolera de 25.000 millones de dólares	FORWARD_ENTAILMENT	100461	100460
+dico_phrasis_0001663__es-es__flipped	dico_phrasis_0001663	es	es	armas químicas de Siria	para el transporte de armas químicas sirias	BACKWARD_ENTAILMENT	100462	100463
+dico_phrasis_0001663__es-es__original	dico_phrasis_0001663	es	es	para el transporte de armas químicas sirias	armas químicas de Siria	FORWARD_ENTAILMENT	100463	100462
+dico_phrasis_0001665__es-es__flipped	dico_phrasis_0001665	es	es	Dos palestinos	Palestinos	BACKWARD_ENTAILMENT	100464	100465
+dico_phrasis_0001665__es-es__original	dico_phrasis_0001665	es	es	Palestinos	Dos palestinos	FORWARD_ENTAILMENT	100465	100464
+dico_phrasis_0001667__es-es__flipped	dico_phrasis_0001667	es	es	Manifestantes	Manifestantes de ABVP	BACKWARD_ENTAILMENT	100466	100467
+dico_phrasis_0001667__es-es__original	dico_phrasis_0001667	es	es	Manifestantes de ABVP	Manifestantes	FORWARD_ENTAILMENT	100467	100466
+dico_phrasis_0001669__es-es__flipped	dico_phrasis_0001669	es	es	12 militantes	35 militantes	BACKWARD_ENTAILMENT	100468	100469
+dico_phrasis_0001669__es-es__original	dico_phrasis_0001669	es	es	35 militantes	12 militantes	FORWARD_ENTAILMENT	100469	100468
+dico_phrasis_0001675__es-es__flipped	dico_phrasis_0001675	es	es	Rafa Nadal	Nadal, enfermo	BACKWARD_ENTAILMENT	100470	100471
+dico_phrasis_0001675__es-es__original	dico_phrasis_0001675	es	es	Nadal, enfermo	Rafa Nadal	FORWARD_ENTAILMENT	100471	100470
+dico_phrasis_0001682__es-es__flipped	dico_phrasis_0001682	es	es	Bomba al borde de la carretera	Bombas al borde de la carretera	BACKWARD_ENTAILMENT	100472	100473
+dico_phrasis_0001682__es-es__original	dico_phrasis_0001682	es	es	Bombas al borde de la carretera	Bomba al borde de la carretera	FORWARD_ENTAILMENT	100473	100472
+dico_phrasis_0001685__es-es__flipped	dico_phrasis_0001685	es	es	cierra	cierra bruscamente	BACKWARD_ENTAILMENT	100474	100475
+dico_phrasis_0001685__es-es__original	dico_phrasis_0001685	es	es	cierra bruscamente	cierra	FORWARD_ENTAILMENT	100475	100474
+dico_phrasis_0001690__es-es__flipped	dico_phrasis_0001690	es	es	nuevo récord	nuevo máximo histórico	BACKWARD_ENTAILMENT	100476	100477
+dico_phrasis_0001690__es-es__original	dico_phrasis_0001690	es	es	nuevo máximo histórico	nuevo récord	FORWARD_ENTAILMENT	100477	100476
+dico_phrasis_0001691__es-es__flipped	dico_phrasis_0001691	es	es	acciones	acciones estadounidenses	BACKWARD_ENTAILMENT	100478	100479
+dico_phrasis_0001691__es-es__original	dico_phrasis_0001691	es	es	acciones estadounidenses	acciones	FORWARD_ENTAILMENT	100479	100478
+dico_phrasis_0001702__es-es__flipped	dico_phrasis_0001702	es	es	en la elección de Alemania	en las elecciones de Alemania	BACKWARD_ENTAILMENT	100480	100481
+dico_phrasis_0001702__es-es__original	dico_phrasis_0001702	es	es	en las elecciones de Alemania	en la elección de Alemania	FORWARD_ENTAILMENT	100481	100480
+dico_phrasis_0001706__es-es__flipped	dico_phrasis_0001706	es	es	Ejército pakistaní	En el ejército de Pakistán	BACKWARD_ENTAILMENT	100482	100483
+dico_phrasis_0001706__es-es__original	dico_phrasis_0001706	es	es	En el ejército de Pakistán	Ejército pakistaní	FORWARD_ENTAILMENT	100483	100482
+dico_phrasis_0001710__es-es__flipped	dico_phrasis_0001710	es	es	Malala	Malala de Pakistán	BACKWARD_ENTAILMENT	100484	100485
+dico_phrasis_0001710__es-es__original	dico_phrasis_0001710	es	es	Malala de Pakistán	Malala	FORWARD_ENTAILMENT	100485	100484
+dico_phrasis_0001714__es-es__flipped	dico_phrasis_0001714	es	es	reunión	reunión en Moscú	BACKWARD_ENTAILMENT	100486	100487
+dico_phrasis_0001714__es-es__original	dico_phrasis_0001714	es	es	reunión en Moscú	reunión	FORWARD_ENTAILMENT	100487	100486
+dico_phrasis_0001727__es-es__flipped	dico_phrasis_0001727	es	es	enfrentamiento	Enfrentamientos breves	BACKWARD_ENTAILMENT	100488	100489
+dico_phrasis_0001727__es-es__original	dico_phrasis_0001727	es	es	Enfrentamientos breves	enfrentamiento	FORWARD_ENTAILMENT	100489	100488
+dico_phrasis_0001748__es-es__flipped	dico_phrasis_0001748	es	es	Dos animales	Dos cabras montesas	BACKWARD_ENTAILMENT	100490	100491
+dico_phrasis_0001748__es-es__original	dico_phrasis_0001748	es	es	Dos cabras montesas	Dos animales	FORWARD_ENTAILMENT	100491	100490
+dico_phrasis_0001750__es-es__flipped	dico_phrasis_0001750	es	es	Un tren	Tren negro	BACKWARD_ENTAILMENT	100492	100493
+dico_phrasis_0001750__es-es__original	dico_phrasis_0001750	es	es	Tren negro	Un tren	FORWARD_ENTAILMENT	100493	100492
+dico_phrasis_0001751__es-es__flipped	dico_phrasis_0001751	es	es	en un sofá	en un sofá negro	BACKWARD_ENTAILMENT	100494	100495
+dico_phrasis_0001751__es-es__original	dico_phrasis_0001751	es	es	en un sofá negro	en un sofá	FORWARD_ENTAILMENT	100495	100494
+dico_phrasis_0001755__es-es__flipped	dico_phrasis_0001755	es	es	un bebé	un bebé pequeño	BACKWARD_ENTAILMENT	100496	100497
+dico_phrasis_0001755__es-es__original	dico_phrasis_0001755	es	es	un bebé pequeño	un bebé	FORWARD_ENTAILMENT	100497	100496
+dico_phrasis_0001757__es-es__flipped	dico_phrasis_0001757	es	es	Un gato	Gato gris	BACKWARD_ENTAILMENT	100498	100499
+dico_phrasis_0001757__es-es__original	dico_phrasis_0001757	es	es	Gato gris	Un gato	FORWARD_ENTAILMENT	100499	100498
+dico_phrasis_0001772__es-es__flipped	dico_phrasis_0001772	es	es	Tres televisores	Varios televisores	BACKWARD_ENTAILMENT	100500	100501
+dico_phrasis_0001772__es-es__original	dico_phrasis_0001772	es	es	Varios televisores	Tres televisores	FORWARD_ENTAILMENT	100501	100500
+dico_phrasis_0001778__es-es__flipped	dico_phrasis_0001778	es	es	El tren	Un tren rojo	BACKWARD_ENTAILMENT	100502	100503
+dico_phrasis_0001778__es-es__original	dico_phrasis_0001778	es	es	Un tren rojo	El tren	FORWARD_ENTAILMENT	100503	100502
+dico_phrasis_0001781__es-es__flipped	dico_phrasis_0001781	es	es	en la estación	en la estación de tren	BACKWARD_ENTAILMENT	100504	100505
+dico_phrasis_0001781__es-es__original	dico_phrasis_0001781	es	es	en la estación de tren	en la estación	FORWARD_ENTAILMENT	100505	100504
+dico_phrasis_0001794__es-es__flipped	dico_phrasis_0001794	es	es	una oveja	animales en un granero	BACKWARD_ENTAILMENT	100506	100507
+dico_phrasis_0001794__es-es__original	dico_phrasis_0001794	es	es	animales en un granero	una oveja	FORWARD_ENTAILMENT	100507	100506
+dico_phrasis_0001801__es-es__flipped	dico_phrasis_0001801	es	es	Un crucero	Un gran crucero	BACKWARD_ENTAILMENT	100508	100509
+dico_phrasis_0001801__es-es__original	dico_phrasis_0001801	es	es	Un gran crucero	Un crucero	FORWARD_ENTAILMENT	100509	100508
+dico_phrasis_0001817__es-es__flipped	dico_phrasis_0001817	es	es	en el agua	río abajo	BACKWARD_ENTAILMENT	100510	100511
+dico_phrasis_0001817__es-es__original	dico_phrasis_0001817	es	es	río abajo	en el agua	FORWARD_ENTAILMENT	100511	100510
+dico_phrasis_0001830__es-es__flipped	dico_phrasis_0001830	es	es	El autobús rojo	Un autobús blanco y rojo	BACKWARD_ENTAILMENT	100512	100513
+dico_phrasis_0001830__es-es__original	dico_phrasis_0001830	es	es	Un autobús blanco y rojo	El autobús rojo	FORWARD_ENTAILMENT	100513	100512
+dico_phrasis_0001841__es-es__flipped	dico_phrasis_0001841	es	es	Personas	Varias personas	BACKWARD_ENTAILMENT	100514	100515
+dico_phrasis_0001841__es-es__original	dico_phrasis_0001841	es	es	Varias personas	Personas	FORWARD_ENTAILMENT	100515	100514
+dico_phrasis_0001846__es-es__flipped	dico_phrasis_0001846	es	es	delante de unas ruinas	delante de los escalones de unas ruinas	BACKWARD_ENTAILMENT	100516	100517
+dico_phrasis_0001846__es-es__original	dico_phrasis_0001846	es	es	delante de los escalones de unas ruinas	delante de unas ruinas	FORWARD_ENTAILMENT	100517	100516
+dico_phrasis_0001847__es-es__flipped	dico_phrasis_0001847	es	es	bicicleta	con una bicicleta	BACKWARD_ENTAILMENT	100518	100519
+dico_phrasis_0001847__es-es__original	dico_phrasis_0001847	es	es	con una bicicleta	bicicleta	FORWARD_ENTAILMENT	100519	100518
+dico_phrasis_0001848__es-es__flipped	dico_phrasis_0001848	es	es	conduciendo	conduciendo cuesta abajo	BACKWARD_ENTAILMENT	100520	100521
+dico_phrasis_0001848__es-es__original	dico_phrasis_0001848	es	es	conduciendo cuesta abajo	conduciendo	FORWARD_ENTAILMENT	100521	100520
+dico_phrasis_0001856__es-es__flipped	dico_phrasis_0001856	es	es	sobre el suelo	sobre el césped	BACKWARD_ENTAILMENT	100522	100523
+dico_phrasis_0001856__es-es__original	dico_phrasis_0001856	es	es	sobre el césped	sobre el suelo	FORWARD_ENTAILMENT	100523	100522
+dico_phrasis_0001871__es-es__flipped	dico_phrasis_0001871	es	es	Una computadora Apple	Una computadora Apple blanca	BACKWARD_ENTAILMENT	100524	100525
+dico_phrasis_0001871__es-es__original	dico_phrasis_0001871	es	es	Una computadora Apple blanca	Una computadora Apple	FORWARD_ENTAILMENT	100525	100524
+dico_phrasis_0001875__es-es__flipped	dico_phrasis_0001875	es	es	un bebé	con un bebé	BACKWARD_ENTAILMENT	100526	100527
+dico_phrasis_0001875__es-es__original	dico_phrasis_0001875	es	es	con un bebé	un bebé	FORWARD_ENTAILMENT	100527	100526
+dico_phrasis_0001880__es-es__flipped	dico_phrasis_0001880	es	es	una vaca blanca y negra	Una vaca con cuernos, blanca y negra	BACKWARD_ENTAILMENT	100528	100529
+dico_phrasis_0001880__es-es__original	dico_phrasis_0001880	es	es	Una vaca con cuernos, blanca y negra	una vaca blanca y negra	FORWARD_ENTAILMENT	100529	100528
+dico_phrasis_0001882__es-es__flipped	dico_phrasis_0001882	es	es	con un sombrero de copa	con ropa formal negra y un sombrero de copa negro	BACKWARD_ENTAILMENT	100530	100531
+dico_phrasis_0001882__es-es__original	dico_phrasis_0001882	es	es	con ropa formal negra y un sombrero de copa negro	con un sombrero de copa	FORWARD_ENTAILMENT	100531	100530
+dico_phrasis_0001883__es-es__flipped	dico_phrasis_0001883	es	es	Un pájaro pequeño	Unos pájaros pequeños y marrones	BACKWARD_ENTAILMENT	100532	100533
+dico_phrasis_0001883__es-es__original	dico_phrasis_0001883	es	es	Unos pájaros pequeños y marrones	Un pájaro pequeño	FORWARD_ENTAILMENT	100533	100532
+dico_phrasis_0001884__es-es__flipped	dico_phrasis_0001884	es	es	un caballo marrón	encima de un caballo marrón	BACKWARD_ENTAILMENT	100534	100535
+dico_phrasis_0001884__es-es__original	dico_phrasis_0001884	es	es	encima de un caballo marrón	un caballo marrón	FORWARD_ENTAILMENT	100535	100534
+dico_phrasis_0001887__es-es__flipped	dico_phrasis_0001887	es	es	en un campo	en un campo grande	BACKWARD_ENTAILMENT	100536	100537
+dico_phrasis_0001887__es-es__original	dico_phrasis_0001887	es	es	en un campo grande	en un campo	FORWARD_ENTAILMENT	100537	100536
+dico_phrasis_0001900__es-es__flipped	dico_phrasis_0001900	es	es	un carrito de compras	un carrito de compras pequeño	BACKWARD_ENTAILMENT	100538	100539
+dico_phrasis_0001900__es-es__original	dico_phrasis_0001900	es	es	un carrito de compras pequeño	un carrito de compras	FORWARD_ENTAILMENT	100539	100538
+dico_phrasis_0001904__es-es__flipped	dico_phrasis_0001904	es	es	Dos personas	Dos personas jóvenes	BACKWARD_ENTAILMENT	100540	100541
+dico_phrasis_0001904__es-es__original	dico_phrasis_0001904	es	es	Dos personas jóvenes	Dos personas	FORWARD_ENTAILMENT	100541	100540
+dico_phrasis_0001906__es-es__flipped	dico_phrasis_0001906	es	es	Un tren	Un tren largo	BACKWARD_ENTAILMENT	100542	100543
+dico_phrasis_0001906__es-es__original	dico_phrasis_0001906	es	es	Un tren largo	Un tren	FORWARD_ENTAILMENT	100543	100542
+dico_phrasis_0001908__es-es__flipped	dico_phrasis_0001908	es	es	un barco	Barco pequeño	BACKWARD_ENTAILMENT	100544	100545
+dico_phrasis_0001908__es-es__original	dico_phrasis_0001908	es	es	Barco pequeño	un barco	FORWARD_ENTAILMENT	100545	100544
+dico_phrasis_0001926__es-es__flipped	dico_phrasis_0001926	es	es	juego	un videojuego	BACKWARD_ENTAILMENT	100546	100547
+dico_phrasis_0001926__es-es__original	dico_phrasis_0001926	es	es	un videojuego	juego	FORWARD_ENTAILMENT	100547	100546
+dico_phrasis_0001940__es-es__flipped	dico_phrasis_0001940	es	es	comer	comiendo una comida	BACKWARD_ENTAILMENT	100548	100549
+dico_phrasis_0001940__es-es__original	dico_phrasis_0001940	es	es	comiendo una comida	comer	FORWARD_ENTAILMENT	100549	100548
+dico_phrasis_0001944__es-es__flipped	dico_phrasis_0001944	es	es	La vaca	Dos vacas	BACKWARD_ENTAILMENT	100550	100551
+dico_phrasis_0001944__es-es__original	dico_phrasis_0001944	es	es	Dos vacas	La vaca	FORWARD_ENTAILMENT	100551	100550
+dico_phrasis_0001945__es-es__flipped	dico_phrasis_0001945	es	es	Dos vacas	Tres vacas	BACKWARD_ENTAILMENT	100552	100553
+dico_phrasis_0001945__es-es__original	dico_phrasis_0001945	es	es	Tres vacas	Dos vacas	FORWARD_ENTAILMENT	100553	100552
+dico_phrasis_0001949__es-es__original	dico_phrasis_0001949	es	es	unidad de la oposición siria	oposición siria dividida	NEGATIVE_OTHER	100554	-1
+dico_phrasis_0001952__es-es__original	dico_phrasis_0001952	es	es	fuera del agua	a través del agua	NEGATIVE_OTHER	100555	-1
+dico_phrasis_0001962__es-es__original	dico_phrasis_0001962	es	es	a Farrow	contra Farrow	NEGATIVE_OTHER	100556	-1
+dico_phrasis_0001979__es-es__original	dico_phrasis_0001979	es	es	sobre abusos en Siria	sobre armas químicas sirias	NEGATIVE_OTHER	100557	-1
+dico_phrasis_0002003__es-es__original	dico_phrasis_0002003	es	es	búsqueda tras el derrumbe en Bangladés	muertes por el derrumbe en Bangladés	NEGATIVE_OTHER	100558	-1
+dico_phrasis_0002044__es-es__original	dico_phrasis_0002044	es	es	sobre la hierba	junto a un árbol	NEGATIVE_OTHER	100559	-1
+dico_phrasis_0002052__es-es__original	dico_phrasis_0002052	es	es	bajando por una colina nevada	andando en trineo	NEGATIVE_OTHER	100560	-1
+dico_phrasis_0002056__es-es__original	dico_phrasis_0002056	es	es	rafting en aguas bravas	bajando por los rápidos	NEGATIVE_OTHER	100561	-1
+dico_phrasis_0002069__es-es__original	dico_phrasis_0002069	es	es	Una familia	Una niña pequeña desnuda	NEGATIVE_OTHER	100562	-1
+dico_phrasis_0002071__es-es__original	dico_phrasis_0002071	es	es	sobre una varita naranja	desde un aro de burbujas naranja	NEGATIVE_OTHER	100563	-1
+dico_phrasis_0002092__es-es__original	dico_phrasis_0002092	es	es	a través del agua	a través de la hierba	NEGATIVE_OTHER	100564	-1
+dico_phrasis_0002104__es-es__original	dico_phrasis_0002104	es	es	Un perro rubio	Una niña pequeña y rubia	NEGATIVE_OTHER	100565	-1
+dico_phrasis_0002141__es-es__original	dico_phrasis_0002141	es	es	en un bosque iluminado por el sol	en una playa	NEGATIVE_OTHER	100566	-1
+dico_phrasis_0002147__es-es__original	dico_phrasis_0002147	es	es	sobre las armas químicas sirias	por las denuncias sobre armas químicas en Siria	NEGATIVE_OTHER	100567	-1
+dico_phrasis_0002152__es-es__original	dico_phrasis_0002152	es	es	afganos	gobernador de distrito afgano	NEGATIVE_OTHER	100568	-1
+dico_phrasis_0002181__es-es__original	dico_phrasis_0002181	es	es	cambios «políticos»	recortes propuestos	NEGATIVE_OTHER	100569	-1
+dico_phrasis_0002188__es-es__original	dico_phrasis_0002188	es	es	a los Cardinals	Vaticano	NEGATIVE_OTHER	100570	-1
+dico_phrasis_0002220__es-es__original	dico_phrasis_0002220	es	es	para la ciudad de Malí	ejército de Malí	NEGATIVE_OTHER	100571	-1
+dico_phrasis_0002242__es-es__original	dico_phrasis_0002242	es	es	Abre	comienza a operar	NEGATIVE_OTHER	100572	-1
+dico_phrasis_0002244__es-es__original	dico_phrasis_0002244	es	es	dos personas	2	NEGATIVE_OTHER	100573	-1
+dico_phrasis_0002251__es-es__original	dico_phrasis_0002251	es	es	Guía Supremo de los Hermanos Musulmanes	grupo de los Hermanos Musulmanes	NEGATIVE_OTHER	100574	-1
+dico_phrasis_0002266__es-es__original	dico_phrasis_0002266	es	es	elecciones presidenciales	presidente interino de	NEGATIVE_OTHER	100575	-1
+dico_phrasis_0002300__es-es__original	dico_phrasis_0002300	es	es	en una pista de aterrizaje	cerca del suelo	NEGATIVE_OTHER	100576	-1
+dico_phrasis_0002307__es-es__original	dico_phrasis_0002307	es	es	delante de una puerta	delante de una valla	NEGATIVE_OTHER	100577	-1
+dico_phrasis_0002314__es-es__original	dico_phrasis_0002314	es	es	con un comedor	con sofás grandes y una mesa de comedor	NEGATIVE_OTHER	100578	-1
+dico_phrasis_0002383__es-es__original	dico_phrasis_0002383	es	es	con la victoria de Mónaco	a pesar de la victoria de Mónaco	NEGATIVE_OTHER	100579	-1
+dico_phrasis_0002406__es-es__original	dico_phrasis_0002406	es	es	en Canadá, explosión de un tren petrolero	en Canadá, accidente de tren	NEGATIVE_OTHER	100580	-1
+dico_phrasis_0002436__es-es__original	dico_phrasis_0002436	es	es	sobre un menor	sobre una hija	NEGATIVE_OTHER	100581	-1
+dico_phrasis_0002446__es-es__original	dico_phrasis_0002446	es	es	en Ucrania	en Siria	NEGATIVE_OTHER	100582	-1
+dico_phrasis_0002463__es-es__original	dico_phrasis_0002463	es	es	su integración	unirse	NEGATIVE_OTHER	100583	-1
+dico_phrasis_0002479__es-es__original	dico_phrasis_0002479	es	es	a 6,1651	a 6,1696	NEGATIVE_OTHER	100584	-1
+dico_phrasis_0002486__es-es__original	dico_phrasis_0002486	es	es	38	a 39	NEGATIVE_OTHER	100585	-1
+dico_phrasis_0002487__es-es__original	dico_phrasis_0002487	es	es	Accidente de autocar en el sur de Italia	accidente de autocar en Italia	NEGATIVE_OTHER	100586	-1
+dico_phrasis_0002492__es-es__original	dico_phrasis_0002492	es	es	Supertifón	El tifón más potente	NEGATIVE_OTHER	100587	-1
+dico_phrasis_0002493__es-es__original	dico_phrasis_0002493	es	es	Rusia se retiró	de la retirada rusa	NEGATIVE_OTHER	100588	-1
+dico_phrasis_0002510__es-es__original	dico_phrasis_0002510	es	es	como entrenador	Ferguson	NEGATIVE_OTHER	100589	-1
+dico_phrasis_0002527__es-es__original	dico_phrasis_0002527	es	es	rabino y hacedor de reyes israelí	hacedor de reyes de la política israelí	NEGATIVE_OTHER	100590	-1
+dico_phrasis_0002548__es-es__original	dico_phrasis_0002548	es	es	mientras su perro	mientras un perro negro	NEGATIVE_OTHER	100591	-1
+dico_phrasis_0002560__es-es__original	dico_phrasis_0002560	es	es	Dos niños de corta edad	Dos niños pequeños	NEGATIVE_OTHER	100592	-1
+dico_phrasis_0002567__es-es__original	dico_phrasis_0002567	es	es	afeitando	está tallando	NEGATIVE_OTHER	100593	-1
+dico_phrasis_0002584__es-es__original	dico_phrasis_0002584	es	es	están jugando	corren	NEGATIVE_OTHER	100594	-1
+dico_phrasis_0002597__es-es__original	dico_phrasis_0002597	es	es	en una estructura de juegos roja	en una estructura roja para trepar	NEGATIVE_OTHER	100595	-1
+dico_phrasis_0002599__es-es__original	dico_phrasis_0002599	es	es	entre las olas	sobre una ola mediana	NEGATIVE_OTHER	100596	-1
+dico_phrasis_0002613__es-es__original	dico_phrasis_0002613	es	es	en la orilla	junto a la playa	NEGATIVE_OTHER	100597	-1
+dico_phrasis_0002616__es-es__original	dico_phrasis_0002616	es	es	encima de otro	a otro	NEGATIVE_OTHER	100598	-1
+dico_phrasis_0002623__es-es__original	dico_phrasis_0002623	es	es	como otro perro	mientras otro perro	NEGATIVE_OTHER	100599	-1
+dico_phrasis_0002671__es-es__original	dico_phrasis_0002671	es	es	realiza	hacer	NEGATIVE_OTHER	100600	-1
+dico_phrasis_0002676__es-es__original	dico_phrasis_0002676	es	es	Un niño pequeño	Una niña pequeña	NEGATIVE_OTHER	100601	-1
+dico_phrasis_0002708__es-es__original	dico_phrasis_0002708	es	es	sismo de magnitud 6,8	sismo de magnitud 6,3	NEGATIVE_OTHER	100602	-1
+dico_phrasis_0002711__es-es__original	dico_phrasis_0002711	es	es	se incendia	después del incendio	NEGATIVE_OTHER	100603	-1
+dico_phrasis_0002712__es-es__original	dico_phrasis_0002712	es	es	fuerzas israelíes	fuerzas de seguridad	NEGATIVE_OTHER	100604	-1
+dico_phrasis_0002715__es-es__original	dico_phrasis_0002715	es	es	después del terremoto de China	en el terremoto de China	NEGATIVE_OTHER	100605	-1
+dico_phrasis_0002738__es-es__original	dico_phrasis_0002738	es	es	declarado culpable	recibir una pena de cárcel	NEGATIVE_OTHER	100606	-1
+dico_phrasis_0002750__es-es__original	dico_phrasis_0002750	es	es	hacer una redada	arrestar	NEGATIVE_OTHER	100607	-1
+dico_phrasis_0002772__es-es__original	dico_phrasis_0002772	es	es	frente al USD el jueves	frente al USD el martes	NEGATIVE_OTHER	100608	-1
+dico_phrasis_0002790__es-es__original	dico_phrasis_0002790	es	es	en Cisjordania	por toda Cisjordania	NEGATIVE_OTHER	100609	-1
+dico_phrasis_0002792__es-es__original	dico_phrasis_0002792	es	es	2 sindicatos turcos	Sindicatos	NEGATIVE_OTHER	100610	-1
+dico_phrasis_0002804__es-es__original	dico_phrasis_0002804	es	es	pilotos de aerolíneas	2 pilotos de Turkish Airlines	NEGATIVE_OTHER	100611	-1
+dico_phrasis_0002806__es-es__original	dico_phrasis_0002806	es	es	ataque estadounidense con dron	ataque pakistaní con dron	NEGATIVE_OTHER	100612	-1
+dico_phrasis_0002842__es-es__original	dico_phrasis_0002842	es	es	para el ciclón masivo	para el ciclón Phailin	NEGATIVE_OTHER	100613	-1
+dico_phrasis_0002843__es-es__original	dico_phrasis_0002843	es	es	el viernes	el jueves	NEGATIVE_OTHER	100614	-1
+dico_phrasis_0002844__es-es__original	dico_phrasis_0002844	es	es	el noroeste de China	en China	NEGATIVE_OTHER	100615	-1
+dico_phrasis_0002898__es-es__original	dico_phrasis_0002898	es	es	puede estar atrapado	atrapado	NEGATIVE_OTHER	100616	-1
+dico_phrasis_0002900__es-es__original	dico_phrasis_0002900	es	es	senador australiano	legislador australiano	NEGATIVE_OTHER	100617	-1
+dico_phrasis_0002925__es-es__original	dico_phrasis_0002925	es	es	con un acuerdo para compartir la red	compartición de red, acuerdo sobre el espectro	NEGATIVE_OTHER	100618	-1
+dico_phrasis_0002927__es-es__original	dico_phrasis_0002927	es	es	Nuevo World Trade Center	One World Trade Center	NEGATIVE_OTHER	100619	-1
+dico_phrasis_0002933__es-es__original	dico_phrasis_0002933	es	es	legislador de Nigeria	diputado nigeriano	NEGATIVE_OTHER	100620	-1
+dico_phrasis_0002937__es-es__original	dico_phrasis_0002937	es	es	56 cráneos robados	después de 56 cráneos humanos	NEGATIVE_OTHER	100621	-1
+dico_phrasis_0002938__es-es__original	dico_phrasis_0002938	es	es	en la casa museo	en su casa	NEGATIVE_OTHER	100622	-1
+dico_phrasis_0002943__es-es__original	dico_phrasis_0002943	es	es	en las primeras conversaciones	primeras conversaciones nucleares	NEGATIVE_OTHER	100623	-1
+dico_phrasis_0002952__es-es__original	dico_phrasis_0002952	es	es	Rehenes de Al Qaeda	para los rehenes	NEGATIVE_OTHER	100624	-1
+dico_phrasis_0002959__es-es__original	dico_phrasis_0002959	es	es	en Tiananmén	en la plaza de Tiananmén	NEGATIVE_OTHER	100625	-1
+dico_phrasis_0002986__es-es__original	dico_phrasis_0002986	es	es	como Mandela	para Mandela	NEGATIVE_OTHER	100626	-1
+dico_phrasis_0003000__es-es__original	dico_phrasis_0003000	es	es	Un gato de rayas	Gato doméstico	NEGATIVE_OTHER	100627	-1
+dico_phrasis_0003007__es-es__original	dico_phrasis_0003007	es	es	Dos gatos	Un gato blanco	NEGATIVE_OTHER	100628	-1
+dico_phrasis_0003044__es-es__original	dico_phrasis_0003044	es	es	estar de pie	están posando	NEGATIVE_OTHER	100629	-1
+dico_phrasis_0003051__es-es__original	dico_phrasis_0003051	es	es	en una zona cercada	en un patio con portón	NEGATIVE_OTHER	100630	-1
+dico_phrasis_0003056__es-es__original	dico_phrasis_0003056	es	es	sobre una rejilla de alambre	sobre un comedero para pájaros	NEGATIVE_OTHER	100631	-1
+dico_phrasis_0003057__es-es__original	dico_phrasis_0003057	es	es	sobre las vías	vías abajo	NEGATIVE_OTHER	100632	-1
+dico_phrasis_0003063__es-es__original	dico_phrasis_0003063	es	es	en una calle concurrida	en una calle pública	NEGATIVE_OTHER	100633	-1
+dico_phrasis_0003064__es-es__original	dico_phrasis_0003064	es	es	Un autobús rojo de dos pisos	Un autobús blanco	NEGATIVE_OTHER	100634	-1
+dico_phrasis_0003096__es-es__original	dico_phrasis_0003096	es	es	Una vista de cerca	Una vista lateral	NEGATIVE_OTHER	100635	-1
+dico_phrasis_0003112__es-es__original	dico_phrasis_0003112	es	es	de un comedero para pájaros	sobre un comedero para pájaros	NEGATIVE_OTHER	100636	-1
+dico_phrasis_0003136__es-es__original	dico_phrasis_0003136	es	es	cerca de un edificio modelo	bebé de un edificio ornamentado	NEGATIVE_OTHER	100637	-1
+dico_phrasis_0003178__es-es__original	dico_phrasis_0003178	es	es	un poni	un caballo marrón	NEGATIVE_OTHER	100638	-1
+dico_phrasis_0003187__es-es__original	dico_phrasis_0003187	es	es	Un hombre	Un niño	NEGATIVE_OTHER	100639	-1
+dico_phrasis_0003193__es-es__original	dico_phrasis_0003193	es	es	las vías	en una vía	NEGATIVE_OTHER	100640	-1
+dico_phrasis_0003200__es-es__original	dico_phrasis_0003200	es	es	dentro de un sombrero de copa	con un sombrero de copa	NEGATIVE_OTHER	100641	-1
+dico_phrasis_0003203__es-es__original	dico_phrasis_0003203	es	es	Gato amarillo a rayas	Un gato atigrado naranja	NEGATIVE_OTHER	100642	-1
+dico_phrasis_0003204__es-es__original	dico_phrasis_0003204	es	es	con jardines delante de ellos	junto a un jardín formal	NEGATIVE_OTHER	100643	-1
+dico_phrasis_0003226__es-es__original	dico_phrasis_0003226	es	es	Dos perros blancos y negros	Un perro junto a otro perro de pie	NEGATIVE_OTHER	100644	-1
+dico_phrasis_0003241__es-es__original	dico_phrasis_0003241	es	es	uno	como uno	NEGATIVE_OTHER	100645	-1
+dico_phrasis_0003243__es-es__original	dico_phrasis_0003243	es	es	Loro	Un ave blanca	NEGATIVE_OTHER	100646	-1
+dico_phrasis_0003245__es-es__original	dico_phrasis_0003245	es	es	hacia el interior de la cámara	hacia la cámara	NEGATIVE_OTHER	100647	-1
+dico_phrasis_0003250__es-es__original	dico_phrasis_0003250	es	es	Una mesa de comedor	Una mesa de madera	NEGATIVE_OTHER	100648	-1
+dico_phrasis_0003251__es-es__original	dico_phrasis_0003251	es	es	con velas, vino y una tetera	con velas, vino y un cuenco de plástico morado	NEGATIVE_OTHER	100649	-1
+dico_phrasis_0003254__es-es__original	dico_phrasis_0003254	es	es	un arroyo	en un río	NEGATIVE_OTHER	100650	-1
+dico_phrasis_0003264__es-es__original	dico_phrasis_0003264	es	es	de un camión	de una furgoneta	NEGATIVE_OTHER	100651	-1
+dico_phrasis_0003267__es-es__original	dico_phrasis_0003267	es	es	cerca del agua y de un barco grande	con agua y una barcaza	NEGATIVE_OTHER	100652	-1
+dico_phrasis_0003281__es-es__original	dico_phrasis_0003281	es	es	en una tienda	en una cafetería	NEGATIVE_OTHER	100653	-1
+dico_phrasis_0003283__es-es__original	dico_phrasis_0003283	es	es	Una vista de cerca	Cerrar	NEGATIVE_OTHER	100654	-1
+dico_phrasis_0003290__es-es__original	dico_phrasis_0003290	es	es	Una bicicleta blanca	Una bicicleta de estilo antiguo	NEGATIVE_OTHER	100655	-1
+dico_phrasis_0003294__es-es__original	dico_phrasis_0003294	es	es	Un niño joven	Un niño pequeño	NEGATIVE_OTHER	100656	-1
+dico_phrasis_0003304__es-es__original	dico_phrasis_0003304	es	es	en un sofá de cuero	en un sofá negro	NEGATIVE_OTHER	100657	-1
+dico_phrasis_0003307__es-es__original	dico_phrasis_0003307	es	es	de una locomotora plateada	de una locomotora negra	NEGATIVE_OTHER	100658	-1
+dico_phrasis_0003320__es-es__original	dico_phrasis_0003320	es	es	de un árbol	en un árbol	NEGATIVE_OTHER	100659	-1
