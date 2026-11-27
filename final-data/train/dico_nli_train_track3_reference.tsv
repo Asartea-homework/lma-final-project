@@ -1,4 +1,3 @@
-instance_id	pair_id	text1_lang	text2_lang	text1	text2	reverse_pair_id	label
 dico_phrasis_0000001__eu-eu__flipped	dico_phrasis_0000001	eu	eu	Oposizio kontserbadorea	Kontserbadoreak	dico_phrasis_0000001__eu-eu__original	FORWARD_ENTAILMENT
 dico_phrasis_0000001__eu-eu__original	dico_phrasis_0000001	eu	eu	Kontserbadoreak	Oposizio kontserbadorea	dico_phrasis_0000001__eu-eu__flipped	BACKWARD_ENTAILMENT
 dico_phrasis_0000003__eu-eu__flipped	dico_phrasis_0000003	eu	eu	Shinzo Abe Japoniako lehen ministroa	Abe	dico_phrasis_0000003__eu-eu__original	FORWARD_ENTAILMENT

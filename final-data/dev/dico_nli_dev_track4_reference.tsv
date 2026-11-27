@@ -1,4 +1,3 @@
-instance_id	pair_id	text1_lang	text2_lang	text1	text2	reverse_pair_id	label
 dico_phrasis_0000002__en-es__flipped	dico_phrasis_0000002	en	es	's war shrine visit	su visita a un santuario	dico_phrasis_0000002__es-en__original	FORWARD_ENTAILMENT
 dico_phrasis_0000002__en-es__original	dico_phrasis_0000002	en	es	's shrine visit	su visita a un santuario de guerra	dico_phrasis_0000002__es-en__flipped	BACKWARD_ENTAILMENT
 dico_phrasis_0000002__en-eu__flipped	dico_phrasis_0000002	en	eu	's war shrine visit	hark santutegira egindako bisita	dico_phrasis_0000002__eu-en__original	FORWARD_ENTAILMENT

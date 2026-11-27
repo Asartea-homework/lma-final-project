@@ -1,4 +1,3 @@
-instance_id	pair_id	text1_lang	text2_lang	text1	text2	reverse_pair_id	label
 dico_phrasis_0000001__es-es__flipped	dico_phrasis_0000001	es	es	Oposición conservadora	Conservadores	dico_phrasis_0000001__es-es__original	FORWARD_ENTAILMENT
 dico_phrasis_0000001__es-es__original	dico_phrasis_0000001	es	es	Conservadores	Oposición conservadora	dico_phrasis_0000001__es-es__flipped	BACKWARD_ENTAILMENT
 dico_phrasis_0000003__es-es__flipped	dico_phrasis_0000003	es	es	el primer ministro japonés Shinzo Abe	Abe	dico_phrasis_0000003__es-es__original	FORWARD_ENTAILMENT

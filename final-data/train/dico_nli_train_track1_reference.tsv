@@ -1,4 +1,3 @@
-instance_id	pair_id	text1_lang	text2_lang	text1	text2	reverse_pair_id	label
 dico_phrasis_0000001__en-en__flipped	dico_phrasis_0000001	en	en	Conservative opposition	Conservatives	dico_phrasis_0000001__en-en__original	FORWARD_ENTAILMENT
 dico_phrasis_0000001__en-en__original	dico_phrasis_0000001	en	en	Conservatives	Conservative opposition	dico_phrasis_0000001__en-en__flipped	BACKWARD_ENTAILMENT
 dico_phrasis_0000003__en-en__flipped	dico_phrasis_0000003	en	en	Japanese PM Shinzo Abe	Abe	dico_phrasis_0000003__en-en__original	FORWARD_ENTAILMENT

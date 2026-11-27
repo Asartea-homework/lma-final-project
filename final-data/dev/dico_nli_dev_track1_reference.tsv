@@ -1,4 +1,3 @@
-instance_id	pair_id	text1_lang	text2_lang	text1	text2	reverse_pair_id	label
 dico_phrasis_0000002__en-en__flipped	dico_phrasis_0000002	en	en	's war shrine visit	's shrine visit	dico_phrasis_0000002__en-en__original	FORWARD_ENTAILMENT
 dico_phrasis_0000002__en-en__original	dico_phrasis_0000002	en	en	's shrine visit	's war shrine visit	dico_phrasis_0000002__en-en__flipped	BACKWARD_ENTAILMENT
 dico_phrasis_0000004__en-en__flipped	dico_phrasis_0000004	en	en	anti-protest laws	anti-protest law	dico_phrasis_0000004__en-en__original	FORWARD_ENTAILMENT
